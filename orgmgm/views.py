@@ -5,7 +5,6 @@ from django.template import loader
 from django_tables2 import RequestConfig
 
 from .models import Organisation, Kontakt
-from .tables import OrgaTable
 from .forms import (SearchOrganisationForm, 
                     AddKontaktForm, 
                     AddOrganisationForm,
