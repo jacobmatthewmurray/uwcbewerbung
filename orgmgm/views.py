@@ -2,7 +2,6 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
-from django_tables2 import RequestConfig
 
 from .models import Organisation, Kontakt
 from .forms import (SearchOrganisationForm, 
@@ -192,3 +191,9 @@ def activity_detail(request, pk):
     return render(request, 'orgmgm/activity/detail.html',
                   {'activity': activity})
 
+
+
+# Views for Dashboard
+
+def dashboard_overview(request):
+    return render(request, 'orgmgm/dashboard/overview.html')

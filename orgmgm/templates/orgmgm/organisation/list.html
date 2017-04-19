@@ -15,6 +15,7 @@
         <th>WWW</th>
         <th>Bundesland</th>
         <th></th>
+        <th></th>
     </tr>
     {% for o in orgs %}
     <tr>
@@ -27,7 +28,8 @@
         <td>{{ o.email }}</td>
         <td>{{ o.www }}</td>
         <td>{{ o.bundesland }}</td>
-        <td><a href="{% url 'kontakt_add'%}?organisation={{ o.pk }}">Add Kontakt</a></td>
+        <td><center><a href="{% url 'kontakt_add'%}?organisation={{ o.pk }}">Add Kontakt</a></center></td>
+        <td><center><a href="{% url 'activity_add'%}?organisation={{ o.pk }}">Add Activity</a></center></td>
     </tr>
     {% endfor %}
 </table>
