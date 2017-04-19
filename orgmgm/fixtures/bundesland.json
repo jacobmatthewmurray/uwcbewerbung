@@ -1,0 +1,112 @@
+[{
+"model" : "orgmgm.bundesland",
+"pk":1,
+"fields": {
+     "bundesland":"Baden-Württemberg"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":2,
+"fields": {
+     "bundesland":"Bayern"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":3,
+"fields": {
+     "bundesland":"Brandenburg"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":4,
+"fields": {
+     "bundesland":"Bremen"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":5,
+"fields": {
+     "bundesland":"Hamburg"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":6,
+"fields": {
+     "bundesland":"Hessen"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":7,
+"fields": {
+     "bundesland":"Mecklenburg-Vorpommern"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":8,
+"fields": {
+     "bundesland":"Niedersachsen"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":9,
+"fields": {
+     "bundesland":"Nordrhein-Westfalen"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":10,
+"fields": {
+     "bundesland":"Rheinland-Pfalz"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":11,
+"fields": {
+     "bundesland":"Saarland"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":12,
+"fields": {
+     "bundesland":"Sachsen"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":13,
+"fields": {
+     "bundesland":"Sachsen-Anhalt"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":14,
+"fields": {
+     "bundesland":"Schleswig-Holstein"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":15,
+"fields": {
+     "bundesland":"Thüringen"
+    }
+},
+{
+"model" : "orgmgm.bundesland",
+"pk":16,
+"fields": {
+     "bundesland":"Berlin"
+    }
+}]

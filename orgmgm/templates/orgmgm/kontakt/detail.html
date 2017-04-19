@@ -1,0 +1,28 @@
+{% extends "../base.html" %}
+
+{% block content %}
+<h1>Kontakt Details</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Nachname:</th>
+        <td>{{kontakt.nachname}}</td>
+    </tr>
+    <tr>
+        <th>Vorname:</th>
+        <td>{{kontakt.vorname}}</td>
+    </tr>
+    <tr>
+        <th>Email Adresse:</th>
+        <td>{{kontakt.email}}</td>
+    </tr>
+    <tr>
+        <th>Organisation:</th>
+        <td>{{kontakt.organisation}}</td>
+    </tr>
+</table>
+
+<a class="btn btn-default" href="{% url 'kontakt_edit' pk=kontakt.pk %}">Edit</a>
+<a class="btn btn-default" href="{% url 'kontakt_delete' pk=kontakt.pk %}">Delete</a>
+<a class="btn btn-default" href="{% url 'kontakt_list' %}">Zur Übersicht</a>
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends "../base.html" %}
+{% load bootstrap3 %}
+
+{% block content %}
+
+<table class="table table-striped" style="font-size: 10px">
+    <tr>
+        <th>PK</th>
+        <th>Name</th>
+        <th>Strasse/Hausnummer</th>
+        <th>PLZ</th>
+        <th>Stadt</th>
+        <th>Telefon</th>
+        <th>Email Address</th>
+        <th>WWW</th>
+        <th>Bundesland</th>
+        <th></th>
+    </tr>
+    {% for o in orgs %}
+    <tr>
+        <td>{{ o.pk }}</td>
+        <td>{{ o.name }}</td>
+        <td>{{ o.strassehsnr }}</td>
+        <td>{{ o.plz }}</td>
+        <td>{{ o.stadt }}</td>
+        <td>{{ o.telefon }}</td>
+        <td>{{ o.email }}</td>
+        <td>{{ o.www }}</td>
+        <td>{{ o.bundesland }}</td>
+        <td><a href="{% url 'kontakt_add'%}?organisation={{ o.pk }}">Add Kontakt</a></td>
+    </tr>
+    {% endfor %}
+</table>
+
+<div class="text-center">
+    {% bootstrap_pagination orgs pages_to_show=5 %}
+</div>
+<div class="text-center">
+    <small>
+    Page {{ orgs.number }} of {{ orgs.paginator.num_pages }}.
+    </small>
+</div>
+
+{% endblock %}
+
+
+

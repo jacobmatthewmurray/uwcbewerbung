@@ -1,0 +1,100 @@
+<div class="text-center">
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+
+            {% if orgs.has_previous %}
+            <li class="page-item" >
+                <a class="page-link" href="?page={{ orgs.previous_page_number }}" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            {% else %}
+            <li class="page-item disabled" >
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </li>
+            {% endif%}
+
+            {% if orgs.paginator.num_pages <= 5 %}
+                {% for p in orgs.paginator.page_range %}
+                    <li class="page-item {% if orgs.number == p %} active {% endif %}">
+                        <a href="?page={{p}}">{{p}}{% if orgs.number == p %} (current) {% endif %}</a>
+                    </li>
+                {% endfor %}
+            {% elif orgs.number < 3 %}
+                {% for p in "XXXXX" %}
+                    {% if orgs.number == forloop.counter %}
+                    <li class="page-item active">
+                        <a href="?page={{forloop.counter}}">
+                            {{forloop.counter}}
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    {% else %}
+                    <li class="page-item">
+                        <a href="?page={{forloop.counter}}">
+                            {{forloop.counter}}
+                        </a>
+                    </li>
+                    {% endif%}
+                {% endfor %}
+            {% elif orgs.number|add:2 > orgs.paginator.num_pages %}
+                {% for p in "XXXXX" %}
+                    {% if orgs.number|add:forloop.revcounter0 == orgs.paginator.num_pages %} 
+                    <li class="page-item active">
+                        <a class="page-link" href="?page={{orgs.number}}">
+                            {{orgs.number}}
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    {% else %}
+                    <li class="page-item">
+                        <a href="?page={{orgs.paginator.num_pages|add:"-4"|add:forloop.counter0}}">
+                            {{orgs.paginator.num_pages|add:"-4"|add:forloop.counter0}}
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                <li class="page-item"><a class="page-link" href="?page={{orgs.number|add:"-2"}}">{{orgs.number|add:"-2"}}</a></li>
+                <li class="page-item"><a class="page-link" href="?page={{orgs.number|add:"-1"}}">{{orgs.number|add:"-1"}}</a></li>
+                <li class="page-item active">
+                    <a class="page-link" href="?page={{orgs.number}}">{{orgs.number}}
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="?page={{orgs.number|add:1}}">{{orgs.number|add:1}}</a></li>
+                <li class="page-item"><a class="page-link" href="?page={{orgs.number|add:2}}">{{orgs.number|add:2}}</a></li>
+            {% endif %}
+
+            {% if orgs.has_next %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ orgs.next_page_number }}"aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+            {% else %}
+            <li class="page-item disabled">
+                <a class="page-link" href="#"aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+            {% endif%}
+
+        </ul>           
+    </nav>     
+</div>
+<div class="text-center">
+    <small>
+        <span class="current">
+            Page {{ orgs.number }} of {{ orgs.paginator.num_pages }}.
+        </span>   
+    </small> 
+</div>
+
+

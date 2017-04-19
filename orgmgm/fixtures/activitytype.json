@@ -1,0 +1,28 @@
+[{
+"model" : "orgmgm.activitytype",
+"pk":1,
+"fields": {
+     "activitytype":"Telephone Call"
+    }
+},
+{
+"model" : "orgmgm.activitytype",
+"pk":2,
+"fields": {
+     "activitytype":"Email"
+    }
+},
+{
+"model" : "orgmgm.activitytype",
+"pk":3,
+"fields": {
+     "activitytype":"School Event"
+    }
+},
+{
+"model" : "orgmgm.activitytype",
+"pk":4,
+"fields": {
+     "activitytype":"In-Person conversation"
+    }
+}]

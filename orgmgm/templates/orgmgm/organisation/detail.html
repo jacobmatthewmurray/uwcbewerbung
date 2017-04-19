@@ -1,0 +1,44 @@
+{% extends "../base.html" %}
+
+{% block content %}
+<h1>Organisation Details</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Organisation Name:</th>
+        <td>{{organisation.name}}</td>
+    </tr>
+    <tr>
+        <th>Strasse und Hausnummer:</th>
+        <td>{{organisation.strssehsnr}}</td>
+    </tr>
+    <tr>
+        <th>Postleitzahl:</th>
+        <td>{{organisation.plz}}</td>
+    </tr>
+    <tr>
+        <th>Stadt:</th>
+        <td>{{organisation.stadt}}</td>
+    </tr>
+    <tr>
+        <th>Bundesland:</th>
+        <td>{{organisation.bundeseland}}</td>
+    </tr>
+    <tr>
+        <th>Telefon:</th>
+        <td>{{organisation.telefon}}</td>
+    </tr>
+    <tr>
+        <th>Email-Adresse:</th>
+        <td>{{organisation.email}}</td>
+    </tr>
+    <tr>
+        <th>Homepage:</th>
+        <td>{{organisation.www}}</td>
+    </tr>
+</table>
+
+<a class="btn btn-default" href="{% url 'organisation_edit' pk=organisation.pk %}">Edit</a>
+<a class="btn btn-default" href="{% url 'organisation_delete' pk=organisation.pk %}">Delete</a>
+<a class="btn btn-default" href="{% url 'organisation_list' %}">Zur Übersicht</a>
+{% endblock %}

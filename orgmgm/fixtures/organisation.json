@@ -1,0 +1,5600 @@
+[{
+"model":"orgmgm.organisation", 
+"pk": 1,
+"fields": {
+     "name": "Freie Waldorfschule Marburg"
+    ,"strassehsnr":"Ockershäuser Allee 14"
+    ,"plz":"35037"
+    ,"stadt":" Marburg"
+    ,"telefon":"06421/16538-12"
+    ,"email":"schule@waldorfschulemarburg.de"
+    ,"www":"waldorfschulemarburg.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 2,
+"fields": {
+     "name": "Stiftung Louisenlund"
+    ,"strassehsnr":"Louisenlund 9"
+    ,"plz":"24357"
+    ,"stadt":" Güby"
+    ,"telefon":"04354-999-0"
+    ,"email":"info@louisenlund.de"
+    ,"www":"www.louisenlund.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 3,
+"fields": {
+     "name": "Elsterschloss-Gymnasium"
+    ,"strassehsnr":"Schlossplatz 1a"
+    ,"plz":"4910"
+    ,"stadt":" Elsterwerda"
+    ,"telefon":"03533/2026"
+    ,"email":"elsterschloss-gymnasium.elsterwerda@schulen.brandenburg.de"
+    ,"www":"www.elsterschloss-gymnasium.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 4,
+"fields": {
+     "name": "Private Marienschule"
+    ,"strassehsnr":"Graupfortstraße 5"
+    ,"plz":"65549"
+    ,"stadt":" Limburg an der Lahn"
+    ,"telefon":"06431/2010"
+    ,"email":"poststelle@marienschule.limburg.schulverwaltung.hessen.de"
+    ,"www":"www.marienschule-limburg.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 5,
+"fields": {
+     "name": "Futurum Vogtland Evangelisches Gymnasium Mylau (Staatlich genehmigte Ersatzschule)"
+    ,"strassehsnr":"Friedenshain 2"
+    ,"plz":"8499"
+    ,"stadt":" Mylau"
+    ,"telefon":"03765 / 38223-31"
+    ,"email":"tilo.baumung@futurum-vogtland.de"
+    ,"www":"www.futurum-vogtland.de/"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 6,
+"fields": {
+     "name": "Albertus-Magnus-Schule"
+    ,"strassehsnr":"August-Bebel-Straße 9"
+    ,"plz":"68519"
+    ,"stadt":" Viernheim"
+    ,"telefon":"06204/3074"
+    ,"email":"poststelle@ams.viernheim.schulverwaltung.hessen.de"
+    ,"www":"www.ams-viernheim.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 7,
+"fields": {
+     "name": "Gymnasium Panketal Freie Stadtrandschule im Grünen anerkannte Ersatzschule"
+    ,"strassehsnr":"Spreestraße 2"
+    ,"plz":"16341"
+    ,"stadt":" Panketal"
+    ,"telefon":"030/94418124"
+    ,"email":"info@gymnasium-panketal.d"
+    ,"www":"www.gymnasium-panketal.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 8,
+"fields": {
+     "name": "Lycée Français de Hambourg Antoine de Saint-Exupéry"
+    ,"strassehsnr":"Hartsprung 23"
+    ,"plz":"22529"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 79 01 47-0"
+    ,"email":"info@lfh.de"
+    ,"www":"www.lfh.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 9,
+"fields": {
+     "name": "barnim-gymnasium bernau"
+    ,"strassehsnr":"Hans-Wittwer-Straße 20"
+    ,"plz":"16321"
+    ,"stadt":" Bernau bei Berlin"
+    ,"telefon":"03338/70730"
+    ,"email":"barnim-gymnasium@t-online.de"
+    ,"www":"www.barnim-gymnasium.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 10,
+"fields": {
+     "name": "Christliche Schule Johanneum (Staatlich anerkanntes Gymnasium/genehmigte Oberschule )"
+    ,"strassehsnr":"Fischerstraße 5"
+    ,"plz":"2977"
+    ,"stadt":" Hoyerswerda"
+    ,"telefon":"357142440"
+    ,"email":"johanneum@johanneum-hoy.de"
+    ,"www":"www.johanneum-hoy.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 11,
+"fields": {
+     "name": "Alsterring Gymnasium"
+    ,"strassehsnr":"Wittenkamp 15"
+    ,"plz":"22307"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 226 223 530"
+    ,"email":"info@alsterring-gymnasium.de"
+    ,"www":"www.alsterring-gymnasium.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 12,
+"fields": {
+     "name": "Bilinguales Gymnasium Phorms Hamburg"
+    ,"strassehsnr":"Wendenstraße 35 -43"
+    ,"plz":"20097"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 32537050"
+    ,"email":"admissions.hamburg@phorms.de"
+    ,"www":"www.hamburg.phorms.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 13,
+"fields": {
+     "name": "Bilinguale Grundschule PHORMS Hamburg"
+    ,"strassehsnr":"Wendenstraße 35 -43"
+    ,"plz":"20097"
+    ,"stadt":" Hamburg"
+    ,"telefon":"040 325 370 57"
+    ,"email":"admissions.hamburg@phorms.de"
+    ,"www":"www.hamburg.phorms.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 14,
+"fields": {
+     "name": "Karl-Müchler-Schule"
+    ,"strassehsnr":"Am Schallacker 12"
+    ,"plz":"44263"
+    ,"stadt":" Dortmund"
+    ,"telefon":"0231-430011"
+    ,"email":"KMuechlerSchule@aol.com"
+    ,"www":"karl-muechler-schule.de"
+    ,"bundesland":9
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 15,
+"fields": {
+     "name": "thuringia international school - weimar"
+    ,"strassehsnr":"Belvederer Allee 40"
+    ,"plz":"99425"
+    ,"stadt":" Weimar"
+    ,"telefon":"03643 489910"
+    ,"email":"info@this-weimar.com"
+    ,"www":"www.this-weimar.com"
+    ,"bundesland":15
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 16,
+"fields": {
+     "name": "Schloß Torgelow Privates Internatsgymnasium, Gymnasium in freier Trägerschaft"
+    ,"strassehsnr":"Schlossallee 1"
+    ,"plz":"17192"
+    ,"stadt":" Torgelow am See"
+    ,"telefon":"03991/6240"
+    ,"email":"sekretariat@schlosstorgelow.de"
+    ,"www":"www.schlosstorgelow.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 17,
+"fields": {
+     "name": "Gymnasium auf dem Asterstein"
+    ,"strassehsnr":"Lehrhohl 50"
+    ,"plz":"56077"
+    ,"stadt":" Koblenz"
+    ,"telefon":"(0261)92153720"
+    ,"email":"Gymnasium-Asterstein@t-online.de"
+    ,"www":"www.gymnasium-asterstein.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 18,
+"fields": {
+     "name": "Voltaireschule -  Gesamtschulcampus mit gymnasialem Bildungsgang"
+    ,"strassehsnr":"Lindenstraße 32/33"
+    ,"plz":"14467"
+    ,"stadt":" Potsdam"
+    ,"telefon":"0331/2898000"
+    ,"email":"mail@voltaireschule.de"
+    ,"www":"www.voltaireschule.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 19,
+"fields": {
+     "name": "Europäisches Gymnasium Waldenburg (Staatlich anerkannte Ersatzschule)"
+    ,"strassehsnr":"Altenburger Straße 44a"
+    ,"plz":"8396"
+    ,"stadt":" Waldenburg"
+    ,"telefon":"4020100"
+    ,"email":"schulleitung@eurogymnasium-waldenburg.de"
+    ,"www":"www.eurogymnasium-waldenburg.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 20,
+"fields": {
+     "name": "Internationales Gymnasium Geithain (IGG), Staatlich anerkannte Ersatzschule"
+    ,"strassehsnr":"Friedrich-Fröbel-Straße 1"
+    ,"plz":"4643"
+    ,"stadt":" Geithain"
+    ,"telefon":"034341 46012"
+    ,"email":"igg@saxony-international-school.de"
+    ,"www":"www.internationales-gymnasium-geithain.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 21,
+"fields": {
+     "name": "August-Hermann-Francke-Schule"
+    ,"strassehsnr":"Talstraße 7"
+    ,"plz":"35394"
+    ,"stadt":" Gießen"
+    ,"telefon":"0641/73016"
+    ,"email":"info@ahfs-gi.de"
+    ,"www":"www.ahfs-gi.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 22,
+"fields": {
+     "name": "Sabine-Ball-Schule"
+    ,"strassehsnr":"Hilpertstraße 26"
+    ,"plz":"64295"
+    ,"stadt":" Darmstadt"
+    ,"telefon":"06151/292020"
+    ,"email":"kontakt@fcsd.de"
+    ,"www":"www.sabine-ball-schule.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 23,
+"fields": {
+     "name": "Friedrich-Wilhelm-Gymnasium"
+    ,"strassehsnr":"Olewiger Str. 2"
+    ,"plz":"54295"
+    ,"stadt":" Trier"
+    ,"telefon":"(0651)966383-0"
+    ,"email":"verwaltung@fwg-trier.com"
+    ,"www":"www.fwg-trier.com"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 24,
+"fields": {
+     "name": "Gymnasium Nieder-Olm"
+    ,"strassehsnr":"Karl-Sieben-Str. 39"
+    ,"plz":"55268"
+    ,"stadt":" Nieder-Olm"
+    ,"telefon":"(06136)91560"
+    ,"email":"frey@gymno.net"
+    ,"www":"www.gymno.net"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 25,
+"fields": {
+     "name": "Max-Planck-Gymnasium"
+    ,"strassehsnr":"Realschulstraße 9"
+    ,"plz":"64823"
+    ,"stadt":" Groß-Umstadt"
+    ,"telefon":"06078-93930"
+    ,"email":"sekretariat@mpg-umstadt.de"
+    ,"www":"www.mpg-umstadt.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 26,
+"fields": {
+     "name": "Erzgebirgskolleg"
+    ,"strassehsnr":"Schachtstraße 128"
+    ,"plz":"8359"
+    ,"stadt":" Breitenbrunn/Erzgeb."
+    ,"telefon":"037756 1289"
+    ,"email":"info@erzgebirgskolleg.org"
+    ,"www":"www.erzgebirgskolleg.org"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 27,
+"fields": {
+     "name": "Staatliches Abendgymnasium mit Abendschule St. Georg"
+    ,"strassehsnr":"Rostocker Str. 41"
+    ,"plz":"20099"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 974-521"
+    ,"email":"Staatliches-Abendgymnasium-St-Georg@bsb.hamburg.de"
+    ,"www":"www.agstgeorg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 28,
+"fields": {
+     "name": "Heinrich-Böll-Gymnasium"
+    ,"strassehsnr":"Karolina-Burger-Str. 42"
+    ,"plz":"67065"
+    ,"stadt":" Ludwigshafen am Rhein"
+    ,"telefon":"(0621)504425730"
+    ,"email":"sekretariat@hbg-lu.de"
+    ,"www":"www.heinrich-boell-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 29,
+"fields": {
+     "name": "Bertolt-Brecht-Gymnasium Dresden"
+    ,"strassehsnr":"Lortzingstraße 1"
+    ,"plz":"1307"
+    ,"stadt":" Dresden"
+    ,"telefon":"0351-449040"
+    ,"email":"kontakt@bebe-dresden.de"
+    ,"www":"www.bebe-dresden.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 30,
+"fields": {
+     "name": "Georg-Büchner-Schule"
+    ,"strassehsnr":"Nieder-Ramstädter Straße 120"
+    ,"plz":"64285"
+    ,"stadt":" Darmstadt"
+    ,"telefon":"06151/132560"
+    ,"email":"poststelle@gbs.darmstadt.schulverwaltung.hessen.de"
+    ,"www":"gbs-darmstadt.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 31,
+"fields": {
+     "name": "Dresden International School (Internationale Ganztagsschule, Staatlich genehmigte Ersatzschule, Ergänzungsschule)"
+    ,"strassehsnr":"Annenstr. 9"
+    ,"plz":"1067"
+    ,"stadt":" Dresden"
+    ,"telefon":"+49351440070"
+    ,"email":"info@dresden-is.de"
+    ,"www":"www.dresden-is.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 32,
+"fields": {
+     "name": "Erzbischöfl.Spätberufenenseminar St. Matthias mit Gymnasium und Kolleg"
+    ,"strassehsnr":"Seminarplatz 3"
+    ,"plz":"82515"
+    ,"stadt":" Wolfratshausen"
+    ,"telefon":"08171/9980"
+    ,"email":"info@sankt-matthias.de"
+    ,"www":"www.sankt-matthias.de"
+    ,"bundesland":2
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 33,
+"fields": {
+     "name": "Privatschule Mittelholstein Grundschule & Gymnasium"
+    ,"strassehsnr":"Schleswiger Chaussee 91"
+    ,"plz":"24768"
+    ,"stadt":" Rendsburg"
+    ,"telefon":"04331-4375890"
+    ,"email":"info@privatschule-mittelholstein.com"
+    ,"www":"www.privatschule-mittelholstein.com"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 34,
+"fields": {
+     "name": "Trave-Gymnasium"
+    ,"strassehsnr":"Kücknitzer Hauptstraße 26"
+    ,"plz":"23569"
+    ,"stadt":" Lübeck"
+    ,"telefon":"0451 122 858 11"
+    ,"email":"Trave-Gymnasium.Luebeck@schule.landsh.de"
+    ,"www":"www.trave-gymnasium.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 35,
+"fields": {
+     "name": "Fritz-Greve-Gymnasium"
+    ,"strassehsnr":"Am Zachow 39"
+    ,"plz":"17139"
+    ,"stadt":" Malchin"
+    ,"telefon":"03994/227205"
+    ,"email":"gymnasiummalchin@t-online.de"
+    ,"www":""
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 36,
+"fields": {
+     "name": "Kaiser-Karl-Schule"
+    ,"strassehsnr":"Hinterm Sandberg 1-3"
+    ,"plz":"25524"
+    ,"stadt":" Itzehoe"
+    ,"telefon":"+49 4821 2764"
+    ,"email":"kaiser-karl-schule.itzehoe@schule.landsh.de"
+    ,"www":"kks-itzehoe.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 37,
+"fields": {
+     "name": "Private Tagesheim- und Internatsschule"
+    ,"strassehsnr":"Altheimer Straße 46-50"
+    ,"plz":"64807"
+    ,"stadt":" Dieburg"
+    ,"telefon":"06071/92420"
+    ,"email":"info@ptid.de"
+    ,"www":""
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 38,
+"fields": {
+     "name": "Freie Montessorischule Huckepack Berufliches Gymnasium Wirtschaftswissenschaften"
+    ,"strassehsnr":"Glashütter Straße 100"
+    ,"plz":"1277"
+    ,"stadt":" Dresden"
+    ,"telefon":"0351 44951-0"
+    ,"email":"montessorischule@huckepack-ev.de"
+    ,"www":"www.huckepack-ev.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 39,
+"fields": {
+     "name": "Carl-von-Ossietzky-Gymnasium"
+    ,"strassehsnr":"Müssenredder 59"
+    ,"plz":"22399"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 9315 - 0"
+    ,"email":"Carl-von-Ossietzky-Gymnasium@bsb.hamburg.de"
+    ,"www":"www.cvo.hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 40,
+"fields": {
+     "name": "Erasmus Frankfurter Stadtschule"
+    ,"strassehsnr":"Friedrich-Ebert-Anlage 44"
+    ,"plz":"60325"
+    ,"stadt":" Frankfurt am Main"
+    ,"telefon":"069/9074364-0"
+    ,"email":"info@erasmus-schule.eu"
+    ,"www":"www.erasmus-frankfurt.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 41,
+"fields": {
+     "name": "Gauß-Gymnasium"
+    ,"strassehsnr":"Von-Steuben-Str. 31"
+    ,"plz":"67549"
+    ,"stadt":" Worms"
+    ,"telefon":"(06241)8534400"
+    ,"email":"gauss@gauss-worms.de"
+    ,"www":"www.gauss-worms.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 42,
+"fields": {
+     "name": "Ricarda-Huch-Schule"
+    ,"strassehsnr":"Breslauer Straße 15"
+    ,"plz":"63303"
+    ,"stadt":" Dreieich"
+    ,"telefon":"06103/8335630"
+    ,"email":"poststelle@ricarda-huch.dreieich.schulverwaltung.hessen.de"
+    ,"www":"rhs-dreieich.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 43,
+"fields": {
+     "name": "FORTIS-AKADEMIE gGmbH"
+    ,"strassehsnr":"An der Wiesenmühle 1"
+    ,"plz":"9224"
+    ,"stadt":" Chemnitz"
+    ,"telefon":"0371 262220"
+    ,"email":"bewerbung@fortis-akademie.de"
+    ,"www":"www.fortis-akademie.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 44,
+"fields": {
+     "name": "Neues Gymnasium"
+    ,"strassehsnr":"Grundweg 6"
+    ,"plz":"65428"
+    ,"stadt":" Rüsselsheim"
+    ,"telefon":"06142/2101880"
+    ,"email":"ngverwaltung@neues-gymnasium.itis-gg.de"
+    ,"www":"www.neues-gymnasium-ruesselsheim.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 45,
+"fields": {
+     "name": "Hohe Schule der Wirtschaft und Dienstleistungen, just4web.cz (Sample schriftlich)"
+    ,"strassehsnr":"Hüttenstr. 24"
+    ,"plz":"3165"
+    ,"stadt":"Hannover"
+    ,"telefon":"654654654"
+    ,"email":"info@listofschools.eu"
+    ,"www":"www.listofschools.eu"
+    ,"bundesland":8
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 46,
+"fields": {
+     "name": "Wilhelm-Gymnasium"
+    ,"strassehsnr":"Klosterstieg 17 -"
+    ,"plz":"20149"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 415 20 20"
+    ,"email":"info@wilhelm-gymnasium.de"
+    ,"www":"www.wilhelm-gymnasium.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 47,
+"fields": {
+     "name": "Friedrich-Ludwig-Jahn-Gymnasium"
+    ,"strassehsnr":"Jahnstraße 3-9"
+    ,"plz":"3149"
+    ,"stadt":" Forst (Lausitz)"
+    ,"telefon":"03562/8084"
+    ,"email":"jahn-gymnasium.forst@schulen.brandenburg.de"
+    ,"www":"www.gymnasium-forst.de/"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 48,
+"fields": {
+     "name": "Alte Landesschule"
+    ,"strassehsnr":"Solinger Straße 54"
+    ,"plz":"34497"
+    ,"stadt":" Korbach"
+    ,"telefon":"05631/2071"
+    ,"email":"poststelle@gym.korbach.schulverwaltung.hessen.de"
+    ,"www":""
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 49,
+"fields": {
+     "name": "Schulzentrum Marienhöhe"
+    ,"strassehsnr":"Auf der Marienhöhe 32"
+    ,"plz":"64297"
+    ,"stadt":" Darmstadt"
+    ,"telefon":"06151/53910"
+    ,"email":"info@marienhoehe.de"
+    ,"www":""
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 50,
+"fields": {
+     "name": "Staatliches Gymnasium \"Marie Curie\" Worbis"
+    ,"strassehsnr":"Elisabethstraße 23"
+    ,"plz":"37339"
+    ,"stadt":" Leinefelde-Worbis"
+    ,"telefon":"036074 94380"
+    ,"email":"schulleitung@gymnasium-wbs.de"
+    ,"www":"www.gymnasium-wbs.de"
+    ,"bundesland":15
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 51,
+"fields": {
+     "name": "Eleonorenschule"
+    ,"strassehsnr":"Julius-Reiber-Straße 1"
+    ,"plz":"64293"
+    ,"stadt":" Darmstadt"
+    ,"telefon":"06151/132565"
+    ,"email":"eleonorenschule@darmstadt.de"
+    ,"www":"www.eleonorenschule.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 52,
+"fields": {
+     "name": "Evangelisches Gymnasium Doberlug-Kirchhain anerkannte Ersatzschule"
+    ,"strassehsnr":"Straße der Jugend 11"
+    ,"plz":"3253"
+    ,"stadt":" Doberlug-Kirchhain"
+    ,"telefon":"035322/18859"
+    ,"email":"freie-og-ev.Doberlug@schulen.brandenburg.de"
+    ,"www":"www.evangelisches-gymnasium-doki.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 53,
+"fields": {
+     "name": "G.-E.-Lessing-Gymnasium"
+    ,"strassehsnr":"Schulstraße 9"
+    ,"plz":"9337"
+    ,"stadt":" Hohenstein-Ernstthal"
+    ,"telefon":"372342928"
+    ,"email":"sekretariat@lghe.org"
+    ,"www":"www.lghe.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 54,
+"fields": {
+     "name": "Freies Christliches Gymnasium Düsseldorf (Staatl. anerkannte Ersatzschule)"
+    ,"strassehsnr":"Buchenstr. 1"
+    ,"plz":"40599"
+    ,"stadt":" Düsseldorf"
+    ,"telefon":"0211-239774-0"
+    ,"email":"sekretariat@fcg-duesseldorf.de"
+    ,"www":"www.fcg-duesseldorf.de"
+    ,"bundesland":9
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 55,
+"fields": {
+     "name": "Christianeum"
+    ,"strassehsnr":"Otto-Ernst-Straße 34"
+    ,"plz":"22605"
+    ,"stadt":" Hamburg"
+    ,"telefon":"0049 40 428 88-280"
+    ,"email":"christianeum@gmx.net"
+    ,"www":"www.christianeum.org"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 56,
+"fields": {
+     "name": "Schulcampus Rostock-Evershagen"
+    ,"strassehsnr":"Thomas-Morus-Straße 1-3"
+    ,"plz":"18106"
+    ,"stadt":" Rostock"
+    ,"telefon":"0381 7998861"
+    ,"email":"kontakt@schulcampus-rostock.de"
+    ,"www":"www.schulcampus-rostock.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 57,
+"fields": {
+     "name": "Evangelisches Schulzentrum Muldental (Staatlich anerkannte Ersatzschule)"
+    ,"strassehsnr":"Pestalozzistraße 2/4"
+    ,"plz":"4668"
+    ,"stadt":" Grimma"
+    ,"telefon":"942111"
+    ,"email":"schule@eva-schulze-mtl.de"
+    ,"www":"www.eva-schulze-mtl.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 58,
+"fields": {
+     "name": "Freie Waldorfschule Wernstein"
+    ,"strassehsnr":"Am Eisweiher 1"
+    ,"plz":"95336"
+    ,"stadt":" Mainleus"
+    ,"telefon":"09229/7052"
+    ,"email":"Schule@waldorfschulewernstein.de"
+    ,"www":"www.waldorfschulewernstein.de"
+    ,"bundesland":2
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 59,
+"fields": {
+     "name": "Frauenlob-Gymnasium"
+    ,"strassehsnr":"Adam-Karrillon-Str. 35"
+    ,"plz":"55118"
+    ,"stadt":" Mainz"
+    ,"telefon":"(06131)612558"
+    ,"email":"info@frauenlob.org"
+    ,"www":"www.frauenlob-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 60,
+"fields": {
+     "name": "ecolea | Internationale Schule Schwerin"
+    ,"strassehsnr":"Schelfstraße 1"
+    ,"plz":"19055"
+    ,"stadt":" Schwerin"
+    ,"telefon":"0385 | 480 690"
+    ,"email":"gymnasium.sn@ecolea.de"
+    ,"www":"www.ecolea.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 61,
+"fields": {
+     "name": "Schkola Oberland¨Freie Schule an der Haine Gymnasium (Staatlich genehmigte Ersatzschule)"
+    ,"strassehsnr":"Schulstraße 13"
+    ,"plz":"2730"
+    ,"stadt":" Ebersbach-Neugersdorf"
+    ,"telefon":"03586/390284"
+    ,"email":"oberland@schkola.de"
+    ,"www":"www.schkola.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 62,
+"fields": {
+     "name": "Freie Schule der Region Zingst/Darss/Fischland Prerow, Integrierte Gesamtschule mit Grundschule und gymnasiale Oberstufe in freier Traegerschaft"
+    ,"strassehsnr":"Strandstraße 8"
+    ,"plz":"18375"
+    ,"stadt":" Ostseebad Prerow/Darß"
+    ,"telefon":"038233/70171"
+    ,"email":"info@freie-schule-prerow.de"
+    ,"www":"www.freie-schule-prerow.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 63,
+"fields": {
+     "name": "Lise-Meitner-Gymnasium G8GTS"
+    ,"strassehsnr":"Schulstr. 4"
+    ,"plz":"67133"
+    ,"stadt":" Maxdorf"
+    ,"telefon":"06237/92433-50"
+    ,"email":"sekretariat@lmg8.de"
+    ,"www":"www.lmg8.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 64,
+"fields": {
+     "name": "Paul-Fahlisch-Gymnasium Lübbenau"
+    ,"strassehsnr":"Straße des Friedens 26a"
+    ,"plz":"3222"
+    ,"stadt":" Lübbenau/Spreewald"
+    ,"telefon":"03542/2445"
+    ,"email":"s120054@schulen.brandenburg.de"
+    ,"www":"www.gymlau.de/"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 65,
+"fields": {
+     "name": "Musikgymnasium Käthe Kollwitz"
+    ,"strassehsnr":"Heinrich-Tessenow-Straße 47"
+    ,"plz":"18146"
+    ,"stadt":" Rostock"
+    ,"telefon":"0381 609510"
+    ,"email":"info@musikgymnasium-kkg-rostock.de"
+    ,"www":"www.kkg-rostock.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 66,
+"fields": {
+     "name": "OKO Private School Talent-Schule Hamburg"
+    ,"strassehsnr":"Saarlandstraße 30"
+    ,"plz":"22303"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 53283260"
+    ,"email":"info@talent-schule.com"
+    ,"www":"www.talent-schule.com"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 67,
+"fields": {
+     "name": "Clara-Wieck-Gymnasium"
+    ,"strassehsnr":"Schloßplatz 1"
+    ,"plz":"8064"
+    ,"stadt":" Zwickau"
+    ,"telefon":"0375/ 780200"
+    ,"email":"schulleitung@clara-wieck-gymnasium.eu"
+    ,"www":"www.clara-wieck-gymnasium.eu"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 68,
+"fields": {
+     "name": "Gymnasium Friedrich Anton von Heinitz"
+    ,"strassehsnr":"Brückenstraße 80 A"
+    ,"plz":"15562"
+    ,"stadt":" Rüdersdorf bei Berlin"
+    ,"telefon":"033638/3327"
+    ,"email":"heinitz-gymnasium.ruedersdorf@schulen.brandenburg.de"
+    ,"www":"www.heinitz-gymnasium.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 69,
+"fields": {
+     "name": "Staatliches Heinrich-Heine-Gymnasium"
+    ,"strassehsnr":"Im Dunkeltälchen 65"
+    ,"plz":"67663"
+    ,"stadt":" Kaiserslautern"
+    ,"telefon":"631201040"
+    ,"email":"info@hhg-kl.de"
+    ,"www":"www.hhg-kl.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 70,
+"fields": {
+     "name": "Evangelische Schule Schönefeld - Gymnasium"
+    ,"strassehsnr":"Am Pfarracker 2"
+    ,"plz":"12529"
+    ,"stadt":" Schönefeld OT Großziethen"
+    ,"telefon":"03379/322770"
+    ,"email":"schulleitung@ev-schule-schoenefeld.de"
+    ,"www":"www.ev-schule-schoenefeld.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 71,
+"fields": {
+     "name": "Salzmannschule Schnepfenthal Staatliches Spezialgymnasium für Sprachen"
+    ,"strassehsnr":"Klostermühlenweg 2-8"
+    ,"plz":"99880"
+    ,"stadt":" Waltershausen"
+    ,"telefon":"03622 9130"
+    ,"email":"sekretariat@salzmannschule.de"
+    ,"www":"www.salzmannschule.de"
+    ,"bundesland":15
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 72,
+"fields": {
+     "name": "accadis International School"
+    ,"strassehsnr":"Norsk-Data-Straße 5"
+    ,"plz":"61352"
+    ,"stadt":" Bad Homburg v. d. Höhe"
+    ,"telefon":"06172/984141"
+    ,"email":"school@accadis.com"
+    ,"www":"school.accadis.com"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 73,
+"fields": {
+     "name": "Internationales Wirtschaftsgymnasium Geithain (IWG), Staatlich anerkannte Ersatzschule"
+    ,"strassehsnr":"Friedrich-Fröbel-Straße 1"
+    ,"plz":"4643"
+    ,"stadt":" Geithain"
+    ,"telefon":"034341 46012"
+    ,"email":"iwg@saxony-international-school.de"
+    ,"www":"www.internationales-wirtschaftsgymnasium-geithain.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 74,
+"fields": {
+     "name": "Abendgymnasium im RBZ Wirtschaft . Kiel"
+    ,"strassehsnr":"Westring 444"
+    ,"plz":"24118"
+    ,"stadt":" Kiel"
+    ,"telefon":"0431 1698 411"
+    ,"email":"abendgymnasium@rbz-wirtschaft-kiel.de"
+    ,"www":"www.abendgymnasium-kiel.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 75,
+"fields": {
+     "name": "Gymnasium Grootmoor"
+    ,"strassehsnr":"Am Damm 47"
+    ,"plz":"22175"
+    ,"stadt":" Hamburg"
+    ,"telefon":"6 40 87 - 30"
+    ,"email":"Gymnasium-Grootmoor@bsb.hamburg.de"
+    ,"www":"www.grootmoor.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 76,
+"fields": {
+     "name": "Goethe-Gymnasium"
+    ,"strassehsnr":"Parkstraße 7"
+    ,"plz":"14641"
+    ,"stadt":" Nauen"
+    ,"telefon":"03321/748790"
+    ,"email":"goethe-gymnasium.nauen@schulen.brandenburg.de"
+    ,"www":"www.ggnauen.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 77,
+"fields": {
+     "name": "Nebelthau-Gymnasium"
+    ,"strassehsnr":"Lesumer Heerstrasse 38"
+    ,"plz":"28717"
+    ,"stadt":" Bremen"
+    ,"telefon":"0421-6381-9902"
+    ,"email":"sekretariat@nebelthau-gymnasium.de"
+    ,"www":"www.friedehorst.de"
+    ,"bundesland":4
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 78,
+"fields": {
+     "name": "Chr. Gymnasium Rudolf Stempel"
+    ,"strassehsnr":"Lange Str. 51a"
+    ,"plz":"1587"
+    ,"stadt":" Riesa"
+    ,"telefon":"03525/5183800"
+    ,"email":"email@schulzentrum-riesa.de"
+    ,"www":"www.schulzentrum-riesa.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 79,
+"fields": {
+     "name": "Wartburg International School  Die internationale Gemeinschaftsschule in der Mitte Deutschlands"
+    ,"strassehsnr":"Goethestr. 23"
+    ,"plz":"99817"
+    ,"stadt":" Eisenach"
+    ,"telefon":"3691 708262"
+    ,"email":"hanelq@gmail.com"
+    ,"www":"http://www.wi.school/"
+    ,"bundesland":15
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 80,
+"fields": {
+     "name": "Luise-Büchner-Schule"
+    ,"strassehsnr":"Jahnstraße 35"
+    ,"plz":"64521"
+    ,"stadt":" Groß-Gerau"
+    ,"telefon":"06152/93360"
+    ,"email":"poststelle@luise-buechner.gross-gerau.schulverwaltung.hessen.de"
+    ,"www":"lbs-gg.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 81,
+"fields": {
+     "name": "Herzog-Ernst-Schule Staatliche Kooperative Gesamtschule des Landkreises Gotha"
+    ,"strassehsnr":"Reinhardsbrunner Straße 19"
+    ,"plz":"99867"
+    ,"stadt":" Gotha"
+    ,"telefon":"03621 708087"
+    ,"email":"sekretariat@kgs-herzog-ernst-gotha.de"
+    ,"www":"www.kgs-gotha.de"
+    ,"bundesland":15
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 82,
+"fields": {
+     "name": "Uplandschule"
+    ,"strassehsnr":"Auf dem Gehren 5 und 7"
+    ,"plz":"34508"
+    ,"stadt":" Willingen (Upland)"
+    ,"telefon":"05632/6215"
+    ,"email":"sekretariat@uplandschule.de"
+    ,"www":"uplandschule.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 83,
+"fields": {
+     "name": "Privates Litauisches Gymnasium"
+    ,"strassehsnr":"Lorscher Straße 1"
+    ,"plz":"68623"
+    ,"stadt":" Lampertheim"
+    ,"telefon":"06256/859900"
+    ,"email":"info@litauischesgymnasium.de"
+    ,"www":"www.litauischesgymnasium.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 84,
+"fields": {
+     "name": "Gymnasium Markneukirchen"
+    ,"strassehsnr":"Schulstraße 3"
+    ,"plz":"8258"
+    ,"stadt":" Markneukirchen"
+    ,"telefon":"037422/2516"
+    ,"email":"info@gymnasiummarkneukirchen.de"
+    ,"www":"www.gymnasiummarkneukirchen.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 85,
+"fields": {
+     "name": "Freies Gymnasium Regenbogen Zwenkau (Staatlich anerkannte Ersatzschule)"
+    ,"strassehsnr":"Pestalozzistraße 15"
+    ,"plz":"4442"
+    ,"stadt":" Zwenkau"
+    ,"telefon":"034203 4339900"
+    ,"email":"zwenkau.gymnasium@regenbogen-schulen.com"
+    ,"www":"www.regenbogen-schulen.com"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 86,
+"fields": {
+     "name": "Julius-Motteler-Gymnasium"
+    ,"strassehsnr":"Lindenstraße 6"
+    ,"plz":"8451"
+    ,"stadt":" Crimmitschau"
+    ,"telefon":"+49 3762 765001-0"
+    ,"email":"jmg@crimmitschau.de"
+    ,"www":"www.gym-crimmitschau.de/"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 87,
+"fields": {
+     "name": "Gutenbergschule Wiesbaden"
+    ,"strassehsnr":"Mosbacher Straße 1"
+    ,"plz":"65187"
+    ,"stadt":" Wiesbaden"
+    ,"telefon":"0611-312255"
+    ,"email":"gutenbergschule@wiesbaden.de"
+    ,"www":"www.gutenberg-gym.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 88,
+"fields": {
+     "name": "Landschulheim Grovesmühle gGmbH"
+    ,"strassehsnr":"Grovesmühle 1"
+    ,"plz":"38871"
+    ,"stadt":" Nordharz / OT Veckenstedt"
+    ,"telefon":"039451/6080"
+    ,"email":"info@grovesmuehle.eu"
+    ,"www":"http://www.grovesmuehle.de/"
+    ,"bundesland":13
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 89,
+"fields": {
+     "name": "ecolea | Internationale Schule Rostock"
+    ,"strassehsnr":"Fritz-Reuter-Straße 10"
+    ,"plz":"18119"
+    ,"stadt":" Rostock"
+    ,"telefon":"0381 | 54 84 360"
+    ,"email":"gymnasium.hro@ecolea.de"
+    ,"www":"www.ecolea.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 90,
+"fields": {
+     "name": "Internationales Gymnasium Reinsdorf (IGR), Staatlich anerkannte Ersatzschule"
+    ,"strassehsnr":"Mittlerer Schulweg 13"
+    ,"plz":"8141"
+    ,"stadt":" Reinsdorf"
+    ,"telefon":"0375 212595"
+    ,"email":"igr@saxony-international-school.de"
+    ,"www":"www.internationales-gymnasium-reinsdorf.de/"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 91,
+"fields": {
+     "name": "Schwalmgymnasium"
+    ,"strassehsnr":"Ascheröder Straße 30"
+    ,"plz":"34613"
+    ,"stadt":" Schwalmstadt"
+    ,"telefon":"06691/20087"
+    ,"email":"poststelle@gym.treysa.schulverwaltung.hessen.de"
+    ,"www":"www.schwalmgymnasium.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 92,
+"fields": {
+     "name": "Überwald-Gymnasium"
+    ,"strassehsnr":"Forsthausstraße 20"
+    ,"plz":"69483"
+    ,"stadt":" Wald-Michelbach"
+    ,"telefon":"06207/94090"
+    ,"email":"ueberwald-gymnasium@kreis-bergstrasse.de"
+    ,"www":"www.ueberwald-gymnasium.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 93,
+"fields": {
+     "name": "Lietz-Internat Hohenwehrda"
+    ,"strassehsnr":"Schloss Hohenwehrda"
+    ,"plz":"36166"
+    ,"stadt":" Haunetal"
+    ,"telefon":"06673/92990"
+    ,"email":"hohenwehrda@lietz-schule.de"
+    ,"www":"www.internat-hohenwehrda.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 94,
+"fields": {
+     "name": "Gymnasium Altona"
+    ,"strassehsnr":"Hohenzollernring 57/61"
+    ,"plz":"22763"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 97-00"
+    ,"email":"info@gymaltona.de"
+    ,"www":"www.gymaltona.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 95,
+"fields": {
+     "name": "Gymnasium der bundtStift_Schulen - Gymnasium anerkannte Ersatzschule in der Sekundarstufe I und  II (GOST)"
+    ,"strassehsnr":"Prötzeler Chaussee 7"
+    ,"plz":"15344"
+    ,"stadt":" Strausberg"
+    ,"telefon":"03341/250043"
+    ,"email":"freie-og.strausberg@schulen.brandenburg.de"
+    ,"www":"www.bundtstift.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 96,
+"fields": {
+     "name": "König-Heinrich-Schule"
+    ,"strassehsnr":"Schladenweg 43"
+    ,"plz":"34560"
+    ,"stadt":" Fritzlar"
+    ,"telefon":"05622/996980"
+    ,"email":"poststelle@gym.fritzlar.schulverwaltung.hessen.de"
+    ,"www":"www.khs-fritzlar.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 97,
+"fields": {
+     "name": "Europäische Gesamtschule Insel Usedom"
+    ,"strassehsnr":"Lindenstraße 112"
+    ,"plz":"17419"
+    ,"stadt":" Ahlbeck"
+    ,"telefon":"038378/28107"
+    ,"email":"sekretariat@kgs-ahlbeck.de"
+    ,"www":"www.kgs-ahlbeck.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 98,
+"fields": {
+     "name": "Hansa-Gymnasium Hansestadt Stralsund"
+    ,"strassehsnr":"Fährwall 19"
+    ,"plz":"18439"
+    ,"stadt":" Stralsund"
+    ,"telefon":"03831 28960"
+    ,"email":"hansa-gymnasium@stralsund.de"
+    ,"www":"www.hansagymnasium-stralsund.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 99,
+"fields": {
+     "name": "Matthias-Claudius-Gymnasium"
+    ,"strassehsnr":"Witthöfftstraße 8"
+    ,"plz":"22041"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 7622-0"
+    ,"email":"matthias-claudius-gymnasium@bsb.hamburg"
+    ,"www":"www.matthias-claudius-gymnasium.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 100,
+"fields": {
+     "name": "Gymnasium zu St. Katharinen"
+    ,"strassehsnr":"An der Festwiese 2"
+    ,"plz":"55276"
+    ,"stadt":" Oppenheim"
+    ,"telefon":"(06133)94300"
+    ,"email":"schule@gym-oppenheim.de"
+    ,"www":"www.gym-oppenheim.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 101,
+"fields": {
+     "name": "Albert-Einstein-Gymnasium"
+    ,"strassehsnr":"Demminer Straße 42"
+    ,"plz":"17034"
+    ,"stadt":" Neubrandenburg"
+    ,"telefon":"0395/599991600"
+    ,"email":"dietmar.kittler@aeg-nb.de"
+    ,"www":"www.aeg-nb.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 102,
+"fields": {
+     "name": "Freiherr-vom-Stein-Schule - Europaschule Gladenbach"
+    ,"strassehsnr":"Dr.-Berthold-Leinweber-Str. 1"
+    ,"plz":"35075"
+    ,"stadt":" Gladenbach"
+    ,"telefon":"+49 - (0)6462 9174-11"
+    ,"email":"eurogla@gmx.de"
+    ,"www":"www.europaschule-gladenbach.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 103,
+"fields": {
+     "name": "Freie Waldorfschule Wiesbaden"
+    ,"strassehsnr":"Albert-Schweitzer-Allee 40"
+    ,"plz":"65203"
+    ,"stadt":" Wiesbaden"
+    ,"telefon":"0611/607080"
+    ,"email":"info@waldorfschule-wiesbaden.de"
+    ,"www":"www.waldorfschule-wiesbaden.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 104,
+"fields": {
+     "name": "CJD Jugenddorf-Christophorusschule Oberurff"
+    ,"strassehsnr":"Bergfreiheiter Straße 19"
+    ,"plz":"34596"
+    ,"stadt":" Bad Zwesten"
+    ,"telefon":"05626/99840"
+    ,"email":"info@christophorusschule-oberurff.de"
+    ,"www":"www.cjd-oberurff.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 105,
+"fields": {
+     "name": "IGS Eschersheim"
+    ,"strassehsnr":"Zehnmorgenstraße 20"
+    ,"plz":"60433"
+    ,"stadt":" Frankfurt am Main"
+    ,"telefon":"069/21238751"
+    ,"email":"poststelle.igs-eschersheim(at)stadt-frankfurt.de"
+    ,"www":"www.igs-eschersheim.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 106,
+"fields": {
+     "name": "Gymnasium der HOGA Schulen Dresden"
+    ,"strassehsnr":"Zamenhofstraße 61/63"
+    ,"plz":"1257"
+    ,"stadt":" Dresden"
+    ,"telefon":"0351-20736350"
+    ,"email":"hoga@hoga-schulen.de"
+    ,"www":"www.hoga-schulen.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 107,
+"fields": {
+     "name": "Europa-Schule Dr. Obermayr e.V."
+    ,"strassehsnr":"Berliner Straße 150"
+    ,"plz":"65205"
+    ,"stadt":" Wiesbaden"
+    ,"telefon":"0611/360730"
+    ,"email":"poststelle@europaschule.wiesbaden.schulverwaltung.hessen.de"
+    ,"www":"www.obermayr.com"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 108,
+"fields": {
+     "name": "Wolfgang-Borchert-Gymnasium"
+    ,"strassehsnr":"Bickbargen 111"
+    ,"plz":"25469"
+    ,"stadt":" Halstenbek"
+    ,"telefon":"04101-84280"
+    ,"email":"Wolfgang-Borchert-Gymnasium.Halstenbek@schule.landsh.de"
+    ,"www":"www.wobogym.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 109,
+"fields": {
+     "name": "Alstergymnasium Henstedt-Ulzburg"
+    ,"strassehsnr":"Maurepasstraße 67"
+    ,"plz":"24558"
+    ,"stadt":" Henstedt-Ulzburg"
+    ,"telefon":"04193-968190"
+    ,"email":"alstergymnasium.henstedt-ulzburg@schule.landsh.de"
+    ,"www":"www.alstergymnasium-hu.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 110,
+"fields": {
+     "name": "Johann-Wolfgang-Goethe-"
+    ,"strassehsnr":"August-Keiler-Str. 34"
+    ,"plz":"76726"
+    ,"stadt":" Germersheim"
+    ,"telefon":"(07274)702470"
+    ,"email":"info@goethe-gym-ger.de"
+    ,"www":"www.goethe-gym-ger.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 111,
+"fields": {
+     "name": "Cusanus-Gymnasium"
+    ,"strassehsnr":"Kurfürstenstr. 14"
+    ,"plz":"54516"
+    ,"stadt":" Wittlich"
+    ,"telefon":"(06571)956140"
+    ,"email":"info@cg-wittlich.eu"
+    ,"www":"www.cg-wittlich.eu"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 112,
+"fields": {
+     "name": "Marie-Curie-Gymnasium Ludwigsfelde Landkreis Teltow-Fläming"
+    ,"strassehsnr":"Ernst-Thälmann-Straße 17"
+    ,"plz":"14974"
+    ,"stadt":" Ludwigsfelde"
+    ,"telefon":"03378/518780"
+    ,"email":"curie-gymnasium.ludwigsfelde@schulen.brandenburg.de"
+    ,"www":"www.mcgym.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 113,
+"fields": {
+     "name": "Evangelisches Gymnasium Leukersdorf (Staatlich genehmigte Ersatzschule)"
+    ,"strassehsnr":"Schulstraße 8"
+    ,"plz":"9387"
+    ,"stadt":" Jahnsdorf/Erzgeb."
+    ,"telefon":"+49 (0) 371 2818911"
+    ,"email":"schulleitung@evsl.eu"
+    ,"www":"www.gymnasium-leukersdorf.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 114,
+"fields": {
+     "name": "Elsensee-Gymnasium"
+    ,"strassehsnr":"Heidkampsstraße 10"
+    ,"plz":"25451"
+    ,"stadt":" Quickborn"
+    ,"telefon":"04106/64141-00"
+    ,"email":"Elsensee-Gymnasium.Quickborn@schule.landsh.de"
+    ,"www":"www.elsensee-gymnasium.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 115,
+"fields": {
+     "name": "Marion-Dönhoff-Gymnasium Mölln"
+    ,"strassehsnr":"Auf dem Schulberg 1"
+    ,"plz":"23879"
+    ,"stadt":" Mölln"
+    ,"telefon":"04542-83880"
+    ,"email":"marion-doenhoff-gymnasium.moelln@schule.landsh.de"
+    ,"www":"www.mdgmölln.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 116,
+"fields": {
+     "name": "Ziehenschule"
+    ,"strassehsnr":"Josephskirchstraße 9"
+    ,"plz":"60433"
+    ,"stadt":" Frankfurt am Main"
+    ,"telefon":"069/21234147"
+    ,"email":"sekretariat@ziehenschule.de"
+    ,"www":"www.ziehenschule.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 117,
+"fields": {
+     "name": "Phorms Campus Frankfurt City"
+    ,"strassehsnr":"Fürstenberger Straße 3-9"
+    ,"plz":"60322"
+    ,"stadt":" Frankfurt am Main"
+    ,"telefon":"+49 69 173 92 550"
+    ,"email":"frankfurt@phorms.de"
+    ,"www":"frankfurt.phorms.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 118,
+"fields": {
+     "name": "Freie Waldorfschule Wetterau"
+    ,"strassehsnr":"An der Birkenkaute 8"
+    ,"plz":"61231"
+    ,"stadt":" Bad Nauheim"
+    ,"telefon":"06032/34952100"
+    ,"email":"info@waldorfschule-wetterau.de"
+    ,"www":"www.waldorfschule-wetterau.de/"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 119,
+"fields": {
+     "name": "Gymnasium"
+    ,"strassehsnr":"Am Scheunenberg 1"
+    ,"plz":"16259"
+    ,"stadt":" Bad Freienwalde (Oder)"
+    ,"telefon":"03344/3806"
+    ,"email":"brecht-gymnasium.bad-freienwalde@schulen.brandenburg.de"
+    ,"www":"gymnasium-bad-freienwalde.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 120,
+"fields": {
+     "name": "Einhardschule"
+    ,"strassehsnr":"Einhardstraße 72-74"
+    ,"plz":"63500"
+    ,"stadt":" Seligenstadt"
+    ,"telefon":"06182/89540"
+    ,"email":"poststelle@gymnasium.seligenstadt.schulverwaltung.hessen.de"
+    ,"www":"einhardschule.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 121,
+"fields": {
+     "name": "Goethe-Schiller-Gymnasium"
+    ,"strassehsnr":"Schillerstraße 42/50"
+    ,"plz":"14913"
+    ,"stadt":" Jüterbog"
+    ,"telefon":"03372/432343"
+    ,"email":"goethe-schiller-gymnaisum.jueterbog@schulen.brandenburg.de"
+    ,"www":"gsgym.teltow-flaeming.de/startseite.html"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 122,
+"fields": {
+     "name": "Gymnasium Othmarschen"
+    ,"strassehsnr":"Walderseestraße 99 -"
+    ,"plz":"22605"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 889 16 10"
+    ,"email":"gymnasium-othmarschen@bsb.hamburg.de"
+    ,"www":"www.gymnasium-othmarschen.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 123,
+"fields": {
+     "name": "Hennebergisches Gymnasium"
+    ,"strassehsnr":"Klosterstraße 2-4"
+    ,"plz":"98553"
+    ,"stadt":" Schleusingen"
+    ,"telefon":"036841 534340"
+    ,"email":"sekretariat@gym-schleusingen.de"
+    ,"www":"www.gym-schleusingen.de"
+    ,"bundesland":15
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 124,
+"fields": {
+     "name": "Vicco-von-Bülow-Gymnasium"
+    ,"strassehsnr":"Heinrich-Zille-Straße 30"
+    ,"plz":"14532"
+    ,"stadt":" Stahnsdorf"
+    ,"telefon":"03329/696080"
+    ,"email":"sekretariat@vicco-von-buelow-gymnasium.de"
+    ,"www":"www.vicco-von-buelow-gymnasiu.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 125,
+"fields": {
+     "name": "Werratalschule"
+    ,"strassehsnr":"Dickesstraße 16"
+    ,"plz":"36266"
+    ,"stadt":" Heringen (Werra)"
+    ,"telefon":"06624-919273"
+    ,"email":"poststelle@gs.heringen.schulverwaltung.hessen.de"
+    ,"www":"www.werratalschule.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 126,
+"fields": {
+     "name": "Graf-Stauffenberg-Gymnasium"
+    ,"strassehsnr":"Bürgermeister-Lauck-Str. 24"
+    ,"plz":"65439"
+    ,"stadt":" Flörsheim am Main"
+    ,"telefon":"06145/92790"
+    ,"email":"poststelle@graf-stauffenberg.floersheim.schulverwaltung.hessen.de"
+    ,"www":"www.graf-stauffenberg-gymnasium.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 127,
+"fields": {
+     "name": "Campus Klarenthal"
+    ,"strassehsnr":"Am Kloster Klarenthal 7 a"
+    ,"plz":"65195"
+    ,"stadt":" Wiesbaden"
+    ,"telefon":"0611/7244240"
+    ,"email":"zentrale@campus-klarenthal.de"
+    ,"www":"campus-klarenthal.com/"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 128,
+"fields": {
+     "name": "Stadtteilschule Arheilgen"
+    ,"strassehsnr":"Grillparzerstraße 33"
+    ,"plz":"64291"
+    ,"stadt":" Darmstadt"
+    ,"telefon":"06151/132944"
+    ,"email":"sts-arheilgen@darmstadt.de"
+    ,"www":"www.sts-arheilgen.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 129,
+"fields": {
+     "name": "Oberstufenzentrum Lausitz"
+    ,"strassehsnr":"Lauchhammerstraße 33"
+    ,"plz":"1987"
+    ,"stadt":" Schwarzheide"
+    ,"telefon":"035752 949450"
+    ,"email":"oberstufenzentrum-lausitz.oberspreewald-lausitz@schulen.brandenburg.de"
+    ,"www":"www.oszlausitz.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 130,
+"fields": {
+     "name": "Anna-Schmidt-Schule"
+    ,"strassehsnr":"Gärtnerweg 29"
+    ,"plz":"60322"
+    ,"stadt":" Frankfurt am Main"
+    ,"telefon":"069/9550050"
+    ,"email":"info@anna-schmidt-schule.de"
+    ,"www":"www.anna-schmidt.schule.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 131,
+"fields": {
+     "name": "Gymnasium Hummelsbüttel"
+    ,"strassehsnr":"Hummelsbüttler Hauptstraße 107"
+    ,"plz":"22339"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 5 38 90 6-0"
+    ,"email":"Gymnasium-Hummelsbuettel@bsb.hamburg.de"
+    ,"www":"www.gymnasium-hummelsbuettel.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 132,
+"fields": {
+     "name": "Freiherr-vom-Stein-Schule"
+    ,"strassehsnr":"Adolf-Friedrich-Straße 1"
+    ,"plz":"23758"
+    ,"stadt":" Oldenburg in Holstein"
+    ,"telefon":"04361-90860"
+    ,"email":"freiherr-vom-stein-schule.oldenburg@schule.landsh.de"
+    ,"www":"www.gymnasium-oldenburg.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 133,
+"fields": {
+     "name": "Sebastian-Münster-Gymnasium"
+    ,"strassehsnr":"Friedrich-Ebert-Str. 13"
+    ,"plz":"55218"
+    ,"stadt":" Ingelheim am Rhein"
+    ,"telefon":"(06132)71650"
+    ,"email":"schulleitung@smg-ingelheim.de"
+    ,"www":"www.smg-ingelheim.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 134,
+"fields": {
+     "name": "Gymnasium Wentorf"
+    ,"strassehsnr":"Hohler Weg 16"
+    ,"plz":"21465"
+    ,"stadt":" Wentorf"
+    ,"telefon":"040-7254500"
+    ,"email":"gymnasium.wentorf@schule.landsh.de"
+    ,"www":"www.gymnasium-wentorf.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 135,
+"fields": {
+     "name": "Staatliches Berufsschulzentrum Nordhausen"
+    ,"strassehsnr":"Straße der Genossenschaften 168"
+    ,"plz":"99734"
+    ,"stadt":" Nordhausen"
+    ,"telefon":"03631/927011"
+    ,"email":"info@sbbs2-ndh.de"
+    ,"www":"www.sbbs2-ndh.de"
+    ,"bundesland":15
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 136,
+"fields": {
+     "name": "Elisabethenschule"
+    ,"strassehsnr":"Vogtstraße 35-37"
+    ,"plz":"60322"
+    ,"stadt":" Frankfurt am Main"
+    ,"telefon":"069/21235144"
+    ,"email":"poststelle@elisabethenschule.frankfurt.schulverwaltung.hessen.de"
+    ,"www":"www.elisabethenschule.net"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 137,
+"fields": {
+     "name": "Staatliches Gymnasium"
+    ,"strassehsnr":"Ammerbacher Straße 21"
+    ,"plz":"7745"
+    ,"stadt":" Jena"
+    ,"telefon":"03641 215330"
+    ,"email":"schulleitung@ea-gym.jetzweb.de"
+    ,"www":"www.eag.jena.de"
+    ,"bundesland":15
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 138,
+"fields": {
+     "name": "Werner-Heisenberg-Gymnasium"
+    ,"strassehsnr":"Engerser Landstr. 32"
+    ,"plz":"56564"
+    ,"stadt":" Neuwied"
+    ,"telefon":"(02631)39640"
+    ,"email":"whgneuwied@t-online.de"
+    ,"www":"www.whgneuwied.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 139,
+"fields": {
+     "name": "Schiller-Gymnasium"
+    ,"strassehsnr":"Fritz-Lang-Straße 15"
+    ,"plz":"14480"
+    ,"stadt":" Potsdam"
+    ,"telefon":"0331/9513661"
+    ,"email":"info@schiller.sg"
+    ,"www":"www.schiller.sg"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 140,
+"fields": {
+     "name": "Berufliches Gymnasium der HOGA Schulen Dresden"
+    ,"strassehsnr":"Bautzner Straße 130"
+    ,"plz":"1099"
+    ,"stadt":" Dresden"
+    ,"telefon":"0351 8985530"
+    ,"email":"hoga@hoga-schulen.de"
+    ,"www":"www.hoga-schulen.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 141,
+"fields": {
+     "name": "Freies Gymnasium Borsdorf (Staatlich anerkannte Ersatzschule)"
+    ,"strassehsnr":"Heinrich Heine Straße 33"
+    ,"plz":"4451"
+    ,"stadt":" Borsdorf"
+    ,"telefon":"034291 31572"
+    ,"email":"sekretariat@freies-gymnasium-borsdorf.de"
+    ,"www":"freies-gymnasium-borsdorf.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 142,
+"fields": {
+     "name": "Albert-Schweitzer-Gymnasium"
+    ,"strassehsnr":"Struckholt 27 /29"
+    ,"plz":"22337"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 59 39 16-0"
+    ,"email":"albert-schweitzer-gymnasium@bsb.hamburg.de"
+    ,"www":"www.asg-hh.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 143,
+"fields": {
+     "name": "Heinrich-Mann-Schule"
+    ,"strassehsnr":"Etruskerstraße 2"
+    ,"plz":"63128"
+    ,"stadt":" Dietzenbach"
+    ,"telefon":"06074/917680"
+    ,"email":"verwaltung@heinrich-mann-schule-dietzenbach.de"
+    ,"www":"heinrich-mann-schule.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 144,
+"fields": {
+     "name": "Eduard-Spranger-Gymnasium"
+    ,"strassehsnr":"Schneiderstr. 71"
+    ,"plz":"76829"
+    ,"stadt":" Landau in der Pfalz"
+    ,"telefon":"(06341)98700"
+    ,"email":"verwaltung@esg-landau.de"
+    ,"www":"www.esg-landau.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 145,
+"fields": {
+     "name": "Friedrich-Schiller-Gymnasium Pirna"
+    ,"strassehsnr":"Seminarstraße 3"
+    ,"plz":"1796"
+    ,"stadt":" Pirna"
+    ,"telefon":"585807"
+    ,"email":"schillergymnasium@pirna.info"
+    ,"www":"www.sn.schule.de/~schiller/"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 146,
+"fields": {
+     "name": "Heilwig-Gymnasium"
+    ,"strassehsnr":"Wilhelm-Metzger-Straße 4"
+    ,"plz":"22297"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 86-890"
+    ,"email":"Heilwig-Gymnasium@bsb.hamburg.de"
+    ,"www":"www.heilwig.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 147,
+"fields": {
+     "name": "Regionales BerufsBildungsZentrum Dithmarschen, rechtsfähige Anstalt des öffentlichen Rechts (BBZ)"
+    ,"strassehsnr":"Friedrichshöfer Straße 31"
+    ,"plz":"25704"
+    ,"stadt":" Meldorf"
+    ,"telefon":"903103"
+    ,"email":"info@bbz-dithmarschen.de"
+    ,"www":""
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 148,
+"fields": {
+     "name": "Lichtenbergschule"
+    ,"strassehsnr":"Ludwigshöhstraße 105"
+    ,"plz":"64285"
+    ,"stadt":" Darmstadt"
+    ,"telefon":"06151/132563"
+    ,"email":"poststelle@luo.darmstadt.schulverwaltung.hessen.de"
+    ,"www":""
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 149,
+"fields": {
+     "name": "Christoph-Graupner-Gymnasium Kirchberg"
+    ,"strassehsnr":"Christoph-Graupner-Straße 1"
+    ,"plz":"8107"
+    ,"stadt":" Kirchberg"
+    ,"telefon":"037602 64336"
+    ,"email":"Chr.-Graupner-Gymnasium@t-online.de"
+    ,"www":"www.graupnergym.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 150,
+"fields": {
+     "name": "Karl-Friedrich-Schinkel-Gymnasium Neuruppin"
+    ,"strassehsnr":"Käthe-Kollwitz-Straße 2"
+    ,"plz":"16816"
+    ,"stadt":" Neuruppin"
+    ,"telefon":"03391/59470"
+    ,"email":"kfsgn@t-online.de"
+    ,"www":"schinkel-gymnasium.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 151,
+"fields": {
+     "name": "Max-Steenbeck-Gymnasium"
+    ,"strassehsnr":"Universitätsstr.18"
+    ,"plz":"3046"
+    ,"stadt":" Cottbus"
+    ,"telefon":"0355/714061"
+    ,"email":"steenbeck-gymnasium.cottbus@schulen.brandenburg.de"
+    ,"www":"www.steenbeck-gymnasium.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 152,
+"fields": {
+     "name": "Freie Waldorfschule Frankfurt"
+    ,"strassehsnr":"Friedlebenstraße 52"
+    ,"plz":"60433"
+    ,"stadt":" Frankfurt am Main"
+    ,"telefon":"069/953060"
+    ,"email":"mail@waldorfschule-frankfurt.de"
+    ,"www":"www.waldorfschule-frankfurt.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 153,
+"fields": {
+     "name": "Leibnizschule Gymnasium der Stadt Leipzig"
+    ,"strassehsnr":"Nordplatz 13"
+    ,"plz":"4105"
+    ,"stadt":" Leipzig"
+    ,"telefon":"0341/58619924"
+    ,"email":"leibniz.gym@t-online.de"
+    ,"www":"www.leibniz-gymnasium-leipzig.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 154,
+"fields": {
+     "name": "Reuterstädter Gesamtschule - Europaschule-"
+    ,"strassehsnr":"Straße am Wasserturm 1"
+    ,"plz":"17153"
+    ,"stadt":" Stavenhagen"
+    ,"telefon":"039954/22043"
+    ,"email":"reuterstaedter.gesamtschule@t-online.de"
+    ,"www":"www.kgs-stavenhagen.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 155,
+"fields": {
+     "name": "Hochwaldgymnasium"
+    ,"strassehsnr":"Am Kaisergarten 1"
+    ,"plz":"66687"
+    ,"stadt":" Wadern"
+    ,"telefon":"06871-90260"
+    ,"email":"hwg@hwg-wadern.de"
+    ,"www":"www.hwg-wadern.de"
+    ,"bundesland":11
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 156,
+"fields": {
+     "name": "Gymnasium Mainz-Oberstadt"
+    ,"strassehsnr":"Hechtsheimer Str. 29"
+    ,"plz":"55131"
+    ,"stadt":" Mainz"
+    ,"telefon":"06131 629740"
+    ,"email":"info@gymnasium-oberstadt.de"
+    ,"www":"www.gymnasium-oberstadt.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 157,
+"fields": {
+     "name": "Ostsee-Gymnasium"
+    ,"strassehsnr":"Am Kuhlbrook"
+    ,"plz":"23669"
+    ,"stadt":" Timmendorfer Strand"
+    ,"telefon":"04503-31247"
+    ,"email":"Ostsee-Gymnasium.Timmendorfer-Strand@schule.landsh.de"
+    ,"www":"www.ostsee-gymnasium.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 158,
+"fields": {
+     "name": "Städtisches Gymnasium Mittweida"
+    ,"strassehsnr":"Am Schwanenteich 16"
+    ,"plz":"9648"
+    ,"stadt":" Mittweida"
+    ,"telefon":"2776"
+    ,"email":"gym.mw@web.de"
+    ,"www":"www.gymnasium-mittweida.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 159,
+"fields": {
+     "name": "Musikalisch-Sportliches Gymnasium (Staatlich genehmigte Ersatzschule)"
+    ,"strassehsnr":"Salomonstraße 10"
+    ,"plz":"4103"
+    ,"stadt":" Leipzig"
+    ,"telefon":"3939311"
+    ,"email":"gymnasium-lpz@rahn-schulen.de"
+    ,"www":"www.rahndittrich.de/gymnasium-lpz"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 160,
+"fields": {
+     "name": "Hermann-Tast-Schule"
+    ,"strassehsnr":"Am Bahndamm 1"
+    ,"plz":"25813"
+    ,"stadt":" Husum"
+    ,"telefon":"04841-82111"
+    ,"email":"hermann-tast-schule.husum@schule.landsh.de"
+    ,"www":"www.hermann-tast-schule.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 161,
+"fields": {
+     "name": "Städtisches Gymnasium I Frankfurt (Oder) Europaschule Karl-Liebknecht"
+    ,"strassehsnr":"Wieckestraße 1 b"
+    ,"plz":"15230"
+    ,"stadt":" Frankfurt (Oder)"
+    ,"telefon":"0335/549972"
+    ,"email":"liebknecht-gymnasium.frankfurt@schulen.brandenburg.de"
+    ,"www":"liebknecht-gymnasium.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 162,
+"fields": {
+     "name": "Gymnasium"
+    ,"strassehsnr":"Agnes-Karll-Straße 20"
+    ,"plz":"19205"
+    ,"stadt":" Gadebusch"
+    ,"telefon":"03886/35149"
+    ,"email":"verwaltung@gymnasiumgadebusch.de"
+    ,"www":"www.gymnasiumgadebusch.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 163,
+"fields": {
+     "name": "Priv. Martin-Butzer-Gymnasium"
+    ,"strassehsnr":"Gymnasialstr. 15"
+    ,"plz":"56269"
+    ,"stadt":" Dierdorf"
+    ,"telefon":"(02689)2970"
+    ,"email":"martinbutzergym@martin-butzer-gymnasium.de"
+    ,"www":"www.martin-butzer-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 164,
+"fields": {
+     "name": "Evangelisches Zinzendorf-Gymnasium Herrnhut der Schulstiftung der Evangelischen Brüder-Unität Herrnhut (Staatlich anerkannte Ersatzschule)"
+    ,"strassehsnr":"Zittauer Straße 2"
+    ,"plz":"2747"
+    ,"stadt":" Herrnhut"
+    ,"telefon":"035873 4810"
+    ,"email":"kontakt@ezgh.de"
+    ,"www":"www.ezgh.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 165,
+"fields": {
+     "name": "Rheingauschule"
+    ,"strassehsnr":"Dr.-Schramm-Straße 1"
+    ,"plz":"65366"
+    ,"stadt":" Geisenheim"
+    ,"telefon":"06722/99010"
+    ,"email":"poststelle@rgs.geisenheim.schulverwaltung.hessen.de"
+    ,"www":"rheingauschule.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 166,
+"fields": {
+     "name": "Gutenberg-Gymnasium"
+    ,"strassehsnr":"An der Philippsschanze 5"
+    ,"plz":"55131"
+    ,"stadt":" Mainz"
+    ,"telefon":"(06131) 9061550"
+    ,"email":"mail@gutenberg-gymnasium.de"
+    ,"www":"www.gutenberg-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 167,
+"fields": {
+     "name": "Eric-Kandel-Gymnasium"
+    ,"strassehsnr":"Reesenbüttler Redder 4-10"
+    ,"plz":"22926"
+    ,"stadt":" Ahrensburg"
+    ,"telefon":"04102-478430"
+    ,"email":"Gymnasium-am-Heimgarten.Ahrensburg@schule.landsh.de"
+    ,"www":"www.ekg-Ahrensburg.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 168,
+"fields": {
+     "name": "Berufliches Schulzentrum"
+    ,"strassehsnr":"Otto-Dix-Straße 2"
+    ,"plz":"1705"
+    ,"stadt":" Freital"
+    ,"telefon":"0351 649630"
+    ,"email":"kontakt@bsz-freital-dippoldiswalde.de"
+    ,"www":"www.bsz-freital-dippoldiswalde.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 169,
+"fields": {
+     "name": "Kopernikus Gymnasium Bargteheide"
+    ,"strassehsnr":"Am Schulzentrum 1"
+    ,"plz":"22941"
+    ,"stadt":" Bargteheide"
+    ,"telefon":"04532-97620"
+    ,"email":"Kopernikus-Gymnasium.Bargteheide@schule.landsh.de"
+    ,"www":"www.kopernikus.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 170,
+"fields": {
+     "name": "Oberschule zum Dom Gymnasium und Abendgym. der Hansestadt Lübeck"
+    ,"strassehsnr":"Domkirchhof 1-3"
+    ,"plz":"23552"
+    ,"stadt":" Lübeck"
+    ,"telefon":"0451-1228551"
+    ,"email":"Oberschule-zum-Dom.Luebeck@schule.landsh.de"
+    ,"www":"www.ozd-luebeck.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 171,
+"fields": {
+     "name": "Gemeinschaftsschule Nortorf"
+    ,"strassehsnr":"Marienburger Straße 47-49"
+    ,"plz":"24589"
+    ,"stadt":" Nortorf"
+    ,"telefon":"04392-402690"
+    ,"email":"gemeinschaftsschule.nortorf@schule.landsh.de"
+    ,"www":"www.gemeinschaftsschule-nortorf.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 172,
+"fields": {
+     "name": "Gustav-Hertz-Schule Gymnasium der Stadt Leipzig"
+    ,"strassehsnr":"Dachsstraße 5"
+    ,"plz":"4329"
+    ,"stadt":" Leipzig"
+    ,"telefon":"2502510"
+    ,"email":"GHGSekretariat@gmx.de"
+    ,"www":"www.gustav-hertz-gymnasium.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 173,
+"fields": {
+     "name": "Innerstädtisches Gymnasium"
+    ,"strassehsnr":"Goetheplatz 5/6"
+    ,"plz":"18055"
+    ,"stadt":" Rostock"
+    ,"telefon":"0381/38141010"
+    ,"email":"sekretariat1.isg@rostock.de"
+    ,"www":"www.isg-rostock.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 174,
+"fields": {
+     "name": "Altes Kurfürstliches Gymnasium"
+    ,"strassehsnr":"Wilhelmstraße 64"
+    ,"plz":"64625"
+    ,"stadt":" Bensheim"
+    ,"telefon":"06251/84320"
+    ,"email":"poststelle@akg.bensheim.schulverwaltung.hessen.de"
+    ,"www":"akg-bensheim.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 175,
+"fields": {
+     "name": "Philipp-Melanchthon-Gymnasium Humanistisches Privatgymnasium anerkannte Ersatzschule"
+    ,"strassehsnr":"An der Löcknitz 10"
+    ,"plz":"15537"
+    ,"stadt":" Grünheide (Mark)"
+    ,"telefon":"03362/299583"
+    ,"email":"gruenheide@docemus.de"
+    ,"www":"www.docemus.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 176,
+"fields": {
+     "name": "Werner-Heisenberg-Schule Gymnasium der Stadt Leipzig"
+    ,"strassehsnr":"Renftstraße 3"
+    ,"plz":"4159"
+    ,"stadt":" Leipzig"
+    ,"telefon":"9098770"
+    ,"email":"gyheis@web.de"
+    ,"www":"www.whs-leipzig.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 177,
+"fields": {
+     "name": "Gymnasium"
+    ,"strassehsnr":"Rathenaustraße 43"
+    ,"plz":"16761"
+    ,"stadt":" Hennigsdorf"
+    ,"telefon":"03302/549940"
+    ,"email":"puschkin-gymnasium.hennigsdorf@schulen.brandenburg.de"
+    ,"www":"www.puschkin-gymnasium.de"
+    ,"bundesland":3
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 178,
+"fields": {
+     "name": "Albert-Schweitzer-Schule"
+    ,"strassehsnr":"Magazinstraße 21"
+    ,"plz":"34369"
+    ,"stadt":" Hofgeismar"
+    ,"telefon":"05671/99240"
+    ,"email":"poststelle@oberstufengymnasium.hofgeismar.schulverwaltung.hessen.de"
+    ,"www":"ass-hofgeismar.eu"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 179,
+"fields": {
+     "name": "Marie-Curie-Gymnasium Dresden"
+    ,"strassehsnr":"Zirkusstraße 7"
+    ,"plz":"1069"
+    ,"stadt":" Dresden"
+    ,"telefon":"44008890"
+    ,"email":"sekretariat@mcg-dresden.de"
+    ,"www":"www.mcg-dresden.de"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 180,
+"fields": {
+     "name": "Gymnasium Brandis"
+    ,"strassehsnr":"Schulstraße 3"
+    ,"plz":"4821"
+    ,"stadt":" Brandis"
+    ,"telefon":"034292/70810"
+    ,"email":"sekretariat@gymnasium-brandis.de"
+    ,"www":"www.gymnasium-brandis.de/"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 181,
+"fields": {
+     "name": "Freies Gymnasium Regenbogen Augustusburg"
+    ,"strassehsnr":"Marienberger Straße 29"
+    ,"plz":"9573"
+    ,"stadt":" Augustusburg"
+    ,"telefon":"037291 20298"
+    ,"email":"augustusburg.gymnasium@regenbogen-schulen.com"
+    ,"www":"www.regenbogen-schulen.com"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 182,
+"fields": {
+     "name": "Engelsburg-Gymnasium Kassel"
+    ,"strassehsnr":"Richardweg 3"
+    ,"plz":"34117"
+    ,"stadt":" Kassel"
+    ,"telefon":"0561/789670"
+    ,"email":"sekretariat@engelsburg.de"
+    ,"www":"engelsburg.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 183,
+"fields": {
+     "name": "Coppernicus-Gymnasium Europaschule"
+    ,"strassehsnr":"Coppernicusstraße 1"
+    ,"plz":"22850"
+    ,"stadt":" Norderstedt"
+    ,"telefon":"040-528 739 0"
+    ,"email":"coppernicus-gymnasium.norderstedt@schule.landsh.de"
+    ,"www":"coppernicus.de"
+    ,"bundesland":14
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 184,
+"fields": {
+     "name": "Humboldt-Schule"
+    ,"strassehsnr":"Mosbacher Straße 36"
+    ,"plz":"65187"
+    ,"stadt":" Wiesbaden"
+    ,"telefon":"0611/843063"
+    ,"email":"poststelle@humboldt.wiesbaden.schulverwaltung.hessen.de"
+    ,"www":"www.humboldt-schule.de"
+    ,"bundesland":6
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 185,
+"fields": {
+     "name": "Grund- und Stadtteilschule Maretstraße"
+    ,"strassehsnr":"Maretstraße 50"
+    ,"plz":"21073"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 97-502"
+    ,"email":"schule-maretstrasse@bsb.hamburg.de"
+    ,"www":"www.maretstrasse.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 186,
+"fields": {
+     "name": "Ulf-Merbold-Gymnasium Staatliches Gymnasium Greiz"
+    ,"strassehsnr":"Heinrich-Fritz-Straße 19"
+    ,"plz":"7973"
+    ,"stadt":" Greiz"
+    ,"telefon":"03661 430069"
+    ,"email":"info@ulf-merbold-gymnasium.de"
+    ,"www":"www.ulf-merbold-gymnasium.de"
+    ,"bundesland":15
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 187,
+"fields": {
+     "name": "Lößnitzgymnasium Radebeul"
+    ,"strassehsnr":"Steinbachstraße 21"
+    ,"plz":"1445"
+    ,"stadt":" Radebeul"
+    ,"telefon":"8305203"
+    ,"email":"sek-gymloe@schulen.sv.radebeul.de"
+    ,"www":"www.loessnitzgymnasium-radebeul.de/"
+    ,"bundesland":12
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 188,
+"fields": {
+     "name": "Kooperative Gesamtschule"
+    ,"strassehsnr":"Südring 11"
+    ,"plz":"76863"
+    ,"stadt":" Herxheim bei Landau/ Pfalz"
+    ,"telefon":"(07276)9710"
+    ,"email":"realschule@pamina-schulzentrum.de"
+    ,"www":"www.pamina-schulzentrum.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 189,
+"fields": {
+     "name": "CJD Jugendorf-Christophorus-Schule Rostock, Gymnasium mit Grundschule und schulartunabhängiger Orientierungsstufe in freier Trägerschaft"
+    ,"strassehsnr":"Groß Schwaßer Weg 11"
+    ,"plz":"18057"
+    ,"stadt":" Rostock"
+    ,"telefon":"0381/80710"
+    ,"email":"cjd.rostock@cjd.de"
+    ,"www":"www.cjd-rostock.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 190,
+"fields": {
+     "name": "Leininger-Gymnasium"
+    ,"strassehsnr":"Kreuzerweg 4"
+    ,"plz":"67269"
+    ,"stadt":" Grünstadt"
+    ,"telefon":"(06359)93210"
+    ,"email":"lein-gym@lg.bildung-rp.de"
+    ,"www":"lg.bildung-rp.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 1429,
+"fields": {
+     "name": "Pädagogium Baden-Baden"
+    ,"strassehsnr":"Burgstraße 2"
+    ,"plz":"76530"
+    ,"stadt":" Baden-Baden"
+    ,"telefon":"07221/3559-0"
+    ,"email":""
+    ,"www":""
+    ,"bundesland":1
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 192,
+"fields": {
+     "name": "Ostseegymnasium Greifswald,Gymnasium und Grundschule mit schulartunabhängiger Orientierungsstufe in freier Trägerschaft"
+    ,"strassehsnr":"Pappelallee 1"
+    ,"plz":"17489"
+    ,"stadt":" Greifswald"
+    ,"telefon":"03834/872450"
+    ,"email":"BFG-gGmbH@t-online.de"
+    ,"www":"www.privatgymnasium-greifswald.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 193,
+"fields": {
+     "name": "Freie Schule Zinnowitz, Integrierte Gesamtschule in freier Trägerschaft"
+    ,"strassehsnr":"Dannweg 15"
+    ,"plz":"17454"
+    ,"stadt":" Zinnowitz"
+    ,"telefon":"038377/42164"
+    ,"email":"IGS_zinnowitz@freenet.de"
+    ,"www":"www.freie-schule-zinnowitz.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 194,
+"fields": {
+     "name": "Greenhouse School Graal-Müritz, Integrierte Gesamtschule in freier Trägerschaft"
+    ,"strassehsnr":"Ostseering 24"
+    ,"plz":"18181"
+    ,"stadt":" Graal-Müritz"
+    ,"telefon":"038206/77866"
+    ,"email":"info@greenhouse-school.de"
+    ,"www":"www.greenhouse-school.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 195,
+"fields": {
+     "name": "Neumühler SchuleGymnasium und Regionale Schule mitGrundschule in freier Trägerschaft"
+    ,"strassehsnr":"Am Treppenberg 44"
+    ,"plz":"19057"
+    ,"stadt":" Schwerin"
+    ,"telefon":"0385/7589370"
+    ,"email":"sekretariat@neumuehler-schule.de"
+    ,"www":"www.neumühler-schule.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 196,
+"fields": {
+     "name": "Gymnasium \"Alexander von Humboldt\" Greifswald"
+    ,"strassehsnr":"Makarenkostraße 54"
+    ,"plz":"17491"
+    ,"stadt":" Greifswald"
+    ,"telefon":"03834/80560"
+    ,"email":"humboldt_sekretariat@hotmail.com"
+    ,"www":"www.humboldt-greifswald.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 197,
+"fields": {
+     "name": "Gymnasium \"Friedrich Ludwig Jahn\" Greifswald"
+    ,"strassehsnr":"Dietrich-Bonhoeffer-Platz 1"
+    ,"plz":"17489"
+    ,"stadt":" Greifswald"
+    ,"telefon":"03834/7920"
+    ,"email":"jahn-gym-hgw@arcor.de"
+    ,"www":"www.jahngymnasium.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 198,
+"fields": {
+     "name": "Gymnasium Grimmen"
+    ,"strassehsnr":"Anemonenweg 2"
+    ,"plz":"18507"
+    ,"stadt":" Grimmen"
+    ,"telefon":"038326/6710"
+    ,"email":"gymgrimmen@freenet.de"
+    ,"www":"www.gymnasiumgrimmen.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 199,
+"fields": {
+     "name": "Gymnasium \"Richard Wossidlo\" Ribnitz-Damgarten"
+    ,"strassehsnr":"Schulstraße 15"
+    ,"plz":"18311"
+    ,"stadt":" Ribnitz-Damgarten"
+    ,"telefon":"03821/708911"
+    ,"email":"Richard-Wossidlo-Gymnasium@t-online.de"
+    ,"www":"www.wossidlogymnasium.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 200,
+"fields": {
+     "name": "\"Lilienthal-Gymnasium\" Anklam"
+    ,"strassehsnr":"Leipziger Allee 22-25"
+    ,"plz":"17389"
+    ,"stadt":" Anklam"
+    ,"telefon":"03971/243187"
+    ,"email":"Lilienthal-Gymnasium-Anklam@t-online.de"
+    ,"www":""
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 201,
+"fields": {
+     "name": "Runge-Gymnasium Wolgast"
+    ,"strassehsnr":"Schulstraße 1"
+    ,"plz":"17438"
+    ,"stadt":" Wolgast"
+    ,"telefon":"03836/2363200"
+    ,"email":"Sekretariat@Runge-Gymnasium-Wolgast.de"
+    ,"www":"www.runge-gymnasium-wolgast.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 202,
+"fields": {
+     "name": "Gymnasium \"Ernst Moritz Arndt\" Bergen"
+    ,"strassehsnr":"Arndtstraße 7"
+    ,"plz":"18528"
+    ,"stadt":" Bergen auf Rügen"
+    ,"telefon":"03838/3150280"
+    ,"email":"info@gymnasium-bergen.de"
+    ,"www":"www.emagym-bergen.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 203,
+"fields": {
+     "name": "Goethe-Gymnasium, Musikgymnasium"
+    ,"strassehsnr":"An der Mühle 7"
+    ,"plz":"17109"
+    ,"stadt":" Demmin"
+    ,"telefon":"03998/222067"
+    ,"email":"Musikgymnasium.Demmin@web.de"
+    ,"www":"www.musikgymnasium-demmin.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 204,
+"fields": {
+     "name": "Gymnasium Carolinum"
+    ,"strassehsnr":"Louisenstraße 30"
+    ,"plz":"17235"
+    ,"stadt":" Neustrelitz"
+    ,"telefon":"03981/286710"
+    ,"email":"info@carolinum.de"
+    ,"www":"www.carolinum.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 205,
+"fields": {
+     "name": "Joliot-Curie-Gymnasium"
+    ,"strassehsnr":"Schulstraße 20"
+    ,"plz":"17207"
+    ,"stadt":" Röbel/Müritz"
+    ,"telefon":"039931/59185"
+    ,"email":"jcg-roebel@t-online.de"
+    ,"www":"www.jc-gymnasium-roebel.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 206,
+"fields": {
+     "name": "Richard-Wossidlo-Gymnasium"
+    ,"strassehsnr":"Güstrower Straße 11"
+    ,"plz":"17192"
+    ,"stadt":" Waren/Müritz"
+    ,"telefon":"03991/74770"
+    ,"email":"mail@wossidlo-gymnasium-waren.de"
+    ,"www":"www.richard-wossidlo-gymnasium-waren.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 207,
+"fields": {
+     "name": "Sportgymnasium"
+    ,"strassehsnr":"Schwedenstraße 22"
+    ,"plz":"17033"
+    ,"stadt":" Neubrandenburg"
+    ,"telefon":"0395 – 59999 1800"
+    ,"email":"w.schneider@spnb.de"
+    ,"www":"www.sgnb.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 208,
+"fields": {
+     "name": "Deutsch-Polnisches Gymnasium"
+    ,"strassehsnr":"F.-Engels-Straße 5-6"
+    ,"plz":"17321"
+    ,"stadt":" Löcknitz"
+    ,"telefon":"039754/21179"
+    ,"email":"info@dpg-loecknitz.de"
+    ,"www":"www.dpg-loecknitz.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 209,
+"fields": {
+     "name": "Gymnasium \"Oskar Picht\""
+    ,"strassehsnr":"Grünstraße 63"
+    ,"plz":"17309"
+    ,"stadt":" Pasewalk"
+    ,"telefon":"03973/210203"
+    ,"email":"stange@gymnasium-pasewalk.de"
+    ,"www":"www.gymnasium-pasewalk.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 210,
+"fields": {
+     "name": "Greifen-Gymnasium"
+    ,"strassehsnr":"Apfelallee 2"
+    ,"plz":"17373"
+    ,"stadt":" Ueckermünde"
+    ,"telefon":"039771/22596"
+    ,"email":"sekretariat@gymnasium-ueckermuende.de"
+    ,"www":"www.gymnasium-ueckermuende.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 211,
+"fields": {
+     "name": "Gymnasium Sanitz"
+    ,"strassehsnr":"Groß Lüsewitzer Weg 4"
+    ,"plz":"18190"
+    ,"stadt":" Sanitz"
+    ,"telefon":"038209/80492"
+    ,"email":"post@gymnasium-sanitz.de"
+    ,"www":"www.gymnasium-sanitz.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 212,
+"fields": {
+     "name": "Friderico-Francisceum-Gymnasium"
+    ,"strassehsnr":"Alexandrinenplatz 11"
+    ,"plz":"18209"
+    ,"stadt":" Bad Doberan"
+    ,"telefon":"038203/62395"
+    ,"email":"sekretariat@ffg-dbr.de"
+    ,"www":"www.ffg-dbr.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 213,
+"fields": {
+     "name": "Geschwister-Scholl-Gymnasium"
+    ,"strassehsnr":"Dr.-Winckler-Straße"
+    ,"plz":"18246"
+    ,"stadt":" Bützow"
+    ,"telefon":"038461/4301"
+    ,"email":"Gymn_Buetzow@yahoo.de"
+    ,"www":"www.gymnasiumbuetzow.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 214,
+"fields": {
+     "name": "Gymnasium \"John Brinckman\""
+    ,"strassehsnr":"Am Wall 6"
+    ,"plz":"18273"
+    ,"stadt":" Güstrow"
+    ,"telefon":"03843/686693"
+    ,"email":"SLJBG@gmx.de"
+    ,"www":"www.brinckman.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 215,
+"fields": {
+     "name": "Gymnasium Teterow"
+    ,"strassehsnr":"Constantin-Kirchhoff-Straße 6"
+    ,"plz":"17166"
+    ,"stadt":" Teterow"
+    ,"telefon":"03996/120683"
+    ,"email":"gyte-sl@gmx.de"
+    ,"www":"www.gymnasiumteterow.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 216,
+"fields": {
+     "name": "Erasmus-Gymnasium"
+    ,"strassehsnr":"Kopenhagener Straße 3"
+    ,"plz":"18107"
+    ,"stadt":" Rostock"
+    ,"telefon":"0381/7998821"
+    ,"email":"leitung@erasmus-gymnasium-rostock.de"
+    ,"www":"www.erasmus-ganztagsgymnasium.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 217,
+"fields": {
+     "name": "Gymnasium Reutershagen"
+    ,"strassehsnr":"Bonhoefferstraße 16"
+    ,"plz":"18069"
+    ,"stadt":" Rostock"
+    ,"telefon":"0381/82060"
+    ,"email":"sekretariat@gymnasium-reutershagen.de"
+    ,"www":"www.gymnasium-reutershagen.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 218,
+"fields": {
+     "name": "Große Stadtschule Geschwister-Scholl-Gymnasium"
+    ,"strassehsnr":"Schulstraße 9/11"
+    ,"plz":"23966"
+    ,"stadt":" Wismar"
+    ,"telefon":"03841/282732"
+    ,"email":"stadtschule@wismar.de"
+    ,"www":"www.scholl-wismar.com"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 219,
+"fields": {
+     "name": "Gerhart-Hauptmann-Gymnasium"
+    ,"strassehsnr":"Dahlmannstraße 40"
+    ,"plz":"23966"
+    ,"stadt":" Wismar"
+    ,"telefon":"03841/283358"
+    ,"email":"ghg@wismar.de"
+    ,"www":"www.ghg-wismar.com"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 220,
+"fields": {
+     "name": "Gymnasium \"Elbegymnasium\""
+    ,"strassehsnr":"Ludwig-Reinhard-Straße 21"
+    ,"plz":"19258"
+    ,"stadt":" Boizenburg/Elbe"
+    ,"telefon":"038847/8110"
+    ,"email":"kontakt@elbe-gymnasium.de"
+    ,"www":"www.elbe-gymnasium.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 221,
+"fields": {
+     "name": "Robert-Stock-Gymnasium"
+    ,"strassehsnr":"Möllner Straße 14"
+    ,"plz":"19230"
+    ,"stadt":" Hagenow"
+    ,"telefon":"03883/66105"
+    ,"email":"info@rsg-hgn.de"
+    ,"www":"www.gymnasium-hagenow.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 222,
+"fields": {
+     "name": "Goethe-Gymnasium"
+    ,"strassehsnr":"Christian-Ludwig-Straße 3"
+    ,"plz":"19288"
+    ,"stadt":" Ludwigslust"
+    ,"telefon":"03874/42800"
+    ,"email":"Goethe@gymnasium-ludwigslust.de"
+    ,"www":"www.gymnasium-ludwigslust.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 223,
+"fields": {
+     "name": "Gymnasium am Tannenberg"
+    ,"strassehsnr":"Rehnaer Straße 51"
+    ,"plz":"23936"
+    ,"stadt":" Grevesmühlen"
+    ,"telefon":"03881/78820"
+    ,"email":"office@gymnasium-am-tannenberg.de"
+    ,"www":"www.gymnasium-am-tannenberg.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 224,
+"fields": {
+     "name": "Gymnasium Am Sonnenkamp"
+    ,"strassehsnr":"August-Bebel-Allee 9"
+    ,"plz":"23992"
+    ,"stadt":" Neukloster"
+    ,"telefon":"038422/25349"
+    ,"email":"sekretariat@gymnasium-neukloster.de"
+    ,"www":"www.gymnasium-neukloster.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 225,
+"fields": {
+     "name": "Ernst-Barlach-Gymnasium"
+    ,"strassehsnr":"Goetheplatz 5"
+    ,"plz":"23923"
+    ,"stadt":" Schönberg"
+    ,"telefon":"038828/24433"
+    ,"email":"sekretariat@ebg-schoenberg.com"
+    ,"www":"www.ebg-schoenberg.com"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 226,
+"fields": {
+     "name": "Gymnasium Am Sonnenberg"
+    ,"strassehsnr":"Am Sonnenberg 1"
+    ,"plz":"19089"
+    ,"stadt":" Crivitz"
+    ,"telefon":"03863/54240"
+    ,"email":"sekretariat@gymcrivitz.de"
+    ,"www":"www.gymcrivitz.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 227,
+"fields": {
+     "name": "Gymnasium \"Eldenburg\""
+    ,"strassehsnr":"Blücher Straße 22a"
+    ,"plz":"19386"
+    ,"stadt":" Lübz"
+    ,"telefon":"038731/22686"
+    ,"email":"schulleitung@gymlbz.de"
+    ,"www":"www.eldenburg-gymnasium.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 228,
+"fields": {
+     "name": "Friedrich-Franz-Gymnasium"
+    ,"strassehsnr":"Ziegendorfer Chaussee 71/74"
+    ,"plz":"19370"
+    ,"stadt":" Parchim"
+    ,"telefon":"03871/441010"
+    ,"email":"Sekretariat@gymnasium-parchim.de"
+    ,"www":"www.gymnasium-parchim.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 229,
+"fields": {
+     "name": "Gymnasium Fridericianum"
+    ,"strassehsnr":"Goethestraße 74"
+    ,"plz":"19053"
+    ,"stadt":" Schwerin"
+    ,"telefon":"0385/302130"
+    ,"email":"Gymnasium.Fridericianum@t-online.de"
+    ,"www":"www.fridericianum.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 230,
+"fields": {
+     "name": "Goethe-Gymnasium"
+    ,"strassehsnr":"J.-R.-Becher-Straße 10"
+    ,"plz":"19059"
+    ,"stadt":" Schwerin"
+    ,"telefon":"0385/7582050"
+    ,"email":"schulleitung@goethegymnasium-schwerin.de"
+    ,"www":"www.goethegymnasium-schwerin.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 231,
+"fields": {
+     "name": "Sportgymnasium"
+    ,"strassehsnr":"Von-Flotow-Straße 20"
+    ,"plz":"19059"
+    ,"stadt":" Schwerin"
+    ,"telefon":"0385/760580"
+    ,"email":"Sportgym.sn@t-online.de"
+    ,"www":"www.sportgymnasium-schwerin.de"
+    ,"bundesland":7
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 232,
+"fields": {
+     "name": "Abendschule Vor dem Holstentor"
+    ,"strassehsnr":"Holstenglacis 6 -"
+    ,"plz":"20355"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 98-601"
+    ,"email":"info@as-holstentor.de"
+    ,"www":"www.as-holstentor.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 233,
+"fields": {
+     "name": "Albrecht-Thaer-Gymnasium"
+    ,"strassehsnr":"Wegenkamp 3"
+    ,"plz":"22527"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 547 30 61 1"
+    ,"email":"albrecht-thaer-gymnasium@bsb.hamburg.de"
+    ,"www":"www.hh.schule.de/ath"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 234,
+"fields": {
+     "name": "Alexander-von-Humboldt-Gymnasium"
+    ,"strassehsnr":"Rönneburger Straße 50 -"
+    ,"plz":"21079"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 645 39 10"
+    ,"email":"alexander-von-humboldt-gymnasium@bsb.hamburg.de"
+    ,"www":"www.avh.hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 235,
+"fields": {
+     "name": "Charlotte-Paulsen-Gymnasium"
+    ,"strassehsnr":"Neumann-Reichardt-Straße 20"
+    ,"plz":"22041"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 82-012"
+    ,"email":"Charlotte-Paulsen-Gymnasium@bsb.hamburg.de"
+    ,"www":"www.cpg-hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 236,
+"fields": {
+     "name": "Emilie-Wüstenfeld-Gymnasium"
+    ,"strassehsnr":"Bundesstraße 78"
+    ,"plz":"20144"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 88 05 0"
+    ,"email":"emilie-wuestenfeld-gymnasium@bsb.hamburg.de"
+    ,"www":"www.ewg-hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 237,
+"fields": {
+     "name": "Friedrich-Ebert-Gymnasium"
+    ,"strassehsnr":"Alter Postweg 30 /38"
+    ,"plz":"21075"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 71 20 48"
+    ,"email":"info@ebert-gymnasium.de"
+    ,"www":"www.ebert-gymnasium.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 238,
+"fields": {
+     "name": "Gelehrtenschule des Johanneums"
+    ,"strassehsnr":"Maria-Louisen-Straße 114 -"
+    ,"plz":"22301"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 82 70"
+    ,"email":"Gelehrtenschule-des-Johanneums@bsb.hamburg.de"
+    ,"www":"www.johanneum-hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 239,
+"fields": {
+     "name": "Goethe-Gymnasium"
+    ,"strassehsnr":"Rispenweg 28"
+    ,"plz":"22547"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 609 02 60"
+    ,"email":"goethe-gymnasium@bsb.hamburg.de"
+    ,"www":"www.goethe-hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 240,
+"fields": {
+     "name": "Gymnasium Allee"
+    ,"strassehsnr":"Max-Brauer-Allee 83 -85"
+    ,"plz":"22765"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 88 06 0"
+    ,"email":"gymnasium-allee@bsb.hamburg.de"
+    ,"www":"www.gymnasium-allee.de/"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 241,
+"fields": {
+     "name": "Gymnasium Allermöhe"
+    ,"strassehsnr":"Walter-Rothenburg-Weg 41"
+    ,"plz":"21035"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 7 35 93-20"
+    ,"email":"Gymnasium-Allermoehe@bsb.hamburg.de"
+    ,"www":"www.gymnasium-allermoehe.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 242,
+"fields": {
+     "name": "Gymnasium Alstertal"
+    ,"strassehsnr":"Erdkampsweg 89 -"
+    ,"plz":"22335"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 95 50"
+    ,"email":"gymnasium-alstertal@bsb.hamburg.de"
+    ,"www":"www.gymnasium-alstertal.hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 243,
+"fields": {
+     "name": "Gymnasium Blankenese"
+    ,"strassehsnr":"Oesterleystraße 27 -"
+    ,"plz":"22587"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 97 10"
+    ,"email":"gymnasium-blankenese@bsb.hamburg.de"
+    ,"www":"www.gymnasium-blankenese.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 244,
+"fields": {
+     "name": "Gymnasium Bondenwald"
+    ,"strassehsnr":"Bondenwald 14 b"
+    ,"plz":"22453"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 88-250"
+    ,"email":"Gymnasium-Bondenwald@bsb.hamburg.de"
+    ,"www":"www.hh.schule.de/gybond"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 245,
+"fields": {
+     "name": "Gymnasium Bornbrook"
+    ,"strassehsnr":"Schulenburgring 4 -"
+    ,"plz":"21031"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 95 40"
+    ,"email":"gymnasium-bornbrook@bsb.hamburg.de"
+    ,"www":"www.gymnasium-bornbrook.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 246,
+"fields": {
+     "name": "Gymnasium Buckhorn"
+    ,"strassehsnr":"Im Regestall 25"
+    ,"plz":"22359"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 609 195-0"
+    ,"email":"Gymnasium-Buckhorn@bsb.hamburg.de"
+    ,"www":"www.buckhorn.de/"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 247,
+"fields": {
+     "name": "Gymnasium Corveystraße"
+    ,"strassehsnr":"Corveystraße 6 -"
+    ,"plz":"22529"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 86 79 0"
+    ,"email":"gymnasium-corveystrasse@bsb.hamburg.de"
+    ,"www":"www.corvey.hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 248,
+"fields": {
+     "name": "Gymnasium Dörpsweg"
+    ,"strassehsnr":"Dörpsweg 10"
+    ,"plz":"22527"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 571 94  20"
+    ,"email":"gymnasium-doerpsweg@bsb.hamburg.de"
+    ,"www":"www.doerpsweg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 249,
+"fields": {
+     "name": "Gymnasium Eppendorf"
+    ,"strassehsnr":"Hegestraße 35"
+    ,"plz":"20249"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 97-211"
+    ,"email":"Gymnasium-Eppendorf@bsb.hamburg.de"
+    ,"www":"www.gymnasium-eppendorf.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 250,
+"fields": {
+     "name": "Gymnasium Farmsen"
+    ,"strassehsnr":"Swebenhöhe 50"
+    ,"plz":"22159"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 645 03 73"
+    ,"email":"gymnasium-farmsen@bsb.hamburg.de"
+    ,"www":"www.gymnasium-farmsen.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 251,
+"fields": {
+     "name": "Gymnasium Finkenwerder"
+    ,"strassehsnr":"Norderschulweg 18 -"
+    ,"plz":"21129"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 859 03"
+    ,"email":"gymnasium-finkenwerder@bsb.hamburg.de"
+    ,"www":"www.gymfi.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 252,
+"fields": {
+     "name": "Gymnasium Hamm"
+    ,"strassehsnr":"Ebelingplatz 8 -"
+    ,"plz":"20537"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 85 10 4"
+    ,"email":"gymnasium-hamm@bsb.hamburg.de"
+    ,"www":"www.gyha.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 253,
+"fields": {
+     "name": "Gymnasium Heidberg"
+    ,"strassehsnr":"Fritz-Schumacher-Allee 200 -"
+    ,"plz":"22417"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 89 20 2"
+    ,"email":"gymnasium-heidberg@bsb.hamburg.de"
+    ,"www":"www.gymnasium-heidberg.de/"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 254,
+"fields": {
+     "name": "Gymnasium Hochrad"
+    ,"strassehsnr":"Hochrad 2"
+    ,"plz":"22605"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 822 77 40"
+    ,"email":"gymnasium-hochrad@bsb.hamburg.de"
+    ,"www":"www.hochrad.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 255,
+"fields": {
+     "name": "Gymnasium Hoheluft"
+    ,"strassehsnr":"Christian-Förster-Straße 21 -"
+    ,"plz":"20253"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 88 48 0"
+    ,"email":"info@gymnasium-hoheluft.de"
+    ,"www":"\"www.gymnasium-hoheluft"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 256,
+"fields": {
+     "name": "Gymnasium Kaiser-Friedrich-Ufer"
+    ,"strassehsnr":"Kaiser-Friedrich-Ufer 6 -"
+    ,"plz":"20259"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 01 23 33"
+    ,"email":"sekretariat@gymnasium-kaifu.de"
+    ,"www":"www.kaifu-gymnasium.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 257,
+"fields": {
+     "name": "Gymnasium Klosterschule"
+    ,"strassehsnr":"Westphalensweg 7"
+    ,"plz":"20099"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 82 10"
+    ,"email":"gymnasium-klosterschule@bsb.hamburg.de"
+    ,"www":"www.klosterschule-hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 258,
+"fields": {
+     "name": "Gymnasium Lerchenfeld"
+    ,"strassehsnr":"Lerchenfeld 10"
+    ,"plz":"22081"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 88 47 0"
+    ,"email":"gymnasium-lerchenfeld@bsb.hamburg.de"
+    ,"www":"www.gyle.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 259,
+"fields": {
+     "name": "Gymnasium Lohbrügge"
+    ,"strassehsnr":"Binnenfeldredder 5"
+    ,"plz":"21031"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 87-601"
+    ,"email":"Gymnasium-Lohbruegge@bsb.hamburg.de"
+    ,"www":"www.gyLoh.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 260,
+"fields": {
+     "name": "Gymnasium Marienthal"
+    ,"strassehsnr":"Holstenhofweg 86"
+    ,"plz":"22043"
+    ,"stadt":" Hamburg"
+    ,"telefon":"4 28 86 - 310"
+    ,"email":"Gymnasium-Marienthal@bsb.hamburg.de"
+    ,"www":"www.Gymnasium-Marienthal.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 261,
+"fields": {
+     "name": "Gymnasium Meiendorf"
+    ,"strassehsnr":"Schierenberg 60 -"
+    ,"plz":"22145"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 86 38 0"
+    ,"email":"gymnasium-meiendorf@bsb.hamburg.de"
+    ,"www":"www.gymei.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 262,
+"fields": {
+     "name": "Gymnasium Oberalster"
+    ,"strassehsnr":"Alsterredder 26"
+    ,"plz":"22395"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 600 00 30"
+    ,"email":"gymnasium-oberalster@bsb.hamburg.de"
+    ,"www":"www.gymnasium-oberalster.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 263,
+"fields": {
+     "name": "Gymnasium Ohlstedt"
+    ,"strassehsnr":"Sthamerstraße 55 -"
+    ,"plz":"22397"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 605 803 0"
+    ,"email":"gymnasium-ohlstedt@bsb.hamburg.de"
+    ,"www":"www.gymnasium-ohlstedt.de/"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 264,
+"fields": {
+     "name": "Gymnasium Ohmoor"
+    ,"strassehsnr":"Sachsenweg 76"
+    ,"plz":"22455"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 5 55 89-10"
+    ,"email":"Gymnasium-Ohmoor@bsb.hamburg.de"
+    ,"www":"www.gymnasium-ohmoor.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 265,
+"fields": {
+     "name": "Gymnasium Oldenfelde"
+    ,"strassehsnr":"Birrenkovenallee 12 -"
+    ,"plz":"22143"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 86 63 01"
+    ,"email":"gymnasium-oldenfelde@bsb.hamburg.de"
+    ,"www":"www.gymnasium-oldenfelde.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 266,
+"fields": {
+     "name": "Gymnasium Osterbek"
+    ,"strassehsnr":"Turnierstieg 24"
+    ,"plz":"22179"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 471 10 40"
+    ,"email":"gymnasium-osterbek@bsb.hamburg.de"
+    ,"www":"www.osterbek.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 267,
+"fields": {
+     "name": "Gymnasium Rahlstedt"
+    ,"strassehsnr":"Scharbeutzer Straße 36"
+    ,"plz":"22147"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 86-650"
+    ,"email":"Gymnasium-Rahlstedt@bsb.hamburg.de"
+    ,"www":"www.gymnasium-rahlstedt.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 268,
+"fields": {
+     "name": "Gymnasium Rissen"
+    ,"strassehsnr":"Voßhagen 15 -"
+    ,"plz":"22559"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 819 53 61 2"
+    ,"email":"gymnasium-rissen@bsb.hamburg.de"
+    ,"www":"www.gyri.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 269,
+"fields": {
+     "name": "Gymnasium Süderelbe"
+    ,"strassehsnr":"Falkenbergsweg 5"
+    ,"plz":"21149"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 702 07 20"
+    ,"email":"gymnasium-suederelbe@bsb.hamburg.de"
+    ,"www":"www.gymnasium-suederelbe.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 270,
+"fields": {
+     "name": "Hansa-Gymnasium Bergedorf"
+    ,"strassehsnr":"Hermann-Distel-Straße 25"
+    ,"plz":"21029"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 724 18 60"
+    ,"email":"hansa-gymnasium-bergedorf@bsb.hamburg.de"
+    ,"www":"www.hansa-gymnasium.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 271,
+"fields": {
+     "name": "Hansa-Kolleg"
+    ,"strassehsnr":"Von-Essen-Straße 82 -"
+    ,"plz":"22081"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 86-210"
+    ,"email":"Hansa-Kolleg@bsb.hamburg.de"
+    ,"www":"www.hansakolleg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 272,
+"fields": {
+     "name": "Heinrich-Heine-Gymnasium"
+    ,"strassehsnr":"Harksheider Straße 70 -"
+    ,"plz":"22399"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 86 81 0"
+    ,"email":"heinrich-heine-gymnasium@bsb.hamburg.de"
+    ,"www":"www.heinegym.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 273,
+"fields": {
+     "name": "Heisenberg-Gymnasium"
+    ,"strassehsnr":"Triftstraße 43"
+    ,"plz":"21075"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 88-710"
+    ,"email":"Heisenberg-Gymnasium@bsb.hamburg.de"
+    ,"www":"www.heisenberg-gymnasium-hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 274,
+"fields": {
+     "name": "Helene-Lange-Gymnasium"
+    ,"strassehsnr":"Bogenstraße 32 -"
+    ,"plz":"20144"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 981-0"
+    ,"email":"helene-lange-gymnasium@bsb.hamburg.de"
+    ,"www":"www.hlg-hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 275,
+"fields": {
+     "name": "Helmut-Schmidt-Gymnasium"
+    ,"strassehsnr":"Krieterstraße 5"
+    ,"plz":"21109"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 87 70 1"
+    ,"email":"gymnasium-kirchdorf-wilhelmsburg@bsb.hamburg.de"
+    ,"www":"www.kiwi.hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 276,
+"fields": {
+     "name": "Immanuel-Kant-Gymnasium"
+    ,"strassehsnr":"Am Pavillon 15"
+    ,"plz":"21077"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 7 61 04-10"
+    ,"email":"Immanuel-Kant-Gymnasium@bsb.hamburg.de"
+    ,"www":"www.immanuel-kant-gymnasium.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 277,
+"fields": {
+     "name": "Jenisch-Gymnasium"
+    ,"strassehsnr":"Jenischstraße 48"
+    ,"plz":"22609"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 8 26 00-2"
+    ,"email":"info@jenisch-gymnasium.de"
+    ,"www":"www.jenisch-gymnasium.de/"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 278,
+"fields": {
+     "name": "Johannes-Brahms-Gymnasium"
+    ,"strassehsnr":"Höhnkoppelort 24"
+    ,"plz":"22179"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 86-2911"
+    ,"email":"Johannes-Brahms-Gymnasium@bsb.hamburg.de"
+    ,"www":"www.johannes-brahms-gymnasium.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 279,
+"fields": {
+     "name": "Kurt-Körber-Gymnasium"
+    ,"strassehsnr":"Pergamentweg 1"
+    ,"plz":"22117"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 714 866-30"
+    ,"email":"Kurt-Koerber-Gymnasium@bsb.hamburg.de"
+    ,"www":"www.kurt-koerber-gymnasium.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 280,
+"fields": {
+     "name": "Lise-Meitner-Gymnasium"
+    ,"strassehsnr":"Knabeweg 3"
+    ,"plz":"22549"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 88 52 0"
+    ,"email":"lise-meitner-gymnasium@bsb.hamburg.de"
+    ,"www":"www.hh.schule.de/lmg"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 281,
+"fields": {
+     "name": "Luisen-Gymnasium Bergedorf"
+    ,"strassehsnr":"Reinbeker Weg 76"
+    ,"plz":"21029"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 7 24 16-20"
+    ,"email":"Luisen-Gymnasium-Bergedorf@bsb.hamburg.de"
+    ,"www":"www.halloluise.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 282,
+"fields": {
+     "name": "Margaretha-Rothe-Gymnasium"
+    ,"strassehsnr":"Langenfort 5"
+    ,"plz":"22307"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 86 86 0"
+    ,"email":"margaretha-rothe-gymnasium@bsb.hamburg.de"
+    ,"www":"www.mrg-online.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 283,
+"fields": {
+     "name": "Marion Dönhoff Gymnasium"
+    ,"strassehsnr":"Willhöden 74"
+    ,"plz":"22587"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 866 01 00"
+    ,"email":"marion-doenhoff-gymnasium@bsb.hamburg.de"
+    ,"www":"www.marion-doenhoff-gymnasium.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 284,
+"fields": {
+     "name": "Privates Abendgymnasium Brecht"
+    ,"strassehsnr":"Holzdamm 36 /38"
+    ,"plz":"20099"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+ 49 40 21 11 12-0"
+    ,"email":"ruh@brecht-schulen.de"
+    ,"www":"www.brecht-schulen.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 285,
+"fields": {
+     "name": "Sankt-Ansgar-Schule"
+    ,"strassehsnr":"Bürgerweide 33"
+    ,"plz":"20535"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 2 51 734-0"
+    ,"email":"sekretariat@sankt-ansgar-schule.kshh.de"
+    ,"www":"www.sankt-ansgar-schule.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 286,
+"fields": {
+     "name": "Sophie-Barat-Schule"
+    ,"strassehsnr":"Warburgstraße 39"
+    ,"plz":"20354"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 4 50 22-910"
+    ,"email":"sekretariat@sbshh.de"
+    ,"www":"www.sophie-barat-schule.de/"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 287,
+"fields": {
+     "name": "Studienkolleg für ausländische Studierende"
+    ,"strassehsnr":"Holstenglacis 6"
+    ,"plz":"20355"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 98-600"
+    ,"email":"Studienkolleg@bsb.hamburg.de"
+    ,"www":"www.studienkolleg-hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 288,
+"fields": {
+     "name": "Walddörfer-Gymnasium"
+    ,"strassehsnr":"Im Allhorn 45"
+    ,"plz":"22359"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 428 85 40 3"
+    ,"email":"walddoerfer-gymnasium@bsb.hamburg.de"
+    ,"www":"www.wdg-hamburg.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 289,
+"fields": {
+     "name": "Wichern-Schule (Gymnasium)"
+    ,"strassehsnr":"Horner Weg 164"
+    ,"plz":"22111"
+    ,"stadt":" Hamburg"
+    ,"telefon":"+49 40 6 55 91-190"
+    ,"email":"wichern-schule@rauheshaus.de"
+    ,"www":"www.wichern-schule.de"
+    ,"bundesland":5
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 290,
+"fields": {
+     "name": "Erich-Klausener-Gymnasium"
+    ,"strassehsnr":"Dr.-Klausener-Str. 43-45"
+    ,"plz":"53518"
+    ,"stadt":" Adenau"
+    ,"telefon":"(02691) 92120"
+    ,"email":"schulleitung@ekgadenau.de"
+    ,"www":"www.ekgadenau.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 291,
+"fields": {
+     "name": "Priv. Gymnasium der Ursulinen"
+    ,"strassehsnr":"Kalvarienbergstr. 50"
+    ,"plz":"53474"
+    ,"stadt":" Bad Neuenahr-Ahrweiler Stadt"
+    ,"telefon":"(02641) 383201"
+    ,"email":"schulleitung@gymnasium-calvarienberg.de"
+    ,"www":"www.gymnasium-calvarienberg.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 292,
+"fields": {
+     "name": "Are-Gymnasium"
+    ,"strassehsnr":"Mittelstr. 110"
+    ,"plz":"53474"
+    ,"stadt":" Bad Neuenahr-Ahrweiler Stadt"
+    ,"telefon":"(02641) 75060"
+    ,"email":"schulleitung@are-gymnasium.de"
+    ,"www":"www.are-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 293,
+"fields": {
+     "name": "Peter-Joerres-Gymnasium"
+    ,"strassehsnr":"Uhlandstr. 30"
+    ,"plz":"53474"
+    ,"stadt":" Bad Neuenahr-Ahrweiler Stadt"
+    ,"telefon":"(02641) 97970"
+    ,"email":"info@pjg-aw.de"
+    ,"www":"www.pjg-aw.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 294,
+"fields": {
+     "name": "Priv. Gymnasium Nonnenwerth"
+    ,"strassehsnr":"Insel Nonnenwerth"
+    ,"plz":"53424"
+    ,"stadt":" Remagen"
+    ,"telefon":"02228 - 6009 420"
+    ,"email":"sekretariat@nonnenwerth.de"
+    ,"www":"www.nonnenwerth.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 295,
+"fields": {
+     "name": "Rhein-Gymnasium"
+    ,"strassehsnr":"Dreifaltigkeitsweg 35"
+    ,"plz":"53489"
+    ,"stadt":" Sinzig"
+    ,"telefon":"(02642)983230"
+    ,"email":"office@rhein-gym.org"
+    ,"www":"rhein-gym.org"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 296,
+"fields": {
+     "name": "Westerwald-Gymnasium"
+    ,"strassehsnr":"Auf der Glockenspitze"
+    ,"plz":"57610"
+    ,"stadt":" Altenkirchen (Westerwald)"
+    ,"telefon":"(02681) 2081"
+    ,"email":"verwaltung@westerwald-gymnasium.de"
+    ,"www":"www.westerwald-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 297,
+"fields": {
+     "name": "Freiherr-vom-Stein Gymnasium"
+    ,"strassehsnr":"Freiherr-vom-Stein-Str. 25"
+    ,"plz":"57518"
+    ,"stadt":" Betzdorf"
+    ,"telefon":"(02741) 935079-0"
+    ,"email":"gymnasium-betzdorf@gmx.de"
+    ,"www":"www.fvsgy.bildung-rp.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 298,
+"fields": {
+     "name": "Kopernikus-Gymnasium"
+    ,"strassehsnr":"Pirzenthalerstr."
+    ,"plz":"57537"
+    ,"stadt":" Wissen"
+    ,"telefon":"(02742) 71798"
+    ,"email":"info@gymnasium-wissen.de"
+    ,"www":"www.gymnasium-wissen.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 299,
+"fields": {
+     "name": "Staatliches Aufbaugymnasium"
+    ,"strassehsnr":"Ernst-Ludwig-Str. 47-51"
+    ,"plz":"55232"
+    ,"stadt":" Alzey"
+    ,"telefon":"(06731)9601- 0"
+    ,"email":"abgym@mail.uni-mainz.de"
+    ,"www":"www.aufbaugymnasium-alzey.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 300,
+"fields": {
+     "name": "Gymnasium am Römerkastell"
+    ,"strassehsnr":"Jean-Braun-Str. 19"
+    ,"plz":"55232"
+    ,"stadt":" Alzey"
+    ,"telefon":"(06731)99880"
+    ,"email":"kontakt-sh@roeka-az.de"
+    ,"www":"www.roeka-alzey.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 301,
+"fields": {
+     "name": "Elisabeth-Langgässer-Gymnasium"
+    ,"strassehsnr":"Frankenstr. 17"
+    ,"plz":"55232"
+    ,"stadt":" Alzey"
+    ,"telefon":"(06731)94775-0"
+    ,"email":"elg-alzey@web.de"
+    ,"www":"www.elg-alzey.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 302,
+"fields": {
+     "name": "Werner-Heisenberg-Gymnasium"
+    ,"strassehsnr":"Kanalstr. 19"
+    ,"plz":"67098"
+    ,"stadt":" Bad Dürkheim"
+    ,"telefon":"(06322)94800"
+    ,"email":"whg@whgonline.de"
+    ,"www":"www.whgonline.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 303,
+"fields": {
+     "name": "Hannah-Arendt-Gymnasium"
+    ,"strassehsnr":"Viroflayer Str. 20"
+    ,"plz":"67454"
+    ,"stadt":" Haßloch"
+    ,"telefon":"(06324)92700"
+    ,"email":"Hannah.Arendt.Gymnasium@t-online.de"
+    ,"www":"www.hagh.net"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 304,
+"fields": {
+     "name": "Gymnasium an der Stadtmauer"
+    ,"strassehsnr":"Hospitalgasse 6"
+    ,"plz":"55543"
+    ,"stadt":" Bad Kreuznach"
+    ,"telefon":"(0671) 7946150"
+    ,"email":"schule@stamaonline.de"
+    ,"www":"www.stamaonline.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 305,
+"fields": {
+     "name": "Lina-Hilger-Gymnasium"
+    ,"strassehsnr":"Gustav-Pfarrius-Str. 11-15"
+    ,"plz":"55543"
+    ,"stadt":" Bad Kreuznach"
+    ,"telefon":"(0671) 68841"
+    ,"email":"info@lina-hilger.de"
+    ,"www":"www.lina-hilger.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 306,
+"fields": {
+     "name": "Emanuel-Felke-Gymnasium"
+    ,"strassehsnr":"Poststr. 36"
+    ,"plz":"55566"
+    ,"stadt":" Bad Sobernheim"
+    ,"telefon":"(06751)930840"
+    ,"email":"postmaster@efg.kh.rp.schule.de"
+    ,"www":"www.emanuel-felke-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 307,
+"fields": {
+     "name": "Alfred-Delp-Schule"
+    ,"strassehsnr":"Kirchstr. 54"
+    ,"plz":"55595"
+    ,"stadt":" Hargesheim"
+    ,"telefon":"(0671)483260"
+    ,"email":"schulleitung@alfred-delp-schule.de"
+    ,"www":"www.alfred-delp-schule.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 308,
+"fields": {
+     "name": "Gymnasium Kirn"
+    ,"strassehsnr":"Turnstr. 2"
+    ,"plz":"55606"
+    ,"stadt":" Kirn"
+    ,"telefon":"(06752)8144"
+    ,"email":"verwaltung@gymnasium-kirn.de"
+    ,"www":"www.gym-kirn.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 309,
+"fields": {
+     "name": "Nikolaus-von-Kues-Gymnasium"
+    ,"strassehsnr":"Peter-Kremer-Weg 4"
+    ,"plz":"54470"
+    ,"stadt":" Bernkastel-Kues"
+    ,"telefon":"(06531)501890"
+    ,"email":"schule@nvk-gymnasium-bks.de"
+    ,"www":"www.nikolaus-von-kues-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 310,
+"fields": {
+     "name": "Gymnasium Traben-Trarbach"
+    ,"strassehsnr":"Bernkasteler Weg 72"
+    ,"plz":"56841"
+    ,"stadt":" Traben-Trarbach"
+    ,"telefon":"(06541)83820"
+    ,"email":"info@gymtt.de"
+    ,"www":"www.gymtt.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 311,
+"fields": {
+     "name": "Peter-Wust-Gymnasium"
+    ,"strassehsnr":"Koblenzer Str. 56"
+    ,"plz":"54516"
+    ,"stadt":" Wittlich"
+    ,"telefon":"(06571)956437-0"
+    ,"email":"info@PWG-WIL.de"
+    ,"www":"PWG-Wittlich.bildung-rp.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 312,
+"fields": {
+     "name": "Gymnasium Birkenfeld"
+    ,"strassehsnr":"Brechkaul 10-12"
+    ,"plz":"55765"
+    ,"stadt":" Birkenfeld"
+    ,"telefon":"(06782)99940"
+    ,"email":"gymnasium.birkenfeld@web.de"
+    ,"www":"www.gymnasium-birkenfeld.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 313,
+"fields": {
+     "name": "Göttenbach-Gymnasium"
+    ,"strassehsnr":"Auf der Bein"
+    ,"plz":"55743"
+    ,"stadt":" Idar-Oberstein"
+    ,"telefon":"(06784)904790"
+    ,"email":"information@goettenbach-gymnasium.de"
+    ,"www":"www.goettenbach-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 314,
+"fields": {
+     "name": "Gymnasium an der Heinzenwies"
+    ,"strassehsnr":"Heinzenwies 5"
+    ,"plz":"55743"
+    ,"stadt":" Idar-Oberstein"
+    ,"telefon":"(06781)986430"
+    ,"email":"verwaltung@heinzenwies.de"
+    ,"www":"www.heinzenwies.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 315,
+"fields": {
+     "name": "Martin-von-Cochem-Gymnasium"
+    ,"strassehsnr":"Schloßstr. 28"
+    ,"plz":"56812"
+    ,"stadt":" Cochem"
+    ,"telefon":"(02671)91679-0"
+    ,"email":"verwaltung-mvcg@mvcg.coc.bildung-rp.de"
+    ,"www":"mvcg.coc.bildung-rp.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 316,
+"fields": {
+     "name": "Priv. Gymnasium"
+    ,"strassehsnr":"Am Hofwiesbach 1"
+    ,"plz":"67295"
+    ,"stadt":" Bolanden"
+    ,"telefon":"(06352)400550"
+    ,"email":"sekretariat@weierhof.de"
+    ,"www":"www.weierhof.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 317,
+"fields": {
+     "name": "Nordpfalzgymnasium"
+    ,"strassehsnr":"\"Dr.-Heinrich-von-Brunck-Straße"
+    ,"plz":"67292"
+    ,"stadt":"Kirchheimbolanden"
+    ,"telefon":"(06352)70550"
+    ,"email":"Post@npg-kib.de"
+    ,"www":"www.nordpfalzgymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 318,
+"fields": {
+     "name": "Wilhelm-Erb-Gymnasium"
+    ,"strassehsnr":"Gymnasiumstr. 15"
+    ,"plz":"67722"
+    ,"stadt":" Winnweiler"
+    ,"telefon":"(06302)92250"
+    ,"email":"sekretariat@weg-winnweiler.de"
+    ,"www":"www.weg-winnweiler.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 319,
+"fields": {
+     "name": "Privates St.-Josef-Gymnasium"
+    ,"strassehsnr":"Klosterstr. 2"
+    ,"plz":"54675"
+    ,"stadt":" Biesdorf"
+    ,"telefon":"(06566)8060"
+    ,"email":"schule@sjg-biesdorf.de"
+    ,"www":"www.sjg-biesdorf.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 320,
+"fields": {
+     "name": "St.-Willibrord-Gymnasium"
+    ,"strassehsnr":"Denkmalstr. 8"
+    ,"plz":"54634"
+    ,"stadt":" Bitburg"
+    ,"telefon":"(06561)6024-0"
+    ,"email":"st.-willibrord-gymnasium@t-online.de"
+    ,"www":"www.st-willi.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 321,
+"fields": {
+     "name": "Priv. Gymnasium St. Matthias"
+    ,"strassehsnr":"Prümer Str."
+    ,"plz":"54634"
+    ,"stadt":" Bitburg"
+    ,"telefon":"(06561)949050"
+    ,"email":"-"
+    ,"www":"www.st-matthias.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 322,
+"fields": {
+     "name": "Eifel-Gymnasium"
+    ,"strassehsnr":"Pestalozzistr. 21"
+    ,"plz":"54673"
+    ,"stadt":" Neuerburg"
+    ,"telefon":"(06564)9673-0"
+    ,"email":"schule@eifel-gymnasium.de"
+    ,"www":"www.eifel-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 323,
+"fields": {
+     "name": "Regino-Gymnasium"
+    ,"strassehsnr":"Hahnplatz 21"
+    ,"plz":"54595"
+    ,"stadt":" Prüm"
+    ,"telefon":"(06551)9531-0"
+    ,"email":"sekretariat@regino-gym.de"
+    ,"www":"www.regino-gym.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 324,
+"fields": {
+     "name": "Priv. Vinzenz-von-Paul-"
+    ,"strassehsnr":"Vinzenz-von-Paul-Str. 5"
+    ,"plz":"54595"
+    ,"stadt":" Prüm"
+    ,"telefon":"(06551)980281"
+    ,"email":"Sekretariat@vvpg.de"
+    ,"www":"www.vvpg.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 325,
+"fields": {
+     "name": "Albert-Einstein-Gymnasium"
+    ,"strassehsnr":"Parsevalplatz 2"
+    ,"plz":"67227"
+    ,"stadt":" Frankenthal (Pfalz)"
+    ,"telefon":"(06233)26733"
+    ,"email":"kontakt@a-e-g-frankenthal.de"
+    ,"www":"www.a-e-g-frankenthal.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 326,
+"fields": {
+     "name": "Europa Gymnasium"
+    ,"strassehsnr":"Forststr. 1"
+    ,"plz":"76744"
+    ,"stadt":" Wörth am Rhein"
+    ,"telefon":"(07271)76040"
+    ,"email":"verwaltung@egwoerth.de"
+    ,"www":"www.egwoerth.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 327,
+"fields": {
+     "name": "St.-Franziskus-Gymnasium"
+    ,"strassehsnr":"St.-Franziskus-Str. 2"
+    ,"plz":"67655"
+    ,"stadt":" Kaiserslautern"
+    ,"telefon":"(0631)3175190"
+    ,"email":"Sr.Wiltrud@st-franziskus.region-kl.de"
+    ,"www":"St-Franziskus.Region-kl.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 328,
+"fields": {
+     "name": "Albert-Schweitzer-Gymnasium"
+    ,"strassehsnr":"Martin-Luther-Str. 5"
+    ,"plz":"67657"
+    ,"stadt":" Kaiserslautern"
+    ,"telefon":"(0631)366890"
+    ,"email":"asg-kl@gmx.de"
+    ,"www":"asg.region-kaiserslautern.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 329,
+"fields": {
+     "name": "Gymnasium am Rittersberg"
+    ,"strassehsnr":"Ludwigstr. 20"
+    ,"plz":"67657"
+    ,"stadt":" Kaiserslautern"
+    ,"telefon":"(0631)362170"
+    ,"email":"rbg-kl@t-online.de"
+    ,"www":"www.rbg-kl.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 330,
+"fields": {
+     "name": "Burggymnasium"
+    ,"strassehsnr":"Burgstr. 18"
+    ,"plz":"67659"
+    ,"stadt":" Kaiserslautern"
+    ,"telefon":"(0631)371630"
+    ,"email":"info@burg-kl.de"
+    ,"www":"www.burg-kl.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 331,
+"fields": {
+     "name": "Hohenstaufen-Gymnasium"
+    ,"strassehsnr":"Möllendorfstr. 29"
+    ,"plz":"67655"
+    ,"stadt":" Kaiserslautern"
+    ,"telefon":"(0631)370233"
+    ,"email":"hsg@rhrk.uni-kl.de"
+    ,"www":"www.hsg-kl.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 332,
+"fields": {
+     "name": "Sickingen-Gymnasium"
+    ,"strassehsnr":"Philipp-Fauth-Str. 3"
+    ,"plz":"66849"
+    ,"stadt":" Landstuhl Sickingenstadt"
+    ,"telefon":"(06371)92220"
+    ,"email":"info@sickingengymnasium.de"
+    ,"www":"www.sickingengymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 333,
+"fields": {
+     "name": "Gymnasium Ramstein-Miesenbach"
+    ,"strassehsnr":"Zum Kirchbühl 14"
+    ,"plz":"66877"
+    ,"stadt":" Ramstein-Miesenbach"
+    ,"telefon":"(06371)96480"
+    ,"email":"gym.rm@t-online.de"
+    ,"www":"gymnasium-ramstein-miesenbach.bil"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 334,
+"fields": {
+     "name": "Bischöfliches Cusanus-"
+    ,"strassehsnr":"Hohenzollernstr. 13-17"
+    ,"plz":"56068"
+    ,"stadt":" Koblenz"
+    ,"telefon":"(0261)915920"
+    ,"email":"sekretariat@cusanus-gymnasium.de"
+    ,"www":"www.cusanus-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 335,
+"fields": {
+     "name": "Eichendorff-Gymnasium"
+    ,"strassehsnr":"Friedrich-Ebert-Ring 26-30"
+    ,"plz":"56068"
+    ,"stadt":" Koblenz"
+    ,"telefon":"(0261)915940"
+    ,"email":"schulleitung@eichendorff-koblenz.de"
+    ,"www":"www.eichendorff-gymnasium-koblenz.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 336,
+"fields": {
+     "name": "Görres-Gymnasium"
+    ,"strassehsnr":"Gymnasialstr. 3"
+    ,"plz":"56068"
+    ,"stadt":" Koblenz"
+    ,"telefon":"(0261)12749"
+    ,"email":"goerres.gymn@t-online.de"
+    ,"www":"www.goerresonline.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 337,
+"fields": {
+     "name": "Gymnasium auf der Karthause"
+    ,"strassehsnr":"Zwickauer Str. 22"
+    ,"plz":"56075"
+    ,"stadt":" Koblenz"
+    ,"telefon":"(0261)953160"
+    ,"email":"gymkarth@rz-online.de"
+    ,"www":"gymkarthause.bildung-rp.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 338,
+"fields": {
+     "name": "Hilda-Gymnasium"
+    ,"strassehsnr":"Kurfürstenstr. 40-42"
+    ,"plz":"56068"
+    ,"stadt":" Koblenz"
+    ,"telefon":"(0261)29670260"
+    ,"email":"schulleitung@hilda-gymnasium.de"
+    ,"www":"www.hilda-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 339,
+"fields": {
+     "name": "Max-von-Laue-Gymnasium"
+    ,"strassehsnr":"Südallee 1-9"
+    ,"plz":"56068"
+    ,"stadt":" Koblenz"
+    ,"telefon":"(0261)91483-0"
+    ,"email":"schulleitung@mvlg.de"
+    ,"www":"www.mvlg.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 340,
+"fields": {
+     "name": "Gymnasium Kusel"
+    ,"strassehsnr":"Walkmühlstr. 9"
+    ,"plz":"66869"
+    ,"stadt":" Kusel"
+    ,"telefon":"(06381)92300"
+    ,"email":"sekretariat@gymnasium-kusel.de"
+    ,"www":"www.gymnasium-kusel.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 341,
+"fields": {
+     "name": "Veldenz Gymnasium"
+    ,"strassehsnr":"Amselstr. 22"
+    ,"plz":"67742"
+    ,"stadt":" Lauterecken"
+    ,"telefon":"(06382)92300"
+    ,"email":"vglsek@lautgym.de"
+    ,"www":"www.veldenz-gym-lauterecken.bildung-rp.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 342,
+"fields": {
+     "name": "Priv. Maria-Ward-Gymnasium"
+    ,"strassehsnr":"Cornichonstr. 1"
+    ,"plz":"76829"
+    ,"stadt":" Landau in der Pfalz"
+    ,"telefon":"(06341)9230 - 0"
+    ,"email":"schule@mws-landau.de"
+    ,"www":"www.mws-landau.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 343,
+"fields": {
+     "name": "Max-Slevogt-Gymnasium"
+    ,"strassehsnr":"Hindenburgstr. 2"
+    ,"plz":"76829"
+    ,"stadt":" Landau in der Pfalz"
+    ,"telefon":"(06341)92310"
+    ,"email":"msg-landau@gmx.de"
+    ,"www":"www.msg-landau.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 344,
+"fields": {
+     "name": "Otto-Hahn-Gymnasium"
+    ,"strassehsnr":"Westring 11"
+    ,"plz":"76829"
+    ,"stadt":" Landau in der Pfalz"
+    ,"telefon":"(06341)917610"
+    ,"email":"gymnasium@ohg-landau.info"
+    ,"www":"ohg-landau.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 345,
+"fields": {
+     "name": "Carl-Bosch-Gymnasium"
+    ,"strassehsnr":"Jägerstr. 9"
+    ,"plz":"67059"
+    ,"stadt":" Ludwigshafen am Rhein"
+    ,"telefon":"(0621)504430810"
+    ,"email":"cbglu@t-online.de"
+    ,"www":"www.cbglu.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 346,
+"fields": {
+     "name": "Geschwister-Scholl-Gymnasium"
+    ,"strassehsnr":"Friedrich-Heene-Str. 11"
+    ,"plz":"67061"
+    ,"stadt":" Ludwigshafen am Rhein"
+    ,"telefon":"(0621)504431110"
+    ,"email":"gsg@schollonline.de"
+    ,"www":"www.schollonline.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 347,
+"fields": {
+     "name": "Max-Planck-Gymnasium"
+    ,"strassehsnr":"Leuschner Str. 121"
+    ,"plz":"67063"
+    ,"stadt":" Ludwigshafen am Rhein"
+    ,"telefon":"(0621)504431510"
+    ,"email":"email@mpglu.de"
+    ,"www":"www.mpglu.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 348,
+"fields": {
+     "name": "Theodor-Heuss-Gymnasium"
+    ,"strassehsnr":"Freyastr. 10"
+    ,"plz":"67059"
+    ,"stadt":" Ludwigshafen am Rhein"
+    ,"telefon":"(0621)504431710"
+    ,"email":"sekretariat@thg-lu.de"
+    ,"www":"www.thg-lu.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 349,
+"fields": {
+     "name": "Wilhelm-von-Humboldt-Gymnasium"
+    ,"strassehsnr":"Mühlaustr. 13"
+    ,"plz":"67069"
+    ,"stadt":" Ludwigshafen am Rhein"
+    ,"telefon":"(0621)504431910"
+    ,"email":"sekre@whg-lu.de"
+    ,"www":"www.whg-lu.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 350,
+"fields": {
+     "name": "Priv. Bischöfl. Willigis-"
+    ,"strassehsnr":"Willigisplatz 2"
+    ,"plz":"55116"
+    ,"stadt":" Mainz"
+    ,"telefon":"(06131)286760"
+    ,"email":"schulleitung-gymnasium@willigis-online.de"
+    ,"www":"www.willigis-online.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 351,
+"fields": {
+     "name": "Private Maria-Ward-Schule"
+    ,"strassehsnr":"Ballplatz 1-3"
+    ,"plz":"55116"
+    ,"stadt":" Mainz"
+    ,"telefon":"(06131)260122"
+    ,"email":"ward@mainz-online.de"
+    ,"www":"www.mws-mainz.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 352,
+"fields": {
+     "name": "Rabanus-Maurus-Gymnasium"
+    ,"strassehsnr":"Am 117er Ehrenhof 2"
+    ,"plz":"55118"
+    ,"stadt":" Mainz"
+    ,"telefon":"(06131)9503070"
+    ,"email":"rama-mainz@stadt.mainz.de"
+    ,"www":"www.rama-mainz.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 353,
+"fields": {
+     "name": "Gymnasium am"
+    ,"strassehsnr":"Greiffenklaustr. 2"
+    ,"plz":"55116"
+    ,"stadt":" Mainz"
+    ,"telefon":"(06131)907240"
+    ,"email":"sekretariat@verwaltung.schloss-online.de"
+    ,"www":"www.schloss-online.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 354,
+"fields": {
+     "name": "Otto-Schott Gymnasium"
+    ,"strassehsnr":"An Schneiders Mühle 1"
+    ,"plz":"55122"
+    ,"stadt":" Mainz"
+    ,"telefon":"(06131)906560"
+    ,"email":"gygo@stadt.mainz.de"
+    ,"www":"www.gymnasium-gonsenheim.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 355,
+"fields": {
+     "name": "Priv. Theresianum-Gymnasium"
+    ,"strassehsnr":"Oberer Laubenheimer Weg 58"
+    ,"plz":"55131"
+    ,"stadt":" Mainz"
+    ,"telefon":"(06131)982440"
+    ,"email":"schulleitung@theresianum-mainz.de"
+    ,"www":"www.theresianum-mainz.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 356,
+"fields": {
+     "name": "Private Hildegardis-Schule"
+    ,"strassehsnr":"Holzhauserstr. 16"
+    ,"plz":"55411"
+    ,"stadt":" Bingen am Rhein"
+    ,"telefon":"(06721)91700"
+    ,"email":"hildegardisschule@t-online.de"
+    ,"www":"www.hildegardisschule.org"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 357,
+"fields": {
+     "name": "Stefan-George-Gymnasium"
+    ,"strassehsnr":"Morschfeldweg 5"
+    ,"plz":"55411"
+    ,"stadt":" Bingen am Rhein"
+    ,"telefon":"(06721)49100"
+    ,"email":"sekretariat@sgg-bingen.de"
+    ,"www":"www.sgg-bingen.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 358,
+"fields": {
+     "name": "Gymnasium Nackenheim"
+    ,"strassehsnr":"Pommardstr. 17"
+    ,"plz":"55299"
+    ,"stadt":" Nackenheim"
+    ,"telefon":"06135-706920"
+    ,"email":"kontakt@gymnasium-nackenheim.de"
+    ,"www":"www.gymnasium-nackenheim.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 359,
+"fields": {
+     "name": "Bertha-von-Suttner-Gymnasium"
+    ,"strassehsnr":"Salentinstr. 4"
+    ,"plz":"56626"
+    ,"stadt":" Andernach"
+    ,"telefon":"(02632) 92910"
+    ,"email":"info@bvs-andernach.de"
+    ,"www":"www.bvs-andernach.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 360,
+"fields": {
+     "name": "Kurfürst-Salentin-Gymnasium"
+    ,"strassehsnr":"Salentinstr. 1"
+    ,"plz":"56626"
+    ,"stadt":" Andernach"
+    ,"telefon":"(02632) 96610"
+    ,"email":"KSG-Andernach@t-online.de"
+    ,"www":"www.ksgandernach.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 361,
+"fields": {
+     "name": "Wilhelm-Remy-Gymnasium"
+    ,"strassehsnr":"Mühlenstr. 35"
+    ,"plz":"56170"
+    ,"stadt":" Bendorf"
+    ,"telefon":"(02622) 90360"
+    ,"email":"Wilhelm-Remy-Gymnasium@t-online.de"
+    ,"www":"www.wrg-online.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 362,
+"fields": {
+     "name": "Megina-Gymnasium"
+    ,"strassehsnr":"Am Knüppchen 1"
+    ,"plz":"56727"
+    ,"stadt":" Mayen"
+    ,"telefon":"(02651)96940"
+    ,"email":"info@megina-gymnasium-mayen.de"
+    ,"www":"www.megina-gymnasium-mayen.de/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 363,
+"fields": {
+     "name": "Gymnasium Mülheim-Kärlich"
+    ,"strassehsnr":"Reihe Bäume 21"
+    ,"plz":"56218"
+    ,"stadt":" Mülheim-Kärlich"
+    ,"telefon":"(02630)94020"
+    ,"email":"aussenstelle@wrg-online.de"
+    ,"www":"www.wrg-aussenstelle-muelheim-kaerlich.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 364,
+"fields": {
+     "name": "Kurfürst-Balduin-Gymnasium"
+    ,"strassehsnr":"Kurfürst-Balduin-Str. 12-16"
+    ,"plz":"56294"
+    ,"stadt":" Münstermaifeld"
+    ,"telefon":"(02605)98010"
+    ,"email":"sekretariat@kubagym.de"
+    ,"www":"www.kubagym.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 365,
+"fields": {
+     "name": "Priv. Schönstätter"
+    ,"strassehsnr":"Höhrer Str. 74-76"
+    ,"plz":"56179"
+    ,"stadt":" Vallendar"
+    ,"telefon":"(0261)60356"
+    ,"email":"sl-gym@schoenstaetter-marienschule.de"
+    ,"www":"www.schoenstaetter-marienschule.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 366,
+"fields": {
+     "name": "Käthe-Kollwitz-Gymnasium"
+    ,"strassehsnr":"Villenstr. 1"
+    ,"plz":"67433"
+    ,"stadt":" Neustadt an der Weinstraße"
+    ,"telefon":"(06321)39250"
+    ,"email":"kkg@schulen-nw.de"
+    ,"www":"www.kkg-nw.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 367,
+"fields": {
+     "name": "Kurfürst-Ruprecht-Gymnasium"
+    ,"strassehsnr":"Landwehrstr. 22"
+    ,"plz":"67433"
+    ,"stadt":" Neustadt an der Weinstraße"
+    ,"telefon":"(06321)499010"
+    ,"email":"sekretariat@krg-nw.de"
+    ,"www":"www.krg-nw.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 368,
+"fields": {
+     "name": "Leibniz-Gymnasium"
+    ,"strassehsnr":"Karolinenstr. 103"
+    ,"plz":"67434"
+    ,"stadt":" Neustadt an der Weinstraße"
+    ,"telefon":"(06321)484448"
+    ,"email":"mail@lg-nw.de"
+    ,"www":"www.lg-nw.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 369,
+"fields": {
+     "name": "Martinus-Gymnasium"
+    ,"strassehsnr":"Martinusstr."
+    ,"plz":"53545"
+    ,"stadt":" Linz am Rhein"
+    ,"telefon":"(02644)95130"
+    ,"email":"sekretariat@martinus-gymnasium.de"
+    ,"www":"www.martinus-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 370,
+"fields": {
+     "name": "Wiedtal-Gymnasium"
+    ,"strassehsnr":"Friedenstr."
+    ,"plz":"53577"
+    ,"stadt":" Neustadt (Wied)"
+    ,"telefon":"(02683)988710"
+    ,"email":"wtg@wtgn.de"
+    ,"www":"www.wtgn.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 371,
+"fields": {
+     "name": "Rhein-Wied-Gymnasium"
+    ,"strassehsnr":"Im Weidchen 2"
+    ,"plz":"56564"
+    ,"stadt":" Neuwied"
+    ,"telefon":"(02631)39550"
+    ,"email":"Schulleitung@rwg-neuwied.de"
+    ,"www":"rwg-neuwied.net"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 372,
+"fields": {
+     "name": "Immanuel-Kant-Gymnasium"
+    ,"strassehsnr":"Wörthstr. 30"
+    ,"plz":"66953"
+    ,"stadt":" Pirmasens"
+    ,"telefon":"(06331)240412"
+    ,"email":"Kant.Gym.PS@t-online.de"
+    ,"www":"www.immanuel-kant-ps.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 373,
+"fields": {
+     "name": "Hugo-Ball-Gymnasium"
+    ,"strassehsnr":"Lemberger Str. 89"
+    ,"plz":"66955"
+    ,"stadt":" Pirmasens"
+    ,"telefon":"(06331)87780"
+    ,"email":"hugo.ball.gym@stadt-pirmasens.de"
+    ,"www":"www.hbg-ps.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 374,
+"fields": {
+     "name": "Kant-Gymnasium"
+    ,"strassehsnr":"Mainzer Str. 24"
+    ,"plz":"56154"
+    ,"stadt":" Boppard"
+    ,"telefon":"(06742) 805000"
+    ,"email":"buero@kant-gymnasium-boppard.de"
+    ,"www":"www.kant-gymnasium-boppard.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 375,
+"fields": {
+     "name": "Ausonius-Gymnasium"
+    ,"strassehsnr":"Schulstr. 11"
+    ,"plz":"55481"
+    ,"stadt":" Kirchberg (Hunsrück)"
+    ,"telefon":"(06763)931195"
+    ,"email":"info@kgs-kirchberg.de"
+    ,"www":"kgs-kirchberg.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 376,
+"fields": {
+     "name": "Herzog-Johann-Gymnasium"
+    ,"strassehsnr":"Am Flachsberg 6"
+    ,"plz":"55469"
+    ,"stadt":" Simmern/ Hunsrück"
+    ,"telefon":"(06761)95250"
+    ,"email":"Buero@hjg-sim.de"
+    ,"www":"www.hjg-sim.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 377,
+"fields": {
+     "name": "Goethe-Gymnasium"
+    ,"strassehsnr":"Schulstr. 36"
+    ,"plz":"56130"
+    ,"stadt":" Bad Ems"
+    ,"telefon":"(02603) 96230"
+    ,"email":"info@gg-badems.org"
+    ,"www":"www.gg-badems.org"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 378,
+"fields": {
+     "name": "Sophie-Hedwig-Gymnasium"
+    ,"strassehsnr":"Danziger Str. 30"
+    ,"plz":"65582"
+    ,"stadt":" Diez"
+    ,"telefon":"(06432)927120"
+    ,"email":"shgym@web.de"
+    ,"www":"www.shgym-diez.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 379,
+"fields": {
+     "name": "Johannes-Gymnasium"
+    ,"strassehsnr":"Johannesstr. 38"
+    ,"plz":"56112"
+    ,"stadt":" Lahnstein"
+    ,"telefon":"(02621)96970"
+    ,"email":"schulleitung@johannes-gymnasium.de"
+    ,"www":"www.johannes-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 380,
+"fields": {
+     "name": "Marion-Dönhoff-Gymnasium"
+    ,"strassehsnr":"Oberheckerweg"
+    ,"plz":"56112"
+    ,"stadt":" Lahnstein"
+    ,"telefon":"(02621)94270"
+    ,"email":"mdg-lahnstein@web.de"
+    ,"www":"www.mdg-lahnstein.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 381,
+"fields": {
+     "name": "Wilhelm-Hofmann-Gymnasium"
+    ,"strassehsnr":"Gymnasialstr. 2-5"
+    ,"plz":"56346"
+    ,"stadt":" Sankt Goarshausen Loreleystadt"
+    ,"telefon":"(06771)93130"
+    ,"email":"whg-st.goarshausen@t-online.de"
+    ,"www":"www.whg-web.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 382,
+"fields": {
+     "name": "Edith-Stein-Gymnasium"
+    ,"strassehsnr":"Langensteinweg 5"
+    ,"plz":"67346"
+    ,"stadt":" Speyer"
+    ,"telefon":"(06232)9908280"
+    ,"email":"leitung@esg-speyer.de"
+    ,"www":"www.esg-speyer.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 383,
+"fields": {
+     "name": "Priv. Nikolaus-von-Weis-"
+    ,"strassehsnr":"Vinzentiusstr. 1"
+    ,"plz":"67346"
+    ,"stadt":" Speyer"
+    ,"telefon":"(06232)315290"
+    ,"email":"gymnasium@nvw-speyer.de"
+    ,"www":"www.nvw-speyer.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 384,
+"fields": {
+     "name": "Friedrich-Magnus-Schwerd-"
+    ,"strassehsnr":"Vincentiusstr. 5"
+    ,"plz":"67346"
+    ,"stadt":" Speyer"
+    ,"telefon":"(06232)92500"
+    ,"email":"FMS-Gymnasium@t-online.de"
+    ,"www":"fmsg-speyer.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 385,
+"fields": {
+     "name": "Gymnasium am Kaiserdom"
+    ,"strassehsnr":"Große Pfaffengasse 6"
+    ,"plz":"67346"
+    ,"stadt":" Speyer"
+    ,"telefon":"(06232)67720"
+    ,"email":"sekretariat@gak-speyer.de"
+    ,"www":"www.gak-speyer.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 386,
+"fields": {
+     "name": "Hans-Purrmann-Gymnasium"
+    ,"strassehsnr":"Otto-Mayer-Str. 2"
+    ,"plz":"67346"
+    ,"stadt":" Speyer"
+    ,"telefon":"(06232)92339"
+    ,"email":"hpg-speyer@t-online.de"
+    ,"www":"www.hpg-speyer.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 387,
+"fields": {
+     "name": "Privates Trifels-Gymnasium"
+    ,"strassehsnr":"Bannenbergstr. 17"
+    ,"plz":"76855"
+    ,"stadt":" Annweiler am Trifels"
+    ,"telefon":"(06346)967-0"
+    ,"email":"sekretariat@trifelsgymnasium.de"
+    ,"www":"www.trifelsgymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 388,
+"fields": {
+     "name": "Gymnasium im Alfred-Grosser-"
+    ,"strassehsnr":"Lessingstr. 24"
+    ,"plz":"76887"
+    ,"stadt":" Bad Bergzabern"
+    ,"telefon":"(06343)93440"
+    ,"email":"gymnasium@schulebza.de"
+    ,"www":"www.schulebza.de/gymnasium"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 389,
+"fields": {
+     "name": "Kooperative Gesamtschule"
+    ,"strassehsnr":"Südring 11"
+    ,"plz":"76863"
+    ,"stadt":" Herxheim bei Landau/ Pfalz"
+    ,"telefon":"(07276)9710"
+    ,"email":"gymnasium@pamina-schulzentrum.de"
+    ,"www":"www.pamina-schulzentrum.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 390,
+"fields": {
+     "name": "Otfried-von-Weißenburg-"
+    ,"strassehsnr":"Schloßstr. 19"
+    ,"plz":"66994"
+    ,"stadt":" Dahn"
+    ,"telefon":"(06391)914150"
+    ,"email":"webmaster@owg-dahn.de"
+    ,"www":"www.owg-dahn.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 391,
+"fields": {
+     "name": "Bischöfliches"
+    ,"strassehsnr":"Neustr. 35"
+    ,"plz":"54290"
+    ,"stadt":" Trier"
+    ,"telefon":"(0651)145980"
+    ,"email":"verwaltung@amg-trier.de"
+    ,"www":"www.amg-trier.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 392,
+"fields": {
+     "name": "Auguste-Viktoria-Gymnasium"
+    ,"strassehsnr":"Dominikanerstr. 2"
+    ,"plz":"54290"
+    ,"stadt":" Trier"
+    ,"telefon":"(0651)1461910"
+    ,"email":"schulleitung@avg-trier.de"
+    ,"www":"www.avg-trier.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 393,
+"fields": {
+     "name": "Friedrich-Spee-Gymnasium"
+    ,"strassehsnr":"Mäusheckerweg 1"
+    ,"plz":"54293"
+    ,"stadt":" Trier"
+    ,"telefon":"(0651)9679810"
+    ,"email":"info@fsg-trier.de"
+    ,"www":"www.fsg-trier.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 394,
+"fields": {
+     "name": "Humboldt-Gymnasium"
+    ,"strassehsnr":"Augustinerstr. 1"
+    ,"plz":"54290"
+    ,"stadt":" Trier"
+    ,"telefon":"(0651)9795-0"
+    ,"email":"verwaltung@hgt-trier.de"
+    ,"www":"www.hgt-trier.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 395,
+"fields": {
+     "name": "Max-Planck-Gymnasium"
+    ,"strassehsnr":"Sichelstr. 3"
+    ,"plz":"54290"
+    ,"stadt":" Trier"
+    ,"telefon":"(0651)1461950"
+    ,"email":"leitung@mpg-trier.de"
+    ,"www":"www.mpg-trier.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 396,
+"fields": {
+     "name": "Gymnasium Hermeskeil"
+    ,"strassehsnr":"Borwiesenstr. 19-21"
+    ,"plz":"54411"
+    ,"stadt":" Hermeskeil"
+    ,"telefon":"(06503)952000"
+    ,"email":"sek@gymherm.de"
+    ,"www":"www.gymherm.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 397,
+"fields": {
+     "name": "Gymnasium Konz"
+    ,"strassehsnr":"Hermann-Reinholz-Str."
+    ,"plz":"54329"
+    ,"stadt":" Konz"
+    ,"telefon":"(06501)947030"
+    ,"email":"info@gymnasium-konz.de"
+    ,"www":"www.gymnasium-konz.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 398,
+"fields": {
+     "name": "Gymnasium Saarburg"
+    ,"strassehsnr":"Graf-Siegfried-Str. 72"
+    ,"plz":"54439"
+    ,"stadt":" Saarburg"
+    ,"telefon":"(06581)91730"
+    ,"email":"gy-saarburg@gmx.de"
+    ,"www":"www.tr.shuttle.de/tr/saarburg/"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 399,
+"fields": {
+     "name": "Dietrich-Bonhoeffer-Gymnasium"
+    ,"strassehsnr":"Dietrich-Bonhoeffer-Str. 1"
+    ,"plz":"54338"
+    ,"stadt":" Schweich"
+    ,"telefon":"(06502)93980"
+    ,"email":"briefkasten@dbg-schweich.de"
+    ,"www":"www.dietrich-bonhoeffer-gymnasium.de"
+    ,"bundesland":10
+    }
+},
+{
+"model":"orgmgm.organisation", 
+"pk": 400,
+"fields": {
+     "name": "Stefan-Andres-Gymnasium"
+    ,"strassehsnr":"Schulzentrum"
+    ,"plz":"54338"
+    ,"stadt":" Schweich"
+    ,"telefon":"(06502)9978621"
+    ,"email":"verwaltung@sag-schweich.de"
+    ,"www":"www.sag-schweich.de"
+    ,"bundesland":10
+    }
+}]

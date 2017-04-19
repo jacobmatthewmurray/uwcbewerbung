@@ -1,0 +1,28 @@
+{% extends "../base.html" %}
+
+{% block content %}
+<h1>Activity Details</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Nachname:</th>
+        <td>{{activity.titel}}</td>
+    </tr>
+    <tr>
+        <th>Vorname:</th>
+        <td>{{activity.activitydate}}</td>
+    </tr>
+    <tr>
+        <th>Email Adresse:</th>
+        <td>{{activity.description}}</td>
+    </tr>
+    <tr>
+        <th>Organisation:</th>
+        <td>{{activity.activitytype}}</td>
+    </tr>
+</table>
+
+<a class="btn btn-default" href="">Edit</a>
+<a class="btn btn-default" href="">Delete</a>
+<a class="btn btn-default" href="">Zur Übersicht</a>
+{% endblock %}

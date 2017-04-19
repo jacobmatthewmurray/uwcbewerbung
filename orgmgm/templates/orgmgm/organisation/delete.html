@@ -1,0 +1,14 @@
+{% extends "../base.html" %}
+
+{% block content %}
+
+<p>Are you sure you want to delete <strong>{{ organisation.name }}</strong>?</p>
+
+<form action="{% url 'organisation_delete' pk=organisation.pk %}" method="POST">
+    {% csrf_token %}
+    <input class="btn btn-default" type="submit" value="Delete">
+</form>
+<a class="btn btn-default" href="{% url 'organisation_delete' pk=organisation.pk %}">Cancel</a>
+
+
+{% endblock %}
