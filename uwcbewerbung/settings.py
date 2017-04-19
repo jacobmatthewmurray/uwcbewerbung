@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django_tables2',
     'bootstrap3',
     'orgmgm.apps.OrgmgmConfig',
     'django.contrib.admin',
