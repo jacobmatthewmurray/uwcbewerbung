@@ -2,13 +2,100 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.shortcuts import render, redirect, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader
+from django.views import View
+from django.views.generic.detail import DetailView
+from django.db.models import Count
 
-from .models import Organisation, Kontakt
+
+from .models import Organisation, Kontakt, Activity, Bundesland
 from .forms import (SearchOrganisationForm, 
                     AddKontaktForm, 
                     AddOrganisationForm,
                     SearchKontaktForm,
                     AddActivityForm)
+from .fusioncharts import FusionCharts
+
+
+def dashboard_overview(request):
+
+    bunds = Bundesland.objects.annotate(num_orgs=Count('organisation'))
+
+    datasource = {}
+
+    datasource['chart'] = {
+        "caption": "Organisationen pro Bundesland",
+        "subCaption": "Test Daten",
+        "xAxisName": "",
+        "yAxisName": "Anzahl",
+        "theme": "zune"
+        }
+
+    datasource['data'] = []
+
+    for b in bunds:
+        data = {}
+        data['label'] = b.bundesland
+        data['value'] = b.num_orgs
+        datasource['data'].append(data)
+
+
+
+    column2da = FusionCharts("column2d", "ex1", "600", "400", "chart-1", "json", datasource)
+
+    column2db = FusionCharts("column2d", "ex2", "600", "400", "chart-2", "json",
+        """{  
+        "chart": {
+            "caption": "Monthly Revenue for last year",
+            "subCaption": "Harry\'s Supermart",
+            "xAxisName": "Month",
+            "yAxisName": "Revenues (In USD)",
+            "numberPrefix": "$",
+            "theme": "zune"
+        },
+        "data": [{
+            "label": "Jan",
+            "value": "1000000"
+        }, {
+            "label": "Feb",
+            "value": "1000000"
+        }, {
+            "label": "Mar",
+            "value": "1000000"
+        }, {
+            "label": "Apr",
+            "value": "550000"
+        }, {
+            "label": "May",
+            "value": "910000"
+        }, {
+            "label": "Jun",
+            "value": "510000"
+        }, {
+            "label": "Jul", 
+            "value": "680000"
+        }, { 
+            "label": "Aug",
+            "value": "620000"
+        }, {
+            "label": "Sep",
+            "value": "610000"
+        }, {
+            "label": "Oct",
+            "value": "490000"
+        }, {
+            "label": "Nov",
+            "value": "900000"
+        }, {
+            "label": "Dec",
+            "value": "730000"
+        }]
+    }""")
+
+
+    return render(request, 'orgmgm/dashboard/overview.html', {'output': [column2da.render(), column2db.render()]})
+
+
+
 
 # Views for Organisation Model
 
@@ -32,6 +119,29 @@ def organisation_delete(request, pk):
     return render(request, 'orgmgm/organisation/delete.html',
                   {'organisation': organisation})
 
+
+# class OrganisationDetail(DetailView):
+
+#     model = Organisation
+#     template_name = 'orgmgm/organisation/detail.html'
+#     # context_object_name = "organisation_detail"
+
+#     # def get_context_data(self, **kwargs):
+#     #     context = super(OrganisationDetail, self).get_context_data(**kwargs)
+#     #     context['activity_list'] = Activity.objects.all()
+#     #     return context
+
+#     # def get_object(self):
+#     #     # Call the superclass
+#     #     object = super(OrganisationDetail, self).get_object()
+#     #     return object
+
+#     def get(self, request, pk):
+#         organisation = get_object_or_404(Organisation, pk=pk)
+#         return render(request, self.template_name,
+#                   {'organisation': organisation})
+
+        
 
 def organisation_detail(request, pk):
     organisation = get_object_or_404(Organisation, pk=pk)
@@ -178,12 +288,17 @@ def activity_add(request):
         form = AddActivityForm(request.POST)
         if form.is_valid():
             activity = form.save()
-            return redirect('activity_details', pk=activity.pk)
+            return redirect('activity_detail', pk=activity.pk)
     else:
-        form = AddActivityForm()
+        if request.GET.get('organisation'):
+            fk = request.GET.get('organisation')
+            form = AddActivityForm(initial={'organisation': fk}) 
+        else:
+            form = AddActivityForm()
     return render(request, 'orgmgm/activity/add.html', {'form': form})
 
 # Needed activity details
+
 
 
 def activity_detail(request, pk):
@@ -191,9 +306,3 @@ def activity_detail(request, pk):
     return render(request, 'orgmgm/activity/detail.html',
                   {'activity': activity})
 
-
-
-# Views for Dashboard
-
-def dashboard_overview(request):
-    return render(request, 'orgmgm/dashboard/overview.html')

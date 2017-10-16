@@ -41,4 +41,26 @@
 <a class="btn btn-default" href="{% url 'organisation_edit' pk=organisation.pk %}">Edit</a>
 <a class="btn btn-default" href="{% url 'organisation_delete' pk=organisation.pk %}">Delete</a>
 <a class="btn btn-default" href="{% url 'organisation_list' %}">Zur Übersicht</a>
+
+test
+
+
+<table class="table table-striped" style="font-size: 10px">
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Type</th>
+    </tr>
+    {% for a in activity_list %}
+    <tr>
+        <td>{{ a.titel }}</td>
+        <td>{{ a.description }}</td>
+        <td>{{ a.activitytype }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+
+
+
 {% endblock %}

@@ -1,6 +1,5 @@
 {% extends "../base.html" %}
 {% load bootstrap3 %}
-
 {% block content %}
 
 <table class="table table-striped" style="font-size: 10px">
@@ -30,6 +29,7 @@
         <td>{{ o.bundesland }}</td>
         <td><center><a href="{% url 'kontakt_add'%}?organisation={{ o.pk }}">Add Kontakt</a></center></td>
         <td><center><a href="{% url 'activity_add'%}?organisation={{ o.pk }}">Add Activity</a></center></td>
+        <td><center><a href="{% url 'organisation_detail' pk=o.pk %}">Detail</a></center></td>
     </tr>
     {% endfor %}
 </table>
