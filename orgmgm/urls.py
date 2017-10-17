@@ -15,7 +15,7 @@ urlpatterns=[
     url(r'^organisation/$', views.organisation_list, name='organisation_list'),
     url(r'^organisation/search/$', views.organisation_search, name='organisation_search'),
     url(r'^organisation/add/$', views.organisation_add, name='organisation_add'),
-    url(r'^organisation/detail/(?P<pk>\d+)/$', views.organisation_detail, name='organisation_detail'),
+    url(r'^organisation/detail/(?P<pk>\d+)/$', views.OrganisationDetail.as_view(), name='organisation_detail'),
     url(r'^organisation/edit/(?P<pk>\d+)/$', views.organisation_edit, name='organisation_edit'),
     url(r'^organisation/delete/(?P<pk>\d+)/$', views.organisation_delete, name='organisation_delete'),
 ]   

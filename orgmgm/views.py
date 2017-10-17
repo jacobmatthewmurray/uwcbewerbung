@@ -120,33 +120,24 @@ def organisation_delete(request, pk):
                   {'organisation': organisation})
 
 
-# class OrganisationDetail(DetailView):
+class OrganisationDetail(DetailView):
 
-#     model = Organisation
-#     template_name = 'orgmgm/organisation/detail.html'
-#     # context_object_name = "organisation_detail"
+    model = Organisation
+    template_name = 'orgmgm/organisation/detail.html'
+    context_object_name = "organisation"
 
-#     # def get_context_data(self, **kwargs):
-#     #     context = super(OrganisationDetail, self).get_context_data(**kwargs)
-#     #     context['activity_list'] = Activity.objects.all()
-#     #     return context
-
-#     # def get_object(self):
-#     #     # Call the superclass
-#     #     object = super(OrganisationDetail, self).get_object()
-#     #     return object
-
-#     def get(self, request, pk):
-#         organisation = get_object_or_404(Organisation, pk=pk)
-#         return render(request, self.template_name,
-#                   {'organisation': organisation})
+    def get_context_data(self, **kwargs):
+        #print(self.pk)
+        context = super(OrganisationDetail, self).get_context_data(**kwargs)
+        context['activity_list'] = Activity.objects.filter(organisation_id=self.kwargs['pk'])
+        return context
 
         
 
-def organisation_detail(request, pk):
-    organisation = get_object_or_404(Organisation, pk=pk)
-    return render(request, 'orgmgm/organisation/detail.html',
-                  {'organisation': organisation})
+# def organisation_detail(request, pk):
+#     organisation = get_object_or_404(Organisation, pk=pk)
+#     return render(request, 'orgmgm/organisation/detail.html',
+#                   {'organisation': organisation})
 
 
 def organisation_edit(request, pk):
