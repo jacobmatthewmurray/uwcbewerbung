@@ -4,4 +4,3 @@ python manage.py loaddata activitytype.json
 python manage.py loaddata organisation.json
 python manage.py loaddata kontakt.json
 python manage.py loaddata activity.json
-

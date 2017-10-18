@@ -5,6 +5,7 @@
 <table class="table table-striped" style="font-size: 10px">
     <tr>
         <th>PK</th>
+        <th>Typ</th>
         <th>Name</th>
         <th>Strasse/Hausnummer</th>
         <th>PLZ</th>
@@ -19,6 +20,7 @@
     {% for o in orgs %}
     <tr>
         <td>{{ o.pk }}</td>
+        <td>{{ o.organisationtype }}</td>
         <td><a href="{% url 'organisation_detail' pk=o.pk %}">{{ o.name }}</a></td>
         <td>{{ o.strassehsnr }}</td>
         <td>{{ o.plz }}</td>

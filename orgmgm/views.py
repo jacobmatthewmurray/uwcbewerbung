@@ -5,6 +5,7 @@ from django.template import loader
 from django.views import View
 from django.views.generic.detail import DetailView
 from django.db.models import Count
+from django.db.models.functions import ExtractMonth, ExtractDay
 
 
 from .models import Organisation, Kontakt, Activity, Bundesland
@@ -20,76 +21,55 @@ def dashboard_overview(request):
 
     bunds = Bundesland.objects.annotate(num_orgs=Count('organisation'))
 
-    datasource = {}
+    bunds_ds = {}
 
-    datasource['chart'] = {
+    bunds_ds['chart'] = {
         "caption": "Organisationen pro Bundesland",
-        "subCaption": "Test Daten",
+        "subCaption": "Testdaten",
         "xAxisName": "",
         "yAxisName": "Anzahl",
         "theme": "zune"
         }
 
-    datasource['data'] = []
+    bunds_ds['data'] = []
 
     for b in bunds:
         data = {}
-        data['label'] = b.bundesland
+        data['label'] = b.bundeslandshort
         data['value'] = b.num_orgs
-        datasource['data'].append(data)
+        bunds_ds['data'].append(data)
 
 
 
-    column2da = FusionCharts("column2d", "ex1", "600", "400", "chart-1", "json", datasource)
+    column2da = FusionCharts("column2d", "ex1", "600", "400", "chart-1", "json", bunds_ds)
 
-    column2db = FusionCharts("column2d", "ex2", "600", "400", "chart-2", "json",
-        """{  
-        "chart": {
-            "caption": "Monthly Revenue for last year",
-            "subCaption": "Harry\'s Supermart",
-            "xAxisName": "Month",
-            "yAxisName": "Revenues (In USD)",
-            "numberPrefix": "$",
-            "theme": "zune"
-        },
-        "data": [{
-            "label": "Jan",
-            "value": "1000000"
-        }, {
-            "label": "Feb",
-            "value": "1000000"
-        }, {
-            "label": "Mar",
-            "value": "1000000"
-        }, {
-            "label": "Apr",
-            "value": "550000"
-        }, {
-            "label": "May",
-            "value": "910000"
-        }, {
-            "label": "Jun",
-            "value": "510000"
-        }, {
-            "label": "Jul", 
-            "value": "680000"
-        }, { 
-            "label": "Aug",
-            "value": "620000"
-        }, {
-            "label": "Sep",
-            "value": "610000"
-        }, {
-            "label": "Oct",
-            "value": "490000"
-        }, {
-            "label": "Nov",
-            "value": "900000"
-        }, {
-            "label": "Dec",
-            "value": "730000"
-        }]
-    }""")
+
+    acts = Activity.objects \
+        .annotate(actmonth=ExtractMonth('activitydate'), actday=ExtractDay('activitydate')) \
+        .values('actmonth','actday')\
+        .annotate(num_acts=Count('pk'))
+
+    acts_ds = {}
+
+    acts_ds['chart'] = {
+        "caption": "Aktivitaeten im letzten Monat",
+        "subCaption": "Testdaten",
+        "xAxisName": "",
+        "yAxisName": "Anzahl",
+        "theme": "zune"
+        }
+
+    acts_ds['data'] = []
+
+    for a in acts:
+        data = {}
+        data['label'] = ('0'+str(a['actday']))[-2:]+'|'+ ('0'+str(a['actmonth']))[-2:]
+        data['value'] = a['num_acts']
+        acts_ds['data'].append(data)
+
+
+
+    column2db = FusionCharts("column2d", "ex2", "600", "400", "chart-2", "json", acts_ds)
 
 
     return render(request, 'orgmgm/dashboard/overview.html', {'output': [column2da.render(), column2db.render()]})

@@ -42,25 +42,30 @@
 <a class="btn btn-default" href="{% url 'organisation_delete' pk=organisation.pk %}">Delete</a>
 <a class="btn btn-default" href="{% url 'organisation_list' %}">Zur Übersicht</a>
 
-test
+<h1>Recent Activity</h1>
 
-
-<table class="table table-striped" style="font-size: 10px">
-    <tr>
-        <th>Title</th>
-        <th>Description</th>
-        <th>Type</th>
-    </tr>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Activity Date</th>
+            <th>Kontakt</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Type</th>
+        </tr>
+    </thead>
     {% for a in activity_list %}
-    <tr>
-        <td>{{ a.titel }}</td>
-        <td>{{ a.description }}</td>
-        <td>{{ a.activitytype }}</td>
-    </tr>
+    <tbody>
+        <tr>
+            <td>{{ a.activitydate|date:"M d, Y" }}</td>
+            <td>{{ a.kontakt }}</td>
+            <td>{{ a.titel }}</td>
+            <td>{{ a.description }}</td>
+            <td>{{ a.activitytype }}</td>
+        </tr>
+    </tbody>
     {% endfor %}
 </table>
-
-
 
 
 {% endblock %}
