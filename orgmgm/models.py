@@ -15,6 +15,7 @@ class OrganisationType(models.Model):
     def __str__(self):
         return self.organisationtype
 
+
 class Organisation(models.Model):
     name = models.CharField(max_length=200, verbose_name='Organisation Name')
     strassehsnr = models.CharField(max_length=200, verbose_name='Strasse und Hausnummer')
@@ -55,7 +56,7 @@ class Activity(models.Model):
     activitytype = models.ForeignKey(ActivityType, verbose_name='Art der Aktivität')
     organisation = models.ForeignKey(Organisation, verbose_name='Organisation')
     kontakt = models.ForeignKey(Kontakt, verbose_name='Kontakt')
-    editdate = models.DateTimeField(auto_now_add=True, blank=True)
+    editdate = models.DateTimeField(auto_now=True, null=True)
     #edituser = models.ForeignKey(Users) #check where user table from login stores
 
     def __str__(self):

@@ -25,7 +25,7 @@
 "fields": {
      "organisationtype":"Sportverein"
     }
-}
+},
 {
 "model" : "orgmgm.organisationtype",
 "pk":5,
