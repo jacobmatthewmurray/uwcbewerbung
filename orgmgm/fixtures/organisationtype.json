@@ -1,0 +1,35 @@
+[{
+"model" : "orgmgm.organisationtype",
+"pk":1,
+"fields": {
+     "organisationtype":"Gymnasium"
+    }
+},
+{
+"model" : "orgmgm.organisationtype",
+"pk":2,
+"fields": {
+     "organisationtype":"Förderverein"
+    }
+},
+{
+"model" : "orgmgm.organisationtype",
+"pk":3,
+"fields": {
+     "organisationtype":"Kirche"
+    }
+},
+{
+"model" : "orgmgm.organisationtype",
+"pk":4,
+"fields": {
+     "organisationtype":"Sportverein"
+    }
+}
+{
+"model" : "orgmgm.organisationtype",
+"pk":5,
+"fields": {
+     "organisationtype":"Realschule"
+    }
+}]

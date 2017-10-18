@@ -3,9 +3,17 @@ from django.db import models
 
 class Bundesland(models.Model):
     bundesland = models.CharField(max_length=25, verbose_name='Bundesland')
+    bundeslandshort = models.CharField(max_length=25, verbose_name='Bundesland Short')
 
     def __str__(self):
         return self.bundesland
+
+class OrganisationType(models.Model):
+    organisationtype = models.CharField(max_length=20, verbose_name='Organisation Type')
+    editdate = models.DateTimeField(auto_now=True, null=True)
+
+    def __str__(self):
+        return self.organisationtype
 
 class Organisation(models.Model):
     name = models.CharField(max_length=200, verbose_name='Organisation Name')
@@ -16,6 +24,7 @@ class Organisation(models.Model):
     email = models.CharField(max_length=50, verbose_name='Email Adresse')
     www = models.CharField(max_length=100, verbose_name='Homepage')
     bundesland = models.ForeignKey(Bundesland)
+    organisationtype = models.ForeignKey(OrganisationType)
 
     def __str__(self):
         return self.name
@@ -51,21 +60,3 @@ class Activity(models.Model):
 
     def __str__(self):
         return self.title
-
-# class Activity(models.self):
-#     title
-#     activitytype
-#     date 
-#     description
-#     successrating
-#     nextsteps
-#     organisation
-#     Kontakt
-#     editdate
-#     edituser
-
-
-
-
-
-# Create your models here.

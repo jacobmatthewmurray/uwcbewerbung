@@ -2,111 +2,127 @@
 "model" : "orgmgm.bundesland",
 "pk":1,
 "fields": {
-     "bundesland":"Baden-Württemberg"
+     "bundesland":"Baden-Württemberg",
+     "bundeslandshort" : "BAW"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":2,
 "fields": {
-     "bundesland":"Bayern"
+     "bundesland":"Bayern",
+     "bundeslandshort" : "BAY"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":3,
 "fields": {
-     "bundesland":"Brandenburg"
+     "bundesland":"Brandenburg",
+     "bundeslandshort" : "BRA"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":4,
 "fields": {
-     "bundesland":"Bremen"
+     "bundesland":"Bremen",
+     "bundeslandshort" : "BRE"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":5,
 "fields": {
-     "bundesland":"Hamburg"
+     "bundesland":"Hamburg",
+     "bundeslandshort" : "HAM"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":6,
 "fields": {
-     "bundesland":"Hessen"
+     "bundesland":"Hessen",
+     "bundeslandshort" : "HES"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":7,
 "fields": {
-     "bundesland":"Mecklenburg-Vorpommern"
+     "bundesland":"Mecklenburg-Vorpommern",
+     "bundeslandshort" : "MVP"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":8,
 "fields": {
-     "bundesland":"Niedersachsen"
+     "bundesland":"Niedersachsen",
+     "bundeslandshort" : "NIE"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":9,
 "fields": {
-     "bundesland":"Nordrhein-Westfalen"
+     "bundesland":"Nordrhein-Westfalen",
+     "bundeslandshort" : "NRW"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":10,
 "fields": {
-     "bundesland":"Rheinland-Pfalz"
+     "bundesland":"Rheinland-Pfalz",
+     "bundeslandshort" : "RPF"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":11,
 "fields": {
-     "bundesland":"Saarland"
+     "bundesland":"Saarland",
+     "bundeslandshort" : "SAA"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":12,
 "fields": {
-     "bundesland":"Sachsen"
+     "bundesland":"Sachsen",
+     "bundeslandshort" : "SAC"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":13,
 "fields": {
-     "bundesland":"Sachsen-Anhalt"
+     "bundesland":"Sachsen-Anhalt",
+     "bundeslandshort" : "SAN"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":14,
 "fields": {
-     "bundesland":"Schleswig-Holstein"
+     "bundesland":"Schleswig-Holstein",
+     "bundeslandshort" : "SWH"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":15,
 "fields": {
-     "bundesland":"Thüringen"
+     "bundesland":"Thüringen",
+     "bundeslandshort" : "THU"
     }
 },
 {
 "model" : "orgmgm.bundesland",
 "pk":16,
 "fields": {
-     "bundesland":"Berlin"
+     "bundesland":"Berlin",
+     "bundeslandshort" : "BER"
     }
 }]
