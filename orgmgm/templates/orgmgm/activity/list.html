@@ -1,0 +1,29 @@
+{% extends "../base.html" %}
+
+{% block content %}
+
+<h1>Activities</h1>
+
+<table class="table table-hover">
+    <tr>
+        <th>Titel</th>
+        <th>Datum</th>
+        <th>Organisation</th>
+        <th>Typ</th>
+        <th>Detail</th>
+    </tr>
+    {% for a in acts %}
+    <tr>
+        <td>{{a.titel}}</td>
+        <td>{{a.activitydate}}</td>
+        <td>{{a.organisation}}</td>
+        <td>{{a.activitytype}}</td>
+        <td><a href="{% url 'activity_detail' pk=a.pk%}">Details</a></td>
+    </tr>
+    {% endfor %}
+</table>
+<a class="btn btn-default" href="">Search</a>
+<a class="btn btn-default" href="{% url 'activity_add' %}">Add</a>
+{% endblock %}
+
+

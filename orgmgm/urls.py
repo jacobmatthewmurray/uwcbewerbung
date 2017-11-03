@@ -1,11 +1,15 @@
 from django.conf.urls import url
-
+from django.views.generic import TemplateView
 from . import views
 
 urlpatterns=[
-    url(r'^$', views.dashboard_overview, name='dashboard_overview'),
+    url(r'^$',TemplateView.as_view(template_name='orgmgm/home.html'), name='home'),
+    url(r'^dashboard/$', views.dashboard_overview, name='dashboard_overview'),
+    url(r'^activity/$', views.activity_list, name='activity_list'),
     url(r'^activity/add/$', views.activity_add, name='activity_add'),
     url(r'^activity/detail/(?P<pk>\d+)/$', views.activity_detail, name='activity_detail'),
+    url(r'^activity/edit/(?P<pk>\d+)/$', views.activity_edit, name='activity_edit'),
+    url(r'^activity/delete/(?P<pk>\d+)/$', views.activity_delete, name='activity_delete'),
     url(r'^kontakt/$', views.kontakt_list, name='kontakt_list'),
     url(r'^kontakt/search/$', views.kontakt_search, name='kontakt_search'),
     url(r'^kontakt/add/$', views.kontakt_add, name='kontakt_add'),

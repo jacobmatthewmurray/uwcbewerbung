@@ -1,0 +1,14 @@
+{% extends "../base.html" %}
+
+{% block content %}
+
+<p>Are you sure you want to delete <strong>{{ activity.titel }}</strong>?</p>
+
+<form action="{% url 'activity_delete' pk=activity.pk %}" method="POST">
+    {% csrf_token %}
+    <input class="btn btn-default" type="submit" value="Delete">
+</form>
+<a class="btn btn-default" href="{% url 'activity_detail' pk=activity.pk %}">Cancel</a>
+
+
+{% endblock %}

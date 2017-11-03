@@ -7,6 +7,8 @@ from django.views.generic.detail import DetailView
 from django.db.models import Count
 from django.db.models.functions import ExtractMonth, ExtractDay
 from django.contrib.auth import login, authenticate
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import Organisation, Kontakt, Activity, Bundesland
 from .forms import (SearchOrganisationForm, 
@@ -19,23 +21,25 @@ from .fusioncharts import FusionCharts
 
 
 
-def signup(request):
-    if request.method == 'POST':
-        form = SignUpForm(request.POST)
-        if form.is_valid():
-            form.save()
-            username = form.cleaned_data.get('username')
-            raw_password = form.cleaned_data.get('password1')
-            user = authenticate(username=username, password=raw_password)
-            login(request, user)
-            return redirect('dashboard_overview')
-    else:
-        form = SignUpForm()
-    return render(request, 'orgmgm/signup.html', {'form': form})
+# For now no sign up option. Registration via email to Jacob.
+
+# def signup(request):
+#     if request.method == 'POST':
+#         form = SignUpForm(request.POST)
+#         if form.is_valid():
+#             form.save()
+#             username = form.cleaned_data.get('username')
+#             raw_password = form.cleaned_data.get('password1')
+#             user = authenticate(username=username, password=raw_password)
+#             login(request, user)
+#             return redirect('dashboard_overview')
+#     else:
+#         form = SignUpForm()
+#     return render(request, 'orgmgm/signup.html', {'form': form})
 
 
 
-
+@login_required
 def dashboard_overview(request):
 
     bunds = Bundesland.objects.annotate(num_orgs=Count('organisation'))
@@ -98,7 +102,7 @@ def dashboard_overview(request):
 
 # Views for Organisation Model
 
-
+@login_required
 def organisation_add(request):
     if request.method == 'POST':
         form = AddOrganisationForm(request.POST)
@@ -109,7 +113,7 @@ def organisation_add(request):
         form = AddOrganisationForm()
     return render(request, 'orgmgm/organisation/add.html', {'form': form})
 
-
+@login_required
 def organisation_delete(request, pk):
     organisation = get_object_or_404(Organisation, pk=pk)
     if request.method == 'POST':
@@ -119,7 +123,7 @@ def organisation_delete(request, pk):
                   {'organisation': organisation})
 
 
-class OrganisationDetail(DetailView):
+class OrganisationDetail(LoginRequiredMixin,DetailView):
 
     model = Organisation
     template_name = 'orgmgm/organisation/detail.html'
@@ -139,6 +143,7 @@ class OrganisationDetail(DetailView):
 #                   {'organisation': organisation})
 
 
+@login_required
 def organisation_edit(request, pk):
     organisation = get_object_or_404(Organisation, pk=pk)
     if request.method == 'POST':
@@ -150,7 +155,7 @@ def organisation_edit(request, pk):
         form = AddOrganisationForm(instance=organisation)
     return render(request, 'orgmgm/organisation/edit.html', {'form': form})
 
-
+@login_required
 def organisation_list(request):
     org_list = Organisation.objects.all()
     paginator = Paginator(org_list, 25)
@@ -166,7 +171,7 @@ def organisation_list(request):
 
     return render(request, 'orgmgm/organisation/list.html', {'orgs': orgs})
 
-
+@login_required
 def organisation_search(request):
     if request.method == 'POST':
         form = SearchOrganisationForm(request.POST)
@@ -195,7 +200,7 @@ def organisation_search(request):
 
 # Views for Kontakt
 
-
+@login_required
 def kontakt_add(request):
     if request.method == 'POST':
         form = AddKontaktForm(request.POST)
@@ -211,7 +216,7 @@ def kontakt_add(request):
             form = AddKontaktForm()
     return render(request, 'orgmgm/kontakt/add.html', {'form': form})
 
-
+@login_required
 def kontakt_delete(request, pk):
     kontakt = get_object_or_404(Kontakt, pk=pk)
     if request.method == 'POST':
@@ -219,12 +224,12 @@ def kontakt_delete(request, pk):
         return redirect('kontakt_add')
     return render(request, 'orgmgm/kontakt/delete.html', {'kontakt': kontakt})
 
-
+@login_required
 def kontakt_detail(request, pk):
     kontakt = get_object_or_404(Kontakt, pk=pk)
     return render(request, 'orgmgm/kontakt/detail.html', {'kontakt': kontakt})
 
-
+@login_required
 def kontakt_edit(request, pk):
     kontakt = get_object_or_404(Kontakt, pk=pk)
     if request.method == 'POST':
@@ -236,7 +241,7 @@ def kontakt_edit(request, pk):
         form = AddKontaktForm(instance=kontakt)
     return render(request, 'orgmgm/kontakt/edit.html', {'form': form})
 
-
+@login_required
 def kontakt_list(request):
     kon_list = Kontakt.objects.all().order_by('nachname')
     paginator = Paginator(kon_list, 25)
@@ -252,7 +257,7 @@ def kontakt_list(request):
 
     return render(request, 'orgmgm/kontakt/list.html', {'kons': kons})
 
-
+@login_required
 def kontakt_search(request):
     if request.method == 'POST':
         form = SearchKontaktForm(request.POST)
@@ -272,7 +277,7 @@ def kontakt_search(request):
 # Views for Activity Model
 
 
-
+@login_required
 def activity_add(request):
     if request.method == 'POST':
         form = AddActivityForm(request.POST)
@@ -287,10 +292,46 @@ def activity_add(request):
             form = AddActivityForm()
     return render(request, 'orgmgm/activity/add.html', {'form': form})
 
-# Needed activity details
+@login_required
+def activity_list(request):
+    act_list = Activity.objects.all().order_by('activitydate')
+    paginator = Paginator(act_list, 25)
+
+    page = request.GET.get('page')
+
+    try:
+        acts = paginator.page(page)
+    except PageNotAnInteger:
+        acts = paginator.page(1)
+    except EmptyPage:
+        acts = paginator.page(paginator.num_pages)
+
+    return render(request, 'orgmgm/activity/list.html', {'acts': acts})
 
 
+@login_required
+def activity_edit(request, pk):
+    activity = get_object_or_404(Activity, pk=pk)
+    if request.method == 'POST':
+        form = AddActivityForm(request.POST, instance=activity)
+        if form.is_valid():
+            activity = form.save()
+            return redirect('activity_detail', pk=activity.pk)
+    else:
+        form = AddActivityForm(instance=activity)
+    return render(request, 'orgmgm/activity/edit.html', {'form': form})
 
+
+@login_required
+def activity_delete(request, pk):
+    activity = get_object_or_404(Activity, pk=pk)
+    if request.method == 'POST':
+        activity.delete()
+        return redirect('kontakt_add')
+    return render(request, 'orgmgm/activity/delete.html', {'activity': activity})
+
+
+@login_required
 def activity_detail(request, pk):
     activity = get_object_or_404(Activity, pk=pk)
     return render(request, 'orgmgm/activity/detail.html',
