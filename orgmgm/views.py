@@ -6,15 +6,34 @@ from django.views import View
 from django.views.generic.detail import DetailView
 from django.db.models import Count
 from django.db.models.functions import ExtractMonth, ExtractDay
-
+from django.contrib.auth import login, authenticate
 
 from .models import Organisation, Kontakt, Activity, Bundesland
 from .forms import (SearchOrganisationForm, 
                     AddKontaktForm, 
                     AddOrganisationForm,
                     SearchKontaktForm,
-                    AddActivityForm)
+                    AddActivityForm,
+                    SignUpForm)
 from .fusioncharts import FusionCharts
+
+
+
+def signup(request):
+    if request.method == 'POST':
+        form = SignUpForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data.get('username')
+            raw_password = form.cleaned_data.get('password1')
+            user = authenticate(username=username, password=raw_password)
+            login(request, user)
+            return redirect('dashboard_overview')
+    else:
+        form = SignUpForm()
+    return render(request, 'orgmgm/signup.html', {'form': form})
+
+
 
 
 def dashboard_overview(request):
