@@ -39,8 +39,12 @@
 </table>
 
 <a class="btn btn-default" href="{% url 'organisation_edit' pk=organisation.pk %}">Edit</a>
+{% if user.is_superuser %}
 <a class="btn btn-default" href="{% url 'organisation_delete' pk=organisation.pk %}">Delete</a>
+{% endif %}
 <a class="btn btn-default" href="{% url 'organisation_list' %}">Zur Übersicht</a>
+
+<div class="col-xs-12" style="height:75px;"></div>
 
 <h1>Recent Activity</h1>
 
@@ -66,6 +70,7 @@
     </tbody>
     {% endfor %}
 </table>
+<a class="btn btn-default" href="{% url 'activity_add' %}?organisation={{ organisation.pk }}"><span class="glyphicon glyphicon-plus"/> Aktivität</a>
 
 
 {% endblock %}

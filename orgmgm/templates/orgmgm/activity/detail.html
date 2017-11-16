@@ -31,7 +31,9 @@
 </table>
 
 <a class="btn btn-default" href="{% url 'activity_edit' pk=activity.pk%}">Edit</a>
+{% if user.is_superuser %}
 <a class="btn btn-default" href="{% url 'activity_delete' pk=activity.pk%}">Delete</a>
+{% endif %}
 <a class="btn btn-default" href="{% url 'activity_list' %}">Zur Übersicht</a>
 {% endblock %}
 

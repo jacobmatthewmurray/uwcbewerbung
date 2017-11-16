@@ -3,13 +3,16 @@ from django.db import models
 
 class Bundesland(models.Model):
     bundesland = models.CharField(max_length=25, verbose_name='Bundesland')
-    bundeslandshort = models.CharField(max_length=25, verbose_name='Bundesland Short')
+    bundeslandshort = models.CharField(
+        max_length=25, verbose_name='Bundesland Short')
 
     def __str__(self):
         return self.bundesland
 
+
 class OrganisationType(models.Model):
-    organisationtype = models.CharField(max_length=20, verbose_name='Organisation Type')
+    organisationtype = models.CharField(
+        max_length=20, verbose_name='Organisation Type')
     editdate = models.DateTimeField(auto_now=True, null=True)
 
     def __str__(self):
@@ -18,7 +21,8 @@ class OrganisationType(models.Model):
 
 class Organisation(models.Model):
     name = models.CharField(max_length=200, verbose_name='Organisation Name')
-    strassehsnr = models.CharField(max_length=200, verbose_name='Strasse und Hausnummer')
+    strassehsnr = models.CharField(
+        max_length=200, verbose_name='Strasse und Hausnummer')
     plz = models.CharField(max_length=5, verbose_name='Postleitzahl')
     stadt = models.CharField(max_length=50, verbose_name='Stadt')
     telefon = models.CharField(max_length=20, verbose_name='Telefonnummer')
@@ -29,6 +33,7 @@ class Organisation(models.Model):
 
     def __str__(self):
         return self.name
+
 
 class Kontakt(models.Model):
     vorname = models.CharField(max_length=20, verbose_name='Vorname')
@@ -42,7 +47,8 @@ class Kontakt(models.Model):
 
 
 class ActivityType(models.Model):
-    activitytype = models.CharField(max_length=20, verbose_name='Activity Type')
+    activitytype = models.CharField(
+        max_length=20, verbose_name='Activity Type')
     editdate = models.DateTimeField(auto_now=True, null=True)
 
     def __str__(self):
@@ -53,11 +59,13 @@ class Activity(models.Model):
     titel = models.CharField(max_length=50, verbose_name='Title der Aktivität')
     activitydate = models.DateTimeField(verbose_name='Datum der Aktivität')
     description = models.CharField(max_length=200, verbose_name='Beschreibung')
-    activitytype = models.ForeignKey(ActivityType, verbose_name='Art der Aktivität')
+    activitytype = models.ForeignKey(
+        ActivityType, verbose_name='Art der Aktivität')
     organisation = models.ForeignKey(Organisation, verbose_name='Organisation')
     kontakt = models.ForeignKey(Kontakt, verbose_name='Kontakt')
     editdate = models.DateTimeField(auto_now=True, null=True)
-    #edituser = models.ForeignKey(Users) #check where user table from login stores
+    # edituser = models.ForeignKey(Users)
+    # check where user table from login stores
 
     def __str__(self):
         return self.title

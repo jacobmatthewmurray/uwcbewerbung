@@ -1,4 +1,5 @@
 {% extends "../base.html" %}
+{% load bootstrap3 %}
 
 {% block content %}
 
@@ -22,6 +23,16 @@
     </tr>
     {% endfor %}
 </table>
-<a class="btn btn-default" href="{% url 'kontakt_search' %}">Search</a>
-<a class="btn btn-default" href="{% url 'kontakt_add' %}">Add</a>
+
+
+<div class="text-center">
+    {% bootstrap_pagination kons pages_to_show=5 %}
+</div>
+<div class="text-center">
+    <small>
+    Page {{ kons.number }} of {{ kons.paginator.num_pages }}.
+    </small>
+</div>
+
+
 {% endblock %}

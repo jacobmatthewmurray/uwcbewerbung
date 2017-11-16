@@ -10,15 +10,14 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-from .models import Organisation, Kontakt, Activity, Bundesland
-from .forms import (SearchOrganisationForm, 
-                    AddKontaktForm, 
+from .models import Organisation, Kontakt, Activity, Bundesland, ActivityType
+from .forms import (SearchOrganisationForm,
+                    AddKontaktForm,
+                    SearchActivityForm,
                     AddOrganisationForm,
                     SearchKontaktForm,
-                    AddActivityForm,
-                    SignUpForm)
+                    AddActivityForm)
 from .fusioncharts import FusionCharts
-
 
 
 # For now no sign up option. Registration via email to Jacob.
@@ -38,7 +37,6 @@ from .fusioncharts import FusionCharts
 #     return render(request, 'orgmgm/signup.html', {'form': form})
 
 
-
 @login_required
 def dashboard_overview(request):
 
@@ -52,7 +50,7 @@ def dashboard_overview(request):
         "xAxisName": "",
         "yAxisName": "Anzahl",
         "theme": "zune"
-        }
+    }
 
     bunds_ds['data'] = []
 
@@ -62,14 +60,12 @@ def dashboard_overview(request):
         data['value'] = b.num_orgs
         bunds_ds['data'].append(data)
 
-
-
-    column2da = FusionCharts("column2d", "ex1", "600", "400", "chart-1", "json", bunds_ds)
-
+    column2da = FusionCharts("column2d", "ex1", "600",
+                             "400", "chart-1", "json", bunds_ds)
 
     acts = Activity.objects \
         .annotate(actmonth=ExtractMonth('activitydate'), actday=ExtractDay('activitydate')) \
-        .values('actmonth','actday')\
+        .values('actmonth', 'actday')\
         .annotate(num_acts=Count('pk'))
 
     acts_ds = {}
@@ -80,24 +76,21 @@ def dashboard_overview(request):
         "xAxisName": "",
         "yAxisName": "Anzahl",
         "theme": "zune"
-        }
+    }
 
     acts_ds['data'] = []
 
     for a in acts:
         data = {}
-        data['label'] = ('0'+str(a['actday']))[-2:]+'|'+ ('0'+str(a['actmonth']))[-2:]
+        data['label'] = ('0' + str(a['actday']))[-2:] + \
+            '|' + ('0' + str(a['actmonth']))[-2:]
         data['value'] = a['num_acts']
         acts_ds['data'].append(data)
 
-
-
-    column2db = FusionCharts("column2d", "ex2", "600", "400", "chart-2", "json", acts_ds)
-
+    column2db = FusionCharts("column2d", "ex2", "600",
+                             "400", "chart-2", "json", acts_ds)
 
     return render(request, 'orgmgm/dashboard/overview.html', {'output': [column2da.render(), column2db.render()]})
-
-
 
 
 # Views for Organisation Model
@@ -108,10 +101,11 @@ def organisation_add(request):
         form = AddOrganisationForm(request.POST)
         if form.is_valid():
             organisation = form.save()
-            return redirect('organisation_details', pk=organisation.pk)
+            return redirect('organisation_detail', pk=organisation.pk)
     else:
         form = AddOrganisationForm()
     return render(request, 'orgmgm/organisation/add.html', {'form': form})
+
 
 @login_required
 def organisation_delete(request, pk):
@@ -123,19 +117,19 @@ def organisation_delete(request, pk):
                   {'organisation': organisation})
 
 
-class OrganisationDetail(LoginRequiredMixin,DetailView):
+class OrganisationDetail(LoginRequiredMixin, DetailView):
 
     model = Organisation
     template_name = 'orgmgm/organisation/detail.html'
     context_object_name = "organisation"
 
     def get_context_data(self, **kwargs):
-        #print(self.pk)
+        # print(self.pk)
         context = super(OrganisationDetail, self).get_context_data(**kwargs)
-        context['activity_list'] = Activity.objects.filter(organisation_id=self.kwargs['pk'])
+        context['activity_list'] = Activity.objects.filter(
+            organisation_id=self.kwargs['pk'])
         return context
 
-        
 
 # def organisation_detail(request, pk):
 #     organisation = get_object_or_404(Organisation, pk=pk)
@@ -155,6 +149,7 @@ def organisation_edit(request, pk):
         form = AddOrganisationForm(instance=organisation)
     return render(request, 'orgmgm/organisation/edit.html', {'form': form})
 
+
 @login_required
 def organisation_list(request):
     org_list = Organisation.objects.all()
@@ -171,15 +166,18 @@ def organisation_list(request):
 
     return render(request, 'orgmgm/organisation/list.html', {'orgs': orgs})
 
+
 @login_required
 def organisation_search(request):
     if request.method == 'POST':
         form = SearchOrganisationForm(request.POST)
         if form.is_valid():
             ol = Organisation.objects.filter(
-                name__icontains=form.cleaned_data['orgname'],
+                name__icontains=form.cleaned_data['name'],
                 plz__icontains=form.cleaned_data['plz'],
                 stadt__icontains=form.cleaned_data['stadt'],
+                bundesland__bundesland__icontains=form.cleaned_data['bundesland'],
+                organisationtype__organisationtype__icontains=form.cleaned_data['organisationtype'],
             )
             paginator = Paginator(ol, 25)
             page = request.GET.get('page')
@@ -216,6 +214,7 @@ def kontakt_add(request):
             form = AddKontaktForm()
     return render(request, 'orgmgm/kontakt/add.html', {'form': form})
 
+
 @login_required
 def kontakt_delete(request, pk):
     kontakt = get_object_or_404(Kontakt, pk=pk)
@@ -224,10 +223,12 @@ def kontakt_delete(request, pk):
         return redirect('kontakt_add')
     return render(request, 'orgmgm/kontakt/delete.html', {'kontakt': kontakt})
 
+
 @login_required
 def kontakt_detail(request, pk):
     kontakt = get_object_or_404(Kontakt, pk=pk)
     return render(request, 'orgmgm/kontakt/detail.html', {'kontakt': kontakt})
+
 
 @login_required
 def kontakt_edit(request, pk):
@@ -240,6 +241,7 @@ def kontakt_edit(request, pk):
     else:
         form = AddKontaktForm(instance=kontakt)
     return render(request, 'orgmgm/kontakt/edit.html', {'form': form})
+
 
 @login_required
 def kontakt_list(request):
@@ -257,6 +259,7 @@ def kontakt_list(request):
 
     return render(request, 'orgmgm/kontakt/list.html', {'kons': kons})
 
+
 @login_required
 def kontakt_search(request):
     if request.method == 'POST':
@@ -268,7 +271,19 @@ def kontakt_search(request):
                 organisation__name__icontains=form.cleaned_data[
                     'organisation'],
             )
-            return render(request, 'orgmgm/kontakt/list.html', {'kl': kl})
+
+            paginator = Paginator(kl, 25)
+            page = request.GET.get('page')
+
+            try:
+                kons = paginator.page(page)
+            except PageNotAnInteger:
+                kons = paginator.page(1)
+            except EmptyPage:
+                kons = paginator.page(paginator.num_pages)
+
+
+            return render(request, 'orgmgm/kontakt/list.html', {'kons': kons})
     else:
         form = SearchKontaktForm()
     return render(request, 'orgmgm/kontakt/search.html', {'form': form})
@@ -287,10 +302,11 @@ def activity_add(request):
     else:
         if request.GET.get('organisation'):
             fk = request.GET.get('organisation')
-            form = AddActivityForm(initial={'organisation': fk}) 
+            form = AddActivityForm(initial={'organisation': fk})
         else:
             form = AddActivityForm()
     return render(request, 'orgmgm/activity/add.html', {'form': form})
+
 
 @login_required
 def activity_list(request):
@@ -323,6 +339,36 @@ def activity_edit(request, pk):
 
 
 @login_required
+def activity_search(request):
+    if request.method == 'POST':
+        form = SearchActivityForm(request.POST)
+        if form.is_valid():
+            al = Activity.objects.filter(
+                titel__icontains=form.cleaned_data['titel'],
+                activitydate__icontains=form.cleaned_data['activitydate'],
+                description__icontains=form.cleaned_data['description'],
+                activitytype__activitytype__icontains=form.cleaned_data['activitytype'],
+                #organisation__name__icontains=form.cleaned_data['organisation'],
+            )
+
+            paginator = Paginator(al, 25)
+            page = request.GET.get('page')
+
+            try:
+                acts = paginator.page(page)
+            except PageNotAnInteger:
+                acts = paginator.page(1)
+            except EmptyPage:
+                acts = paginator.page(paginator.num_pages)
+
+
+            return render(request, 'orgmgm/activity/list.html', {'acts': acts})
+    else:
+        form = SearchActivityForm()
+    return render(request, 'orgmgm/activity/search.html', {'form': form})
+
+
+@login_required
 def activity_delete(request, pk):
     activity = get_object_or_404(Activity, pk=pk)
     if request.method == 'POST':
@@ -336,4 +382,3 @@ def activity_detail(request, pk):
     activity = get_object_or_404(Activity, pk=pk)
     return render(request, 'orgmgm/activity/detail.html',
                   {'activity': activity})
-

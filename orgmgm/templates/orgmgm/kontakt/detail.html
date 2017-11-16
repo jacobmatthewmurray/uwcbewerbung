@@ -23,6 +23,8 @@
 </table>
 
 <a class="btn btn-default" href="{% url 'kontakt_edit' pk=kontakt.pk %}">Edit</a>
+{% if user.is_superuser %}
 <a class="btn btn-default" href="{% url 'kontakt_delete' pk=kontakt.pk %}">Delete</a>
+{% endif %}
 <a class="btn btn-default" href="{% url 'kontakt_list' %}">Zur Übersicht</a>
 {% endblock %}
