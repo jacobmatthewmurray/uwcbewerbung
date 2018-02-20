@@ -9,4 +9,13 @@
 <p>Hier können Links zu Werberesourcen geparkt werden.</p>
 
 
+{% for r in resources %}
+<ul>
+    <h3>{{r.title}}</h3>
+    <a href="{{r.link}}" target="_blank">{{r.linktitle}}</a>
+    <p>{{r.description}}</p>
+</ul>
+{% endfor %}
+
+
 {% endblock %}

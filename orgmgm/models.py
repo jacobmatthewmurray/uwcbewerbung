@@ -78,4 +78,12 @@ class FAQ(models.Model):
     def __str__(self):
         return self.question
 
+class Resource(models.Model):
+    title = models.CharField(max_length=100, verbose_name='Resource Titel')
+    link = models.URLField(verbose_name='Link')
+    linktitle = models.CharField(max_length=100, verbose_name='Link Titel')
+    description = models.TextField()
+
+    def __str__(self):
+        return self.title 
 
