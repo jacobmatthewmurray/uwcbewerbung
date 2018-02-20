@@ -10,7 +10,7 @@ from django.contrib.auth import login, authenticate
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 
-from .models import Organisation, Kontakt, Activity, Bundesland, ActivityType
+from .models import Organisation, Kontakt, Activity, Bundesland, ActivityType, FAQ
 from .forms import (SearchOrganisationForm,
                     AddKontaktForm,
                     SearchActivityForm,
@@ -382,3 +382,9 @@ def activity_detail(request, pk):
     activity = get_object_or_404(Activity, pk=pk)
     return render(request, 'orgmgm/activity/detail.html',
                   {'activity': activity})
+
+
+@login_required
+def faq(request):
+    questions = FAQ.objects.all()
+    return render(request, 'orgmgm/faq.html', {'questions': questions})

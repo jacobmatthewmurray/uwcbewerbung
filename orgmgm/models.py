@@ -69,3 +69,13 @@ class Activity(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class FAQ(models.Model):
+    question = models.CharField(max_length=500, verbose_name='Frage')
+    answer = models.TextField()
+
+    def __str__(self):
+        return self.question
+
+

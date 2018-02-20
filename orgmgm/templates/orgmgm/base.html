@@ -29,32 +29,42 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="{% url 'dashboard_overview' %}">Dashboard</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Datenbank<span class="caret"></span></a>
-                         <ul class="dropdown-menu">
-                            <li><a href="{% url 'organisation_add' %}"><span class="glyphicon glyphicon-plus"/> Organisation</a></li>
-                            <li><a href="{% url 'organisation_list' %}"><span class="glyphicon glyphicon-list"/> Organisation</a></li>
-                            <li><a href="{% url 'organisation_search' %}"><span class="glyphicon glyphicon-search"/> Organisation</a></li>
-                            <li role="separator" class="divider">Test</li>
-                            <li><a href="{% url 'activity_add' %}"><span class="glyphicon glyphicon-plus"/> Aktivität</a></li>
-                            <li><a href="{% url 'activity_list' %}"><span class="glyphicon glyphicon-list"/> Akitivtät</a></li>
-                            <li><a href="{% url 'activity_search' %}"><span class="glyphicon glyphicon-search"/> Aktivität</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="{% url 'kontakt_add' %}"><span class="glyphicon glyphicon-plus"/> Kontakt</a></li>
-                            <li><a href="{% url 'kontakt_list' %}"><span class="glyphicon glyphicon-list"/> Kontakt</a></li> 
-                            <li><a href="{% url 'kontakt_search' %}"><span class="glyphicon glyphicon-search"/> Kontakt</a></li>
-                      </ul>           
+                    <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organisationen<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{% url 'organisation_add' %}"><span class="glyphicon glyphicon-plus"/> Hinzufügen</a></li>
+                            <li><a href="{% url 'organisation_list' %}"><span class="glyphicon glyphicon-list"/> Liste</a></li>
+                            <li><a href="{% url 'organisation_search' %}"><span class="glyphicon glyphicon-search"/> Suche</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aktivitäten<span class="caret"></span></a>
+                       <ul class="dropdown-menu">
+                            <li><a href="{% url 'activity_add' %}"><span class="glyphicon glyphicon-plus"/> Hinzufügen</a></li>
+                            <li><a href="{% url 'activity_list' %}"><span class="glyphicon glyphicon-list"/> Liste</a></li>
+                            <li><a href="{% url 'activity_search' %}"><span class="glyphicon glyphicon-search"/> Suche</a></li>                               
+                       </ul>
+                    </li>
+                    <li>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Kontakte<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="{% url 'kontakt_add' %}"><span class="glyphicon glyphicon-plus"/> Hinzufügen</a></li>
+                            <li><a href="{% url 'kontakt_list' %}"><span class="glyphicon glyphicon-list"/> Liste</a></li> 
+                            <li><a href="{% url 'kontakt_search' %}"><span class="glyphicon glyphicon-search"/> Suche</a></li>
+                        </ul>
+                    </li>
                     <li><a href="{% url 'resources' %}">Resourcen</a></li>         
+                    <li><a href="{% url 'faq' %}">FAQ</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                    {% if user.is_authenticated %}
                         <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> {{ user.get_username }}</a>
                             <ul class="dropdown-menu">
-                                <li><a href="{% url 'logout'%}?next={{request.path}}">Logout</a></li>
                                 {% if user.is_superuser %}
                                 <li><a href="/admin/">Admin Page</a></li>
                                 {% endif %}
+                                <li><a href="{% url 'logout'%}?next={{request.path}}">Logout</a></li>
                             </ul>
                          </li>
                     {% else %}

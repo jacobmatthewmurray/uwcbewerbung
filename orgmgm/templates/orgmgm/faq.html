@@ -1,0 +1,17 @@
+{% extends './base.html' %}
+
+{% block title %}FAQ{% endblock %}
+
+{% block content %}
+
+<h1>Frequently Asked Questions</h1>
+
+<p>Hier können Links zu Werberesourcen geparkt werden.</p>
+
+{% for q in questions %}
+    <h3>{{q.question}}</h2>
+    <p>{{q.answer}}</p>
+{% endfor%}
+
+
+{% endblock %}
