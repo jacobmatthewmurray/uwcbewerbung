@@ -23,9 +23,9 @@ class Organisation(models.Model):
     name = models.CharField(max_length=200, verbose_name='Organisation Name')
     strassehsnr = models.CharField(
         max_length=200, verbose_name='Strasse und Hausnummer')
-    plz = models.CharField(max_length=5, verbose_name='Postleitzahl')
-    stadt = models.CharField(max_length=50, verbose_name='Stadt')
-    telefon = models.CharField(max_length=20, verbose_name='Telefonnummer')
+    plz = models.CharField(max_length=20, verbose_name='Postleitzahl')
+    stadt = models.CharField(max_length=100, verbose_name='Stadt')
+    telefon = models.CharField(max_length=50, verbose_name='Telefonnummer')
     email = models.CharField(max_length=100, verbose_name='Email Adresse')
     www = models.CharField(max_length=100, verbose_name='Homepage')
     bundesland = models.ForeignKey(Bundesland)
@@ -37,13 +37,13 @@ class Organisation(models.Model):
 
 class Kontakt(models.Model):
     ANREDE_OPT = ((1, 'Frau'), (2, 'Herr'), (3, 'Sonstige'))
-    vorname = models.CharField(max_length=20, verbose_name='Vorname', null=True, blank=True)
-    nachname = models.CharField(max_length=20, verbose_name='Nachname')
+    vorname = models.CharField(max_length=100, verbose_name='Vorname', null=True, blank=True)
+    nachname = models.CharField(max_length=100, verbose_name='Nachname')
     anrede = models.IntegerField(choices=ANREDE_OPT, null=True, blank=True)
-    email = models.CharField(max_length=20, verbose_name='Email Adresse', null=True, blank=True)
-    rolle = models.CharField(max_length=50, verbose_name='Rolle', null=True, blank=True)
+    email = models.CharField(max_length=100, verbose_name='Email Adresse', null=True, blank=True)
+    rolle = models.CharField(max_length=100, verbose_name='Rolle', null=True, blank=True)
     organisation = models.ForeignKey(Organisation)
-    telefon = models.CharField(max_length=20, verbose_name='Telfonnummer', null=True, blank=True)
+    telefon = models.CharField(max_length=100, verbose_name='Telfonnummer', null=True, blank=True)
 
     def __str__(self):
         return self.nachname
@@ -60,12 +60,12 @@ class ActivityType(models.Model):
 
 class Activity(models.Model):
     activitydate = models.DateField(verbose_name='Datum der Aktivität', null=True, blank=True)
-    description = models.CharField(max_length=200, verbose_name='Beschreibung')
+    description = models.TextField(verbose_name='Beschreibung')
     activitytype = models.ForeignKey(
         ActivityType, verbose_name='Art der Aktivität', null=True, blank=True)
     organisation = models.ForeignKey(Organisation, verbose_name='Organisation')
     kontakt = models.ForeignKey(Kontakt, verbose_name='Kontakt', null=True, blank=True)
-    editdate = models.DateField(auto_now=True, null=True)
+    editdate = models.DateField(auto_now=True, null=True, blank=True)
     # edituser = models.ForeignKey(Users)
     # check where user table from login stores
 
@@ -87,5 +87,5 @@ class Resource(models.Model):
     description = models.TextField()
 
     def __str__(self):
-        return self.title 
+        return self.title
 
