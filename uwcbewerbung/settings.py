@@ -123,3 +123,5 @@ STATIC_URL = '/static/'
 
 LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/orgmgm/'
+
+DATE_INPUT_FORMATS = ('%d-%m-%Y','%Y-%m-%d')

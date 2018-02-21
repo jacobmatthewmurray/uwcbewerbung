@@ -36,11 +36,14 @@ class Organisation(models.Model):
 
 
 class Kontakt(models.Model):
-    vorname = models.CharField(max_length=20, verbose_name='Vorname')
+    ANREDE_OPT = ((1, 'Frau'), (2, 'Herr'), (3, 'Sonstige'))
+    vorname = models.CharField(max_length=20, verbose_name='Vorname', null=True, blank=True)
     nachname = models.CharField(max_length=20, verbose_name='Nachname')
-    email = models.CharField(max_length=20, verbose_name='Email Adresse')
-    organisation = models.ForeignKey(
-        Organisation, on_delete=models.CASCADE)
+    anrede = models.IntegerField(choices=ANREDE_OPT, null=True, blank=True)
+    email = models.CharField(max_length=20, verbose_name='Email Adresse', null=True, blank=True)
+    rolle = models.CharField(max_length=50, verbose_name='Rolle', null=True, blank=True)
+    organisation = models.ForeignKey(Organisation)
+    telefon = models.CharField(max_length=20, verbose_name='Telfonnummer', null=True, blank=True)
 
     def __str__(self):
         return self.nachname
@@ -56,14 +59,13 @@ class ActivityType(models.Model):
 
 
 class Activity(models.Model):
-    titel = models.CharField(max_length=50, verbose_name='Title der Aktivität')
-    activitydate = models.DateTimeField(verbose_name='Datum der Aktivität')
+    activitydate = models.DateField(verbose_name='Datum der Aktivität', null=True, blank=True)
     description = models.CharField(max_length=200, verbose_name='Beschreibung')
     activitytype = models.ForeignKey(
-        ActivityType, verbose_name='Art der Aktivität')
+        ActivityType, verbose_name='Art der Aktivität', null=True, blank=True)
     organisation = models.ForeignKey(Organisation, verbose_name='Organisation')
-    kontakt = models.ForeignKey(Kontakt, verbose_name='Kontakt')
-    editdate = models.DateTimeField(auto_now=True, null=True)
+    kontakt = models.ForeignKey(Kontakt, verbose_name='Kontakt', null=True, blank=True)
+    editdate = models.DateField(auto_now=True, null=True)
     # edituser = models.ForeignKey(Users)
     # check where user table from login stores
 
