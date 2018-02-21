@@ -26,7 +26,7 @@ class Organisation(models.Model):
     plz = models.CharField(max_length=5, verbose_name='Postleitzahl')
     stadt = models.CharField(max_length=50, verbose_name='Stadt')
     telefon = models.CharField(max_length=20, verbose_name='Telefonnummer')
-    email = models.CharField(max_length=50, verbose_name='Email Adresse')
+    email = models.CharField(max_length=100, verbose_name='Email Adresse')
     www = models.CharField(max_length=100, verbose_name='Homepage')
     bundesland = models.ForeignKey(Bundesland)
     organisationtype = models.ForeignKey(OrganisationType)
