@@ -1,6 +1,8 @@
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from django.core import serializers
+import json 
 from django.shortcuts import render, redirect, get_object_or_404
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseRedirect, Http404, JsonResponse
 from django.template import loader
 from django.views import View
 from django.views.generic.detail import DetailView
@@ -17,83 +19,30 @@ from .forms import (SearchOrganisationForm,
                     AddOrganisationForm,
                     SearchKontaktForm,
                     AddActivityForm)
-from .fusioncharts import FusionCharts
 
-
-# For now no sign up option. Registration via email to Jacob.
-
-# def signup(request):
-#     if request.method == 'POST':
-#         form = SignUpForm(request.POST)
-#         if form.is_valid():
-#             form.save()
-#             username = form.cleaned_data.get('username')
-#             raw_password = form.cleaned_data.get('password1')
-#             user = authenticate(username=username, password=raw_password)
-#             login(request, user)
-#             return redirect('dashboard_overview')
-#     else:
-#         form = SignUpForm()
-#     return render(request, 'orgmgm/signup.html', {'form': form})
+# Home/ Dashboard / Overview
 
 
 @login_required
-def dashboard_overview(request):
+def dashboard_data(request):
 
-    bunds = Bundesland.objects.annotate(num_orgs=Count('organisation'))
+    if request.is_ajax():
 
-    bunds_ds = {}
+        ots = ['Gymnasium', 'Realschule']
 
-    bunds_ds['chart'] = {
-        "caption": "Organisationen pro Bundesland",
-        "subCaption": "Testdaten",
-        "xAxisName": "",
-        "yAxisName": "Anzahl",
-        "theme": "zune"
-    }
+        data = (
+            Organisation.objects
+            .filter(organisationtype__organisationtype__in=ots)
+            .values('bundesland__bundesland')
+            .annotate(schoolcnt=Count('name'))
+        )
 
-    bunds_ds['data'] = []
-
-    for b in bunds:
-        data = {}
-        data['label'] = b.bundeslandshort
-        data['value'] = b.num_orgs
-        bunds_ds['data'].append(data)
-
-    column2da = FusionCharts("column2d", "ex1", "600",
-                             "400", "chart-1", "json", bunds_ds)
-
-    acts = Activity.objects \
-        .annotate(actmonth=ExtractMonth('activitydate'), actday=ExtractDay('activitydate')) \
-        .values('actmonth', 'actday')\
-        .annotate(num_acts=Count('pk'))
-
-    acts_ds = {}
-
-    acts_ds['chart'] = {
-        "caption": "Aktivitaeten im letzten Monat",
-        "subCaption": "Testdaten",
-        "xAxisName": "",
-        "yAxisName": "Anzahl",
-        "theme": "zune"
-    }
-
-    acts_ds['data'] = []
-
-    for a in acts:
-        data = {}
-        data['label'] = ('0' + str(a['actday']))[-2:] + \
-            '|' + ('0' + str(a['actmonth']))[-2:]
-        data['value'] = a['num_acts']
-        acts_ds['data'].append(data)
-
-    column2db = FusionCharts("column2d", "ex2", "600",
-                             "400", "chart-2", "json", acts_ds)
-
-    return render(request, 'orgmgm/dashboard/overview.html', {'output': [column2da.render(), column2db.render()]})
-
+    else:
+        raise Http404()       
+    return JsonResponse(list(data), safe=False)
 
 # Views for Organisation Model
+
 
 @login_required
 def organisation_add(request):
@@ -282,7 +231,6 @@ def kontakt_search(request):
             except EmptyPage:
                 kons = paginator.page(paginator.num_pages)
 
-
             return render(request, 'orgmgm/kontakt/list.html', {'kons': kons})
     else:
         form = SearchKontaktForm()
@@ -348,7 +296,7 @@ def activity_search(request):
                 activitydate__icontains=form.cleaned_data['activitydate'],
                 description__icontains=form.cleaned_data['description'],
                 activitytype__activitytype__icontains=form.cleaned_data['activitytype'],
-                #organisation__name__icontains=form.cleaned_data['organisation'],
+                # organisation__name__icontains=form.cleaned_data['organisation'],
             )
 
             paginator = Paginator(al, 25)
@@ -360,7 +308,6 @@ def activity_search(request):
                 acts = paginator.page(1)
             except EmptyPage:
                 acts = paginator.page(paginator.num_pages)
-
 
             return render(request, 'orgmgm/activity/list.html', {'acts': acts})
     else:

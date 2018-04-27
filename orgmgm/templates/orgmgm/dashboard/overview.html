@@ -1,16 +1,12 @@
 {% extends "../base.html" %}
 {% load bootstrap3 %}
+{% load static %}
 
 {% block content %}
 <h1> Dashboard </h1>
 
+<h3>Anzahl der Schulen (Realschulen und Gymansien) in der Datenbank nach Bundesland</h3>
+<canvas id="chartTopLeft"></canvas>
 
-
-<div class="text-center">
-    <div id="chart-1">{{ output.0|safe }}</div>
-
-    <div id="chart-2">{{ output.1|safe }}</div>
-</div>
-
-
+<script src="{% static 'orgmgm/dashboard.js' %}"></script>
 {% endblock %}

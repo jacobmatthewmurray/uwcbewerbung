@@ -25,9 +25,7 @@ SECRET_KEY = 'g7ifq$12gxjawa)gb&32sow0&m!3rz2c1p+psexbfoviso9@!z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'jacobmatthewmurray.pythonanywhere.com',
-    ]
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -79,16 +77,10 @@ WSGI_APPLICATION = 'uwcbewerbung.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'jacobmatthewmurr$orgmgmdb',
-        'USER': 'jacobmatthewmurr',
-        'PASSWORD': 'rothko123',
-        'HOST': 'jacobmatthewmurray.mysql.pythonanywhere-services.com',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         },
     }
-}
 
 
 # Password validation
