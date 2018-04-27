@@ -4,7 +4,7 @@ from . import views
 
 urlpatterns=[
     url(r'^$',TemplateView.as_view(template_name='orgmgm/home.html'), name='home'),
-    url(r'^dashboard/$', TemplateView.as_view(template_name='orgmgm/dashboard/overview.html'), name='dashboard_overview'),
+    url(r'^dashboard/$', views.dashboard_overview, name='dashboard_overview'),
     url(r'^resources/$',views.resource, name='resources'),
     url(r'^faq/$',views.faq, name='faq'),
     url(r'^activity/$', views.activity_list, name='activity_list'),

@@ -22,6 +22,10 @@ from .forms import (SearchOrganisationForm,
 
 # Home/ Dashboard / Overview
 
+@login_required
+def dashboard_overview(request):
+    return render(request, 'orgmgm/dashboard/overview.html')
+
 
 @login_required
 def dashboard_data(request):
